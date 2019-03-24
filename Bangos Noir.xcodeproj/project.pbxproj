@@ -19,7 +19,7 @@
 		FBEAF1F72221476D0036590B /* Chapitres.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAF1F62221476D0036590B /* Chapitres.swift */; };
 		FBEAF1F92221677C0036590B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAF1F82221677C0036590B /* TableViewCell.swift */; };
 		FBEAF1FF222BDAEE0036590B /* StructureChapitresTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAF1FE222BDAEE0036590B /* StructureChapitresTableViewCell.swift */; };
-		FBEAF201222BEEAB0036590B /* structure des donnees.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAF200222BEEAB0036590B /* structure des donnees.swift */; };
+		FBEAF201222BEEAB0036590B /* model tableview Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAF200222BEEAB0036590B /* model tableview Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 		FBEAF1F62221476D0036590B /* Chapitres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapitres.swift; sourceTree = "<group>"; };
 		FBEAF1F82221677C0036590B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		FBEAF1FE222BDAEE0036590B /* StructureChapitresTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureChapitresTableViewCell.swift; sourceTree = "<group>"; };
-		FBEAF200222BEEAB0036590B /* structure des donnees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "structure des donnees.swift"; sourceTree = "<group>"; };
+		FBEAF200222BEEAB0036590B /* model tableview Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "model tableview Cell.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				FB6FCD10222D874100AD4FF5 /* le mbigi muntu.swift */,
-				FBEAF200222BEEAB0036590B /* structure des donnees.swift */,
+				FBEAF200222BEEAB0036590B /* model tableview Cell.swift */,
 				FBEAF1FE222BDAEE0036590B /* StructureChapitresTableViewCell.swift */,
 			);
 			path = Model;
@@ -184,7 +184,7 @@
 				FBEAF1F5221DDF5A0036590B /* Creer profil.swift in Sources */,
 				FBB3F1BC221CB826002444F0 /* AppDelegate.swift in Sources */,
 				FBEAF1FF222BDAEE0036590B /* StructureChapitresTableViewCell.swift in Sources */,
-				FBEAF201222BEEAB0036590B /* structure des donnees.swift in Sources */,
+				FBEAF201222BEEAB0036590B /* model tableview Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
