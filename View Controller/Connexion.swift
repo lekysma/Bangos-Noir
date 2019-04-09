@@ -45,7 +45,7 @@ class Connexion: UIViewController, UITextFieldDelegate {
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
         // on ajoute l'animation ici
-        UIView.animate(withDuration: 0.5) {
+        UIView.animate(withDuration: 0.3) {
             
             // on ajoute une hauteur de contraite superieure a la hauteur du clavier qui est 258
             self.bottomHeightConstraint.constant = 258 + 50

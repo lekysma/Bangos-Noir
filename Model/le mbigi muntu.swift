@@ -27,7 +27,7 @@ Vous opinez de la tête ; l'examen a effectivement été difficile, et vous n'ê
 
 'Tu dois y aller tout de suite ? J'ai deux tickets pour le match de foot entre Bangos et Zommoville. Tu veux aller le voir avec moi ?
 
-Tu iras après'
+Tu iras après' il vous demande.
 
 Vous hésitez.
 """
@@ -42,18 +42,20 @@ Vous prenez votre vielle motocylette Mangani 3 et bientôt vous êtes en directi
 
 Le village de Fiffionville est situé à 100 km de Bangos, sur l'axe Bangos-Zommoville. Sur la route vous croisez d'autres voyageurs qui font le même chemin, ainsi que des camions de transport de marchandise.
 
-Le soleil brille, l'air est frais et vous souriez à pleine bouche. Vous réalisez que vous aviez besoin d'un changement d'atmosphère.
+Le soleil brille, l'air est frais et vous souriez à pleine bouche. Vous réalisez que vous aviez vraiment besoin d'un changement d'atmosphère, après ces examens.
 
-Une heure plus tard, vous arrivez à Fifionville. Ce un petit village constitué d'une dizaine de cases en terre sèche, leur toit de chaume réfletant les derniers rayons de soleil. Quelques poulets anémiques picorent dans la poussière.
+Une heure plus tard, vous arrivez à Fifionville. C'est un petit village constitué d'une dizaine de cases en terre sèche, leur toit de chaume réfletant les derniers rayons de soleil. Quelques poulets anémiques picorent dans la poussière.
 
-Des enfants à moitié nus interrompent leur partie de foot et accourent vers vous. Ce n'est pas la première fois qu'ils vous ont vu. Ils vous aident à décharger vos bagages, et reçoivent des bonbons en retour.
+Des enfants à moitié nus interrompent leur partie de foot et courent vers vous. Ils vous reconnaissent; ce n'est pas la première fois qu'ils vous ont vu. Ils vous aident à décharger vos bagages, et vous leurs donnez des bonbons pour les remercier.
 
-Votre oncle, le vieux Kotopangué KOTOMOYO, arrive enfin. C'est un vieil homme décharné, vêtu d'un simple pagne en tissu qui a connu de meilleurs jours. Il porte une machette à la main. un grans couteau - un coutelas - du type que l'on retrouve auprès des chasseurs ou des bouchers - est glissé dans son pagne.
+Votre oncle, le vieux Kotopangué KOTOMOYO, arrive enfin. C'est un vieil homme décharné, vêtu d'un simple pagne en tissu qui a connu de meilleurs jours. Il porte une machette à la main. un grand couteau - un coutelas - du type que l'on retrouve auprès des chasseurs ou des bouchers - est glissé dans son pagne.
 
-Son visage aurait pu paraitre sinistrem si ce n'est pour le grand sourire qu'il arbore en ce moment. 'Neuveu !' dit-il, vous prenant par les épaules, 'C'est une belle surprise de te voir ! Viens dans ma case et racontes-moi ta vie à la ville.
+Son visage aurait pu paraitre sinistre si ce n'est pour le grand sourire qu'il arbore en ce moment. 'Neveu !' dit-il, vous prenant par les épaules, 'C'est une belle surprise de te voir ! Viens dans ma case et racontes-moi ta vie à la ville.'
+
+.................................................................................
 
 
-Vous ne voyez pas le temps passer, et bientôt, il est temps de repartir.
+Le weekend passe très vite, et bientôt, il est temps de repartir.
 
 Votre oncle s'approche de vous, en portant un gros paquet enveloppé par des feuilles de bananes.
 
@@ -61,7 +63,7 @@ Votre oncle s'approche de vous, en portant un gros paquet enveloppé par des feu
 
 Soudain, il prend un air beaucoup plus sérieux : 'Neveu, écoutes-moi : viande là, c'est pour toi seulement, faut pas partager avec personne ! Promets-moi !'
 
-'Mais oncle !' Vous protestez, j'ai un voisin de chambre, je ne vais quand même pas manger toute cette viande tout seul !'
+'Mais oncle !' Vous protestez, 'j'ai un voisin de chambre, je ne vais quand même pas manger toute cette viande tout seul !'
 
 'Promets-moi !' il vous interromp. 'Viande là c'est pas pour tout le monde.'
 
@@ -106,11 +108,11 @@ var rejouer : String = "Revenir à l'accueil"
 // counter == 6
 var arriveSoiree : String = """
 
-Il est tard lorsque vous partez en direction de Fiffionville. Le match entre les Panthères de Bangos et les félins de Zommoville n'a pas tenu ses promesses, se terminamt par un décevant 0-0.
+Il est tard lorsque vous partez en direction de Fiffionville. Le match entre les Panthères de Bangos et les félins de Zommoville n'a pas tenu ses promesses, se terminant par un décevant 0-0.
 
-Vous espérez arriver en début de soirée et pousser votre motocyclette dans ses - faibles - retranchements.
+Vous espérez arriver en début de soirée et poussez votre motocyclette dans ses - faibles - retranchements.
 
-Il est 12h passées lorsque vous arrivez à Fifionville. Un silence oppressant pèse sur le village, une lune timide laisse à peine deviner la forme des cases où aucune lampe de semble allumée.
+Il est minuit passée lorsque vous arrivez à Fifionville. Un silence oppressant pèse sur le village, une lune timide laisse à peine deviner la forme des cases où aucune lampe de semble allumée.
 
 Soudain, un cri déchirant vous fais sursauter. Il semble venir de l'une des cases les plus reculées du village.
 
@@ -126,7 +128,7 @@ Il est tard lorsque vous arrivez à Bangos.
 
 Vous retrouvez Elvis dans votre chambre commune, et vous passez quelques minutes à échanger au sujet de votre weekend.
 
-Vous relatez votre séjour à un Elvis quelque peu envieux (sa famille étant originaire de la région de Pal Udon, trop éloignée de la capitale pour visiter durant les weekend), et aborder l'étrange conversation que vous avez eu avec votre onclue, juste avant votre départ.
+Vous relatez votre séjour à un Elvis quelque peu envieux (sa famille étant originaire de la région de Pal Udon, trop éloignée de la capitale pour visiter durant les weekend), et abordez l'étrange conversation que vous avez eu avec votre onclue, juste avant votre départ.
 
 'Tu as refusé de la viande ?' il vous interromp. 'Tu es fou ou quoi ? On mange de la merde au resto U. Le cadeau de ton oncle aurait vraiment permis de bien manger pendant quelques temps !'
 
@@ -159,7 +161,7 @@ Vous dressez la table pendant qu'Elvis vient poser un ragout de gibier au milieu
 
 Soudain, Elvis s'arrête de mâcher, l'air préoccupé. 'Je ne me sens pas très bien' vous dit-il. Il se met à tousser, les larmes aux yeux. Vous décidez d'aller lui chercher un verre d'eau dans la petite cuisine.
 
-A votre retour, vous remarquez avec inquiétude que les choses ont empiré : Elvis est au sol, en train de cracher du sang. Vous voyez son ventre grossir à vue d'oeil, donnant l'impression qu'il est sur le point d'exploser. Il semble avoir trop mal pour parler, et vous cherche du regard d'un air implorant.
+A votre retour, vous remarquez avec inquiétude que les choses ont empiré : Elvis est au sol, il crache du sang. Vous voyez son ventre grossir à vue d'oeil, donnant l'impression qu'il est sur le point d'exploser. Il semble avoir trop mal pour parler, et vous cherche du regard d'un air implorant.
 
 Qu'allez-vous faire ?
 """
@@ -171,17 +173,16 @@ var finHistoire3 : String = """
 
 'Attends, je reviens avec de l'aide !', vous lui promettez; et vous sortez en courant de votre chambre pour vous dirigez vers l'infirmerie du campus.
 
-Il vous a fallu une dizaine de minutes pour trouver des secouristes et leur expliquer votre problème. A votre retour accompagné de deux professionnels de santé, une petite foule s'est formée devant la porte de votre chambre.
+Il vous a faut une dizaine de minutes pour trouver des secouristes et leur expliquer votre problème. A votre retour accompagné de deux professionnels de santé, une petite foule s'est formée devant la porte de votre chambre.
 
-'Ecartez-vous, laissez-nous passer !' crient les secouristes. Ils jouent des coudes pour se frayer un chemin à travers les badauds. Le spectacle qui les accueille est digne d'un film d'horreur : le ventre d'Elvis a encore grossi; Elvis crie de toutes ses forces.
-
+'Ecartez-vous, laissez-nous passer !' crient les secouristes. Ils jouent des coudes pour se frayer un chemin à travers les badauds. Le spectacle qui les accueille est digne d'un film d'horreur : le ventre d'Elvis a encore grossi; Elvis crie de toutes ses forces, il est couvert de sang.
 
 
 Les secouristes se mettent au travail; après de longues minutes, ils arrivent enfin à le faire vomir et lui injectent un sédatif. 'Nous allons le garder en observation à l'infirmerie. Des gens de l'hôpital vont analyser ce qu'il a mangé. Il se peut qu'il ait été empoisonné.'
 
 Vous indiquez que vous avez partagé le même repas, et leur montrez les restes du repas, ainsi que la viande qui n'a pas encore été cuisiné. 'Suivez-nous à l'infirmerie !' disent-ils, 'Il se peut que vous soyez également à risque.'
 
-Les analyses donnent un résultat horrible : la viande qui vous a été donnée par votre oncle, et que vous avez cuisiné, n'est pas du gibier, mais de la chair humaine. Votre oncle est arrêté dans les jours qui suivent. Plusieurs disparitions de voyageurs aux alentours de Fifionville lui seront imputés. Il croupit à présent en prison.
+Les analyses donnent un résultat horrible : la viande qui vous a été donnée par votre oncle, et que vous avez cuisiné, n'est pas du gibier, mais de la chair humaine. Votre oncle est arrêté dans les jours qui suivent. Dans les mois qui suivent, plusieurs disparitions de voyageurs aux alentours de Fifionville lui seront imputés. Il croupit à présent en prison.
 
 Malgré vos protestations auprès d'Elvis, celui-ci ne souahite plus partager votre appartement. 'Surement tu ne penses pas que j'ai quoi que ce soit à avoir avec cela !' vous lui demandez.
 
@@ -198,11 +199,11 @@ Plus personne ne vous adresse la parole : il se murmure que vous venez d'une fam
 var finHistoire4 : String = """
 
 EXTRAIT DU BANGOS TIME :
-'Un drame inexplicable a endeuillé l'université de Bangos : Elvis MOUKANDZA, un étudiant en deuxième année de physique nucléaire des particules élémentaires, a perdu la vie dans d'atroces souffrances, sous les yeux de son copain de chambre.
+'Un drame inexplicable a endeuillé l'université de Bangos : Elvis MOUKANDZA, un étudiant en deuxième année de physique nucléaire des particules élémentaires, a perdu la vie dans d'atroces souffrances, sous les yeux de son camarade de chambre.
 
-Ce dernier avait choisi de rester avec son ami plutôt que d'aller chercher des secours. Il a donc assisté à la longue agonie d'Elvis, qui est mort par cause d'hémorragie sévère, d'après les services de médecine légale du centre hospitalier universitaire de Bangos.
+Ce dernier avait choisi de rester avec son ami plutôt que d'aller chercher des secours. Il a donc assisté à la longue agonie d'Elvis, qui est mort d'hémorragie sévère, d'après les services de médecine légale du centre hospitalier universitaire de Bangos.
 
-Les deux amis venaient de consommer de la viande de brousse que ce copain de chambre Mr X avait ramené de la campagne. Il s'avère qu'il ne s'agissait pas de viande de brousse, mais plutôt de chair humaine. Kotopangué KOTOMOYO, l'oncle de X, qui avait fait don de cette viande a été arrêté ce matin à Fifionville. Il sera tranferé vers Bangos dans la journée.
+Les deux amis venaient de consommer de la viande de brousse que ce camarade de chambre Mr X avait ramené de la campagne. Il s'avère qu'il ne s'agissait pas de viande de brousse, mais plutôt de chair humaine. Kotopangué KOTOMOYO, l'oncle de X, qui avait fait don de cette viande a été arrêté ce matin à Fifionville. Il sera tranferé vers Bangos dans la journée.
 
 La police a conclut que X n'avait aucune idée de la nature de la viande. Il est en observation à l'hôpital et bénéficie d'un soutien psychologique. Sa famille demande que l'on respecte leur droit à la vie privée.
 
@@ -214,15 +215,15 @@ Elvis sera enterré dimanche après midi au cimetière de Gringorian.
 // counter == 12
 var secretOncle : String = """
 
-Vous frayez un chemin autour des cases, en direction de l'endroit où vous semblez avoir entendu le cri. Vous vous arrétez devant une vieille case branlante et bribalante, située à la lisière de la forêt.
+Vous vous frayez un chemin autour des cases, en direction de l'endroit où vous semblez avoir entendu le cri. Les cris proviennent d'une vieille case branlante et bribalante, située à la lisière de la forêt.
 
 'Il y a quelqu'un ?', demandez-vous d'un air tentatif, 'Avez-vous besoin d'aide ?'
 
 Vous êtes sur le point d'appeler de nouveau quand une ombre se détache des ténèbres pour réveler une forme humaine. Soudain, les nuages laissent filtrer des rayons lunaires, ce qui vous permet de distinguer un peu plus cette personne : elle porte un vieux pagne parsemé de taches humides, qui paraissent encore plus sombre sur le tissu. Pendant un moment, vous vous dites qu'il doit s'agir de taches d'humidité.
 
-'Qui est là ?' demandez-vous d'un air apeuré. Pendant ce temps, l'inconnu n'a pas cessé d'approcher. Vous réalisez qu'il porte une sorte de scie, elle aussi portant des traces rougeatres, qui semblent trop visqueuses pour être de la rouille. Avec effroi, vous remarquez qu'il tient dans son autre bras ... quelques choses qui ressemble à un bras coupé juste avant le coude. Avec un sentiment de dégout mêlé d'incrédulité, vous constatez que la trace de la coupe semble irrégulièe ... Comme si le bras a été scié, puis arraché de force.
+'Qui est là ?' demandez-vous d'un air apeuré. Pendant ce temps, l'inconnu n'a pas cessé d'approcher. Vous réalisez qu'il porte une sorte de scie, elle aussi portant des traces rougeatres, qui semblent trop visqueuses pour être de la rouille. Avec effroi, vous remarquez qu'il tient dans son autre bras ... quelques choses qui ressemble à un bras coupé juste avant le coude. Avec un sentiment de dégout mêlé d'incrédulité, vous constatez que la trace de la coupe semble irrégulière ... Comme si le bras a été scié, puis arraché de force.
 
-Vous prenez votre courage à deux mains, et levez les yeux pour examiner son visage... L'inconnu n'est pas un inconnu après tout : il s'agit de votre oncle, Kotopangué KOTOMOYO.
+Vous prenez votre courage à deux mains, et levez les yeux pour examiner son visage... L'inconnu n'est pas un inconnu : il s'agit de votre oncle, Kotopangué KOTOMOYO.
 
 Il ouvre la bouche : 'Neveu, que fais-tu ici ?'
 
@@ -236,11 +237,11 @@ var affronteOncleSeul : String = """
 
 Vous décidez de le confronter : 'Qu'est ce qui se passe ici tonton ? C'est un bras humain que tu as dans la main ? Qui était cette personne qui criait ? Que...'
 
-'Assez !' vous interromp t-il, 'Dans chaque village, chaque famille, il y a des secrets. Tu n'as pas besoin d'en savoir plus. Repars vers le village et je te rejoindrai dans quelques minutes.'
+'Assez !' vous interromp t-il, 'Dans chaque village, chaque famille, il y a des secrets. Tu n'as pas besoin d'en savoir plus. Pars d'ici et je te rejoindrai dans quelques minutes.'
 
 'Non ! Je veux savoir ce qui se passe. Qui est dans cette case ?', vous insistez.
 
-'Il change d'expression, devenant plus sévère, plus sinistre... 'Neveu, je t'aime, tu es le fils de mon cousin, mais je vais protéger mes secrets.'
+Il change d'expression, devenant plus sévère, plus sinistre... 'Neveu, je t'aime, tu es le fils de mon cousin, mais je dois protéger mes secrets.'
 
 'Laisse-moi passer', vous dites, tentant de l'écarter. Il vous retient par le bras. L'instant d'après, une lutte féroce, et silencieuse prend place. Vous frappez, mordez, frappez encore sans répit. Vous ne cessez de vous répetez : 'Je dois aller voir ce qu'il y a dans cette case !' Seuls les hibous qui ululent dans les arbres sont les témoins de cette lutte sans merci.
 

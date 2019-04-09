@@ -1,14 +1,12 @@
 //
-//  structure des donnees.swift
+//  modele donnees table view cell.swift
 //  Bangos Noir
 //
-//  Created by Jean martin Kyssama on 03/03/2019.
+//  Created by Jean martin Kyssama on 04/04/2019.
 //  Copyright © 2019 Jean martin Kyssama. All rights reserved.
 //
 
-import UIKit
-
-//MARK:  On cree une classe qui va comprendre le modele de donnees que nous allons utiliser pour chaque cellule
+import Foundation
 
 class ContenuCellule {
     
@@ -40,6 +38,7 @@ func contenuDeChaqueCellule () {
     tableauDonnees.append(chapitre2)
     tableauDonnees.append(chapitre3)
 }
+
 
 
 

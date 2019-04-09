@@ -58,8 +58,12 @@ class Creer_profil: UIViewController, UITextFieldDelegate {
     
     func textFieldDidEndEditing(_ textField: UITextField) {
         // idem mais a l'envers
-        self.bottomHeightConstraint.constant = (258 + 50) - 258
-        self.view.layoutIfNeeded()
+        
+        UIView.animate(withDuration: 0.3) {
+            self.bottomHeightConstraint.constant = (258 + 50) - 258
+            self.view.layoutIfNeeded()
+        }
+        
     }
 
 }
