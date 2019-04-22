@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FB6FCD0F222D4E4D00AD4FF5 /* Chap1 Contenu ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FCD0E222D4E4D00AD4FF5 /* Chap1 Contenu ViewController.swift */; };
 		FB6FCD11222D874100AD4FF5 /* le mbigi muntu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FCD10222D874100AD4FF5 /* le mbigi muntu.swift */; };
+		FB74654922632E55007564F4 /* les billets ensorcelés.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74654822632E55007564F4 /* les billets ensorcelés.swift */; };
 		FB912C9422566B2F00FCE557 /* modele donnees table view cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB912C9322566B2F00FCE557 /* modele donnees table view cell.swift */; };
 		FB912C9622566DC600FCE557 /* ChapitresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB912C9522566DC600FCE557 /* ChapitresTableViewController.swift */; };
 		FB912C9822566DFB00FCE557 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB912C9722566DFB00FCE557 /* TableViewCell.swift */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		FB6FCD0E222D4E4D00AD4FF5 /* Chap1 Contenu ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chap1 Contenu ViewController.swift"; sourceTree = "<group>"; };
 		FB6FCD10222D874100AD4FF5 /* le mbigi muntu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "le mbigi muntu.swift"; sourceTree = "<group>"; };
+		FB74654822632E55007564F4 /* les billets ensorcelés.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "les billets ensorcelés.swift"; sourceTree = "<group>"; };
 		FB912C9322566B2F00FCE557 /* modele donnees table view cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "modele donnees table view cell.swift"; sourceTree = "<group>"; };
 		FB912C9522566DC600FCE557 /* ChapitresTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapitresTableViewController.swift; sourceTree = "<group>"; };
 		FB912C9722566DFB00FCE557 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		FBB3F1CD221CB847002444F0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FB74654822632E55007564F4 /* les billets ensorcelés.swift */,
 				FBD76D4B225620D300E30C0B /* taureau de boeuf.swift */,
 				FB6FCD10222D874100AD4FF5 /* le mbigi muntu.swift */,
 				FB912C9322566B2F00FCE557 /* modele donnees table view cell.swift */,
@@ -190,6 +193,7 @@
 				FB912C9622566DC600FCE557 /* ChapitresTableViewController.swift in Sources */,
 				FB912C9822566DFB00FCE557 /* TableViewCell.swift in Sources */,
 				FBEAF1F3221DDA800036590B /* Connexion.swift in Sources */,
+				FB74654922632E55007564F4 /* les billets ensorcelés.swift in Sources */,
 				FB912C9C2258B8DE00FCE557 /* Chapitre 2 ViewController.swift in Sources */,
 				FBD76D4C225620D300E30C0B /* taureau de boeuf.swift in Sources */,
 				FBEAF1F5221DDF5A0036590B /* Creer profil.swift in Sources */,

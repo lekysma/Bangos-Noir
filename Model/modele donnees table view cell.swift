@@ -31,7 +31,7 @@ func contenuDeChaqueCellule () {
     
     let chapitre2 = ContenuCellule(label: "Taureau de boeuf", button: "J'y vais")
     
-    let chapitre3 = ContenuCellule(label: "A suivre", button: "J'y vais")
+    let chapitre3 = ContenuCellule(label: "Les billets ensorcelés", button: "J'y vais")
     
     //On ajoute ces constantes au tableau (localement cad dans la fonction)
     tableauDonnees.append(chapitre1)

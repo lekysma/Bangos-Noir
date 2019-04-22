@@ -19,12 +19,12 @@ var choix2DemandeProduitQualite : String = "je te fais confiance" // vers compte
 // compteur = 2
 var JeFaisLeTest : String = " Je teste le produit taureau de boeuf"
 var choix1JeFaisLeTest : String = "je fais appel a la fille" // vers compteur = 3
-var choix2JeFaisLeTest : String = "je fais le test sans fille" // vers compteur = 7
+var choix2JeFaisLeTest : String = "je fais le test sans fille" // vers compteur = 8
 
 // compteur = 3
 var decisionAchat : String = " le sorcier demande evaluation : que pensez vous de mon produit ? le produit test ne peut être vendu, il faudra donner 200 000 bangos et votre slip sale"
 var choix1DecisionAchat : String = " apres tout pourquoi pas ?" // vers compteur = 4
-var choix2DecisionAchat : String = "je ne donne pas mon slip" // vers compteur = 8
+var choix2DecisionAchat : String = "je ne donne pas mon slip" // vers compteur = 9
 
 
 // compteur = 4
@@ -39,7 +39,7 @@ var choix2ViensChercherBouteille : String = "je vais chez moi" // vers compteur 
 
 // compteur = 6
 var rencontreFille : String = "Rencontre fille, fille va aux toilettes"
-var choix1RencontreFille : String = "je verse la potion dans mon verre" // vers compteur =
+var choix1RencontreFille : String = "je verse la potion dans mon verre" // vers compteur = 7
 var choix2RencontreFille : String = "je verse la potion dans nos deux verres" // vers compteur = 11
 
 // compteur = 7

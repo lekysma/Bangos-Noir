@@ -186,11 +186,11 @@ class Chap1_Contenu_ViewController: UIViewController {
             navigationController?.popViewController(animated: true)
             
             
+            
         }
     }
     
-    // on va utiliser la fonction secouer du smartphone pour revenir aux chapitres egalement
-    
+    //MARK: Alternative pour revenir aux chapitres
     override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         // on utilise cette fonctionalité du navigation controller pour revenir au debut
         navigationController?.popViewController(animated: true)
