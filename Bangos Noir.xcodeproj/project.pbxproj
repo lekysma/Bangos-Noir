@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0D52356A638F28EA620FEF5 /* Pods_Bangos_Noir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CA433A55FE8B0BB4F28D8C /* Pods_Bangos_Noir.framework */; };
+		FB56BF6622745E4300F8C85D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB56BF6522745E4300F8C85D /* GoogleService-Info.plist */; };
 		FB6FCD0F222D4E4D00AD4FF5 /* Chap1 Contenu ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FCD0E222D4E4D00AD4FF5 /* Chap1 Contenu ViewController.swift */; };
 		FB6FCD11222D874100AD4FF5 /* le mbigi muntu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FCD10222D874100AD4FF5 /* le mbigi muntu.swift */; };
 		FB74654922632E55007564F4 /* les billets ensorcelés.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74654822632E55007564F4 /* les billets ensorcelés.swift */; };
@@ -26,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		139ED520325DF0B4B4AB6CFD /* Pods-Bangos Noir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bangos Noir.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bangos Noir/Pods-Bangos Noir.release.xcconfig"; sourceTree = "<group>"; };
+		C1CA433A55FE8B0BB4F28D8C /* Pods_Bangos_Noir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bangos_Noir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB56BF6522745E4300F8C85D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FB6FCD0E222D4E4D00AD4FF5 /* Chap1 Contenu ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chap1 Contenu ViewController.swift"; sourceTree = "<group>"; };
 		FB6FCD10222D874100AD4FF5 /* le mbigi muntu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "le mbigi muntu.swift"; sourceTree = "<group>"; };
 		FB74654822632E55007564F4 /* les billets ensorcelés.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "les billets ensorcelés.swift"; sourceTree = "<group>"; };
@@ -44,6 +49,7 @@
 		FBD76D4B225620D300E30C0B /* taureau de boeuf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "taureau de boeuf.swift"; sourceTree = "<group>"; };
 		FBEAF1F2221DDA800036590B /* Connexion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connexion.swift; sourceTree = "<group>"; };
 		FBEAF1F4221DDF5A0036590B /* Creer profil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Creer profil.swift"; sourceTree = "<group>"; };
+		FD6837E4D91503A673D6491B /* Pods-Bangos Noir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bangos Noir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bangos Noir/Pods-Bangos Noir.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,12 +57,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0D52356A638F28EA620FEF5 /* Pods_Bangos_Noir.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85602DDE67DAF5CF3D33A52C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD6837E4D91503A673D6491B /* Pods-Bangos Noir.debug.xcconfig */,
+				139ED520325DF0B4B4AB6CFD /* Pods-Bangos Noir.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9EB0A356AE8DB2C2D017EC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1CA433A55FE8B0BB4F28D8C /* Pods_Bangos_Noir.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FBB3F1AF221CB826002444F0 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +88,8 @@
 				FBB3F1CD221CB847002444F0 /* Model */,
 				FBB3F1BA221CB826002444F0 /* View Controller */,
 				FBB3F1B9221CB826002444F0 /* Products */,
+				85602DDE67DAF5CF3D33A52C /* Pods */,
+				E9EB0A356AE8DB2C2D017EC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +114,7 @@
 				FBB3F1BB221CB826002444F0 /* AppDelegate.swift */,
 				FBB3F1C2221CB828002444F0 /* Assets.xcassets */,
 				FBB3F1C7221CB828002444F0 /* Info.plist */,
+				FB56BF6522745E4300F8C85D /* GoogleService-Info.plist */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -120,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBB3F1CA221CB828002444F0 /* Build configuration list for PBXNativeTarget "Bangos Noir" */;
 			buildPhases = (
+				CD627DEFB991FFC8E642F1A5 /* [CP] Check Pods Manifest.lock */,
 				FBB3F1B4221CB826002444F0 /* Sources */,
 				FBB3F1B5221CB826002444F0 /* Frameworks */,
 				FBB3F1B6221CB826002444F0 /* Resources */,
+				ABC1FA7E076520D086BFFA47 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -173,12 +202,64 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBB3F1C6221CB828002444F0 /* LaunchScreen.storyboard in Resources */,
+				FB56BF6622745E4300F8C85D /* GoogleService-Info.plist in Resources */,
 				FBB3F1C3221CB828002444F0 /* Assets.xcassets in Resources */,
 				FBB3F1C1221CB826002444F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABC1FA7E076520D086BFFA47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Bangos Noir/Pods-Bangos Noir-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bangos Noir/Pods-Bangos Noir-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD627DEFB991FFC8E642F1A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bangos Noir-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FBB3F1B4221CB826002444F0 /* Sources */ = {
@@ -341,6 +422,7 @@
 		};
 		FBB3F1CB221CB828002444F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD6837E4D91503A673D6491B /* Pods-Bangos Noir.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -359,6 +441,7 @@
 		};
 		FBB3F1CC221CB828002444F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139ED520325DF0B4B4AB6CFD /* Pods-Bangos Noir.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

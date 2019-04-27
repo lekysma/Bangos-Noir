@@ -7,6 +7,9 @@
 //
 
 import UIKit
+//MARK: on importe firebase Auth
+import Firebase
+
 
 // an ajoute textFieldDelegate
 
@@ -16,6 +19,7 @@ class Creer_profil: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var bottomHeightConstraint: NSLayoutConstraint!
     
+    @IBOutlet weak var champEmail: UITextField!
     @IBOutlet weak var champMotDePasse: UITextField!
     
     
@@ -65,5 +69,26 @@ class Creer_profil: UIViewController, UITextFieldDelegate {
         }
         
     }
-
+    //MARK: on configure la creation d'un nouveau profil via firebase
+    @IBAction func boutonAllerVersChapitres(_ sender: UIButton) {
+        
+        Auth.auth().createUser(withEmail: champEmail.text!, password: champMotDePasse.text!) { (user, error) in
+            // on definit les actions a faire ...
+            
+            // si il y a erreur dans la creation du profil
+            if error != nil {
+                print(error)
+            }
+            // si la creation du profil s'est bien passée cad il y a pas d'erreur
+            else {
+                // on affiche un message de verification
+                print("création de profil réussie !")
+                
+                // et on est dirigé vers la vue "chapitres" via segue
+                self.performSegue(withIdentifier: "versChapitres", sender: self)
+                
+            }
+        }
+    }
+    
 }

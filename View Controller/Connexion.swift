@@ -8,7 +8,10 @@
 
 import UIKit
 
-// on s'assure que cette view est un delegate de la fonctionlite uitextfield
+// MARK: On importe firebase Auth
+
+import Firebase
+// MARK: on s'assure que cette view est un delegate de la fonctionlite uitextfield
 
 class Connexion: UIViewController, UITextFieldDelegate {
     
@@ -16,6 +19,7 @@ class Connexion: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var bottomHeightConstraint: NSLayoutConstraint!
     
+    @IBOutlet weak var champEmail: UITextField!
     @IBOutlet weak var ChampMotDePasse: UITextField!
     
     
@@ -68,6 +72,29 @@ class Connexion: UIViewController, UITextFieldDelegate {
         }
     }
     
-
+    //MARK: On va gerer la connexion a un profil existant
+    
+    @IBAction func boutonAllerVersChapitres(_ sender: UIButton) {
+        
+        Auth.auth().signIn(withEmail: champEmail.text!, password: ChampMotDePasse.text!) { (user, error) in
+            // on gere les actions a faire ...
+            
+            // si il y a erreur de connexion
+            if error != nil {
+                print(error)
+            }
+                // si la connexion s'est bien faite
+            else {
+                // message test
+                print("connexion réussie !")
+                
+                // dirigé vers "chapitres" via segue
+                self.performSegue(withIdentifier: "versChapitres", sender: self)
+                
+            }
+            
+        }
+    }
+    
 
 }

@@ -126,7 +126,7 @@
                                                 <rect key="frame" x="0.0" y="43.5" width="359" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                             </textField>
                                         </subviews>
                                     </stackView>
@@ -138,6 +138,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
+                                            <action selector="boutonAllerVersChapitres:" destination="BLy-Bd-i9n" eventType="touchUpInside" id="hBt-h8-JcT"/>
                                             <segue destination="EQx-wJ-jrw" kind="show" identifier="versChapitres" id="r9u-T9-Rr7"/>
                                         </connections>
                                     </button>
@@ -155,6 +156,7 @@
                     </view>
                     <connections>
                         <outlet property="bottomHeightConstraint" destination="gbF-dh-YBX" id="Ykz-LX-8Sr"/>
+                        <outlet property="champEmail" destination="jO0-5c-DOH" id="ry2-UD-aYr"/>
                         <outlet property="champMotDePasse" destination="rl3-YY-GoL" id="JmO-uB-Fij"/>
                     </connections>
                 </viewController>
@@ -215,6 +217,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
+                                            <action selector="boutonAllerVersChapitres:" destination="SEW-nS-tnq" eventType="touchUpInside" id="WKQ-YV-daL"/>
                                             <segue destination="EQx-wJ-jrw" kind="show" identifier="versChapitres" id="oFQ-hl-m5n"/>
                                         </connections>
                                     </button>
@@ -233,6 +236,7 @@
                     <connections>
                         <outlet property="ChampMotDePasse" destination="xaP-LE-GWe" id="qIE-Cr-paM"/>
                         <outlet property="bottomHeightConstraint" destination="dfu-Cu-FTw" id="54d-RO-REH"/>
+                        <outlet property="champEmail" destination="M2d-tA-iHH" id="tEk-ql-t2c"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Soy-WD-XWv" userLabel="First Responder" sceneMemberID="firstResponder"/>

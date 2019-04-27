@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>455334324323-rb780216buoekenmean9gb44sbko60q3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.455334324323-rb780216buoekenmean9gb44sbko60q3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAJTHt-Tqxs4XCWjwSR1J6EuOYXp4pTSHs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>455334324323</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kyssamajeanmartin.Bangos-Noir</string>
+	<key>PROJECT_ID</key>
+	<string>bangos-noir-31a58</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bangos-noir-31a58.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:455334324323:ios:47a8d083d38cac1b</string>
+	<key>DATABASE_URL</key>
+	<string>https://bangos-noir-31a58.firebaseio.com</string>
+</dict>
+</plist>
