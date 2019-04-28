@@ -105,7 +105,7 @@
                                                 <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jO0-5c-DOH">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Adresse email valide" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jO0-5c-DOH">
                                                 <rect key="frame" x="0.0" y="43.5" width="359" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -122,7 +122,7 @@
                                                 <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rl3-YY-GoL">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Au moins 6 chiffres" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rl3-YY-GoL">
                                                 <rect key="frame" x="0.0" y="43.5" width="359" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -139,7 +139,6 @@
                                         </state>
                                         <connections>
                                             <action selector="boutonAllerVersChapitres:" destination="BLy-Bd-i9n" eventType="touchUpInside" id="hBt-h8-JcT"/>
-                                            <segue destination="EQx-wJ-jrw" kind="show" identifier="versChapitres" id="r9u-T9-Rr7"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -158,6 +157,7 @@
                         <outlet property="bottomHeightConstraint" destination="gbF-dh-YBX" id="Ykz-LX-8Sr"/>
                         <outlet property="champEmail" destination="jO0-5c-DOH" id="ry2-UD-aYr"/>
                         <outlet property="champMotDePasse" destination="rl3-YY-GoL" id="JmO-uB-Fij"/>
+                        <segue destination="EQx-wJ-jrw" kind="show" identifier="creationProfilSegue" id="hw4-XM-yof"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="80G-yG-WvB" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -184,7 +184,7 @@
                                                 <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M2d-tA-iHH">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Votre adresse email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M2d-tA-iHH">
                                                 <rect key="frame" x="0.0" y="43.5" width="359" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -201,7 +201,7 @@
                                                 <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xaP-LE-GWe">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Votre mot de passe" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xaP-LE-GWe">
                                                 <rect key="frame" x="0.0" y="43.5" width="359" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -218,7 +218,6 @@
                                         </state>
                                         <connections>
                                             <action selector="boutonAllerVersChapitres:" destination="SEW-nS-tnq" eventType="touchUpInside" id="WKQ-YV-daL"/>
-                                            <segue destination="EQx-wJ-jrw" kind="show" identifier="versChapitres" id="oFQ-hl-m5n"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -237,6 +236,7 @@
                         <outlet property="ChampMotDePasse" destination="xaP-LE-GWe" id="qIE-Cr-paM"/>
                         <outlet property="bottomHeightConstraint" destination="dfu-Cu-FTw" id="54d-RO-REH"/>
                         <outlet property="champEmail" destination="M2d-tA-iHH" id="tEk-ql-t2c"/>
+                        <segue destination="EQx-wJ-jrw" kind="show" identifier="connexionSegue" id="bwQ-Js-6hT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Soy-WD-XWv" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -549,6 +549,6 @@
         <image name="antique-black-and-white-classic-163116" width="3500" height="2333"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="r9u-T9-Rr7"/>
+        <segue reference="bwQ-Js-6hT"/>
     </inferredMetricsTieBreakers>
 </document>

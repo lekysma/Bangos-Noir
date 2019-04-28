@@ -23,6 +23,8 @@ class Connexion: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var ChampMotDePasse: UITextField!
     
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -89,7 +91,7 @@ class Connexion: UIViewController, UITextFieldDelegate {
                 print("connexion réussie !")
                 
                 // dirigé vers "chapitres" via segue
-                self.performSegue(withIdentifier: "versChapitres", sender: self)
+                self.performSegue(withIdentifier: "connexionSegue", sender: self)
                 
             }
             

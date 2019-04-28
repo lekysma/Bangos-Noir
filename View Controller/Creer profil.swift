@@ -85,7 +85,7 @@ class Creer_profil: UIViewController, UITextFieldDelegate {
                 print("création de profil réussie !")
                 
                 // et on est dirigé vers la vue "chapitres" via segue
-                self.performSegue(withIdentifier: "versChapitres", sender: self)
+                self.performSegue(withIdentifier: "creationProfilSegue", sender: self)
                 
             }
         }
