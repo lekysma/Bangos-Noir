@@ -7,6 +7,11 @@
 //
 
 import UIKit
+//MARK: on importe firebase Auth
+import Firebase
+// on importe progressHud
+import SVProgressHUD
+
 
 // an ajoute textFieldDelegate
 
@@ -16,6 +21,7 @@ class Creer_profil: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var bottomHeightConstraint: NSLayoutConstraint!
     
+    @IBOutlet weak var champEmail: UITextField!
     @IBOutlet weak var champMotDePasse: UITextField!
     
     
@@ -65,5 +71,47 @@ class Creer_profil: UIViewController, UITextFieldDelegate {
         }
         
     }
-
+    
+    //MARK: On ajoute une alerte en cas de probleme de connexion
+    
+    func alerteCreationProfil() {
+        let alert = UIAlertController(title: "Erreur!", message: "", preferredStyle: .alert)
+        let action = UIAlertAction(title: "Veuillez recommencer", style: .default) { (alertAction) in
+            print("bien joué!")
+        }
+        
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)
+    }
+    //MARK: on configure la creation d'un nouveau profil via firebase
+    @IBAction func boutonAllerVersChapitres(_ sender: UIButton) {
+        
+        // dés qu'on appuie sur le bouton, on genere l'animation de chargement
+        SVProgressHUD.show()
+        
+        Auth.auth().createUser(withEmail: champEmail.text!, password: champMotDePasse.text!) { (user, error) in
+            // on definit les actions a faire ...
+            
+            // si il y a erreur dans la creation du profil
+            if error != nil {
+                print(error!)
+<<<<<<< HEAD
+=======
+                self.alerteCreationProfil()
+>>>>>>> delegate-Protocol
+            }
+            // si la creation du profil s'est bien passée cad il y a pas d'erreur
+            else {
+                
+                // dès que la connexion reussit, on retire l'animation de progression
+                SVProgressHUD.dismiss()
+                // on affiche un message de verification
+                print("création de profil réussie !")
+                // et on est dirigé vers la vue "chapitres" via segue
+                self.performSegue(withIdentifier: "creationProfilSegue", sender: self)
+                
+            }
+        }
+    }
+    
 }

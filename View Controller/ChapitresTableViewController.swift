@@ -7,6 +7,8 @@
 //
 
 import UIKit
+// on importe firebase pour avoir la fonction logout
+import Firebase
 
 let tableauSegues = ["histoire1", "histoire2", "histoire3"]
 
@@ -54,6 +56,9 @@ class ChapitresTableViewController: UITableViewController {
     
    
 
+<<<<<<< HEAD
+   
+=======
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
@@ -75,5 +80,30 @@ class ChapitresTableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    //MARK: Onva gerer la fonction log out ici
+    
+    @IBAction func boutonDeconnexion(_ sender: UIBarButtonItem) {
+        
+        do {
+            try Auth.auth().signOut()
+            
+            performSegue(withIdentifier: "VersAccueil", sender: self)
+            
+            print("j'ai bien été redirigé vers l'accueil et je suis deconnecté avec succcès")
+        }
+        catch {
+            
+            print("erreur")
+            
+        }
+        
+        //Auth.auth().signOut()
+    }
+    
+    
+    
+    
+>>>>>>> delegate-Protocol
 
 }
