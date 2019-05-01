@@ -69,6 +69,18 @@ class Creer_profil: UIViewController, UITextFieldDelegate {
         }
         
     }
+    
+    //MARK: On ajoute une alerte en cas de probleme de connexion
+    
+    func alerteCreationProfil() {
+        let alert = UIAlertController(title: "Erreur!", message: "", preferredStyle: .alert)
+        let action = UIAlertAction(title: "Veuillez recommencer", style: .default) { (alertAction) in
+            print("bien joué!")
+        }
+        
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)
+    }
     //MARK: on configure la creation d'un nouveau profil via firebase
     @IBAction func boutonAllerVersChapitres(_ sender: UIButton) {
         
@@ -77,7 +89,8 @@ class Creer_profil: UIViewController, UITextFieldDelegate {
             
             // si il y a erreur dans la creation du profil
             if error != nil {
-                print(error)
+                print(error!)
+                self.alerteCreationProfil()
             }
             // si la creation du profil s'est bien passée cad il y a pas d'erreur
             else {
