@@ -75,6 +75,16 @@ class Connexion: UIViewController, UITextFieldDelegate {
         }
     }
     
+    //MARK: On a une alerte en cas de probleme de connexion
+    func alerteConnexion() {
+        let alert = UIAlertController(title: "Erreur!", message: "", preferredStyle: .alert)
+        let action = UIAlertAction(title: "Vérifiez l'email ou le mot de passe", style: .default) { (alertAction) in
+            print("alert créée !")
+        }
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)
+    }
+    
     //MARK: On va gerer la connexion a un profil existant
     
     @IBAction func boutonAllerVersChapitres(_ sender: UIButton) {
@@ -87,6 +97,12 @@ class Connexion: UIViewController, UITextFieldDelegate {
             // si il y a erreur de connexion
             if error != nil {
                 print(error!)
+<<<<<<< HEAD
+=======
+                
+                self.alerteConnexion()
+                
+>>>>>>> delegate-Protocol
             }
                 // si la connexion s'est bien faite
             else {
