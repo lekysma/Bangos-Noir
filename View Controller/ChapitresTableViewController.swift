@@ -9,6 +9,8 @@
 import UIKit
 // on importe firebase pour avoir la fonction logout
 import Firebase
+// on importe SVProgressHUD
+import SVProgressHUD
 
 let tableauSegues = ["histoire1", "histoire2", "histoire3"]
 
@@ -52,38 +54,20 @@ class ChapitresTableViewController: UITableViewController {
         performSegue(withIdentifier: tableauSegues[indexPath.row], sender: self)
     }
     
-   
-    
-   
-
-    /*
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
-        return cell
-    }
-    */
-
-  
-  
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+ 
     
     //MARK: Onva gerer la fonction log out ici
     
     @IBAction func boutonDeconnexion(_ sender: UIBarButtonItem) {
+        //dès au'on presse le bouton on fait apparaitre SVProgressHUD
+        SVProgressHUD.show()
+        
         
         do {
             try Auth.auth().signOut()
+            
+            //si la deconnexion reussit, on fait disparaitre SVProgressHUD
+            SVProgressHUD.dismiss()
             
             performSegue(withIdentifier: "VersAccueil", sender: self)
             

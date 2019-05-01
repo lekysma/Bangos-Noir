@@ -8,5 +8,7 @@ target 'Bangos Noir' do
   # Pods for Bangos Noir
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
+pod 'SVProgressHUD'
+
 
 end

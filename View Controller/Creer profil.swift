@@ -9,8 +9,8 @@
 import UIKit
 //MARK: on importe firebase Auth
 import Firebase
-
-
+// on importe progressHUD
+import SVProgressHUD
 // an ajoute textFieldDelegate
 
 class Creer_profil: UIViewController, UITextFieldDelegate {
@@ -84,16 +84,23 @@ class Creer_profil: UIViewController, UITextFieldDelegate {
     //MARK: on configure la creation d'un nouveau profil via firebase
     @IBAction func boutonAllerVersChapitres(_ sender: UIButton) {
         
+        // dès qu'on presse le bouton on fait apparaitre progressHud
+        SVProgressHUD.show()
+        
         Auth.auth().createUser(withEmail: champEmail.text!, password: champMotDePasse.text!) { (user, error) in
             // on definit les actions a faire ...
             
             // si il y a erreur dans la creation du profil
             if error != nil {
                 print(error!)
+                // on fait disparaitre le SVProgressHUD avant d'afficher l'alerte erreur
+                SVProgressHUD.dismiss()
                 self.alerteCreationProfil()
             }
             // si la creation du profil s'est bien passée cad il y a pas d'erreur
             else {
+                //dès que firebase nous connecte, on fait disparaitre progressHUD
+                SVProgressHUD.dismiss()
                 // on affiche un message de verification
                 print("création de profil réussie !")
                 
