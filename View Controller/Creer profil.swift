@@ -9,6 +9,8 @@
 import UIKit
 //MARK: on importe firebase Auth
 import Firebase
+// on importe progressHud
+import SVProgressHUD
 
 
 // an ajoute textFieldDelegate
@@ -72,18 +74,23 @@ class Creer_profil: UIViewController, UITextFieldDelegate {
     //MARK: on configure la creation d'un nouveau profil via firebase
     @IBAction func boutonAllerVersChapitres(_ sender: UIButton) {
         
+        // dés qu'on appuie sur le bouton, on genere l'animation de chargement
+        SVProgressHUD.show()
+        
         Auth.auth().createUser(withEmail: champEmail.text!, password: champMotDePasse.text!) { (user, error) in
             // on definit les actions a faire ...
             
             // si il y a erreur dans la creation du profil
             if error != nil {
-                print(error)
+                print(error!)
             }
             // si la creation du profil s'est bien passée cad il y a pas d'erreur
             else {
+                
+                // dès que la connexion reussit, on retire l'animation de progression
+                SVProgressHUD.dismiss()
                 // on affiche un message de verification
                 print("création de profil réussie !")
-                
                 // et on est dirigé vers la vue "chapitres" via segue
                 self.performSegue(withIdentifier: "creationProfilSegue", sender: self)
                 

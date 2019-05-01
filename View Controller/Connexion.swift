@@ -9,8 +9,9 @@
 import UIKit
 
 // MARK: On importe firebase Auth
-
 import Firebase
+// on importe SVProgressHud
+import SVProgressHUD
 // MARK: on s'assure que cette view est un delegate de la fonctionlite uitextfield
 
 class Connexion: UIViewController, UITextFieldDelegate {
@@ -77,19 +78,23 @@ class Connexion: UIViewController, UITextFieldDelegate {
     //MARK: On va gerer la connexion a un profil existant
     
     @IBAction func boutonAllerVersChapitres(_ sender: UIButton) {
+        // dès que le bouton est pressé, on genere l'animation chargement
+        SVProgressHUD.show()
         
         Auth.auth().signIn(withEmail: champEmail.text!, password: ChampMotDePasse.text!) { (user, error) in
             // on gere les actions a faire ...
             
             // si il y a erreur de connexion
             if error != nil {
-                print(error)
+                print(error!)
             }
                 // si la connexion s'est bien faite
             else {
+                
+                //dès que firebase admet la connexion on enleve l'animation de progress
+                SVProgressHUD.dismiss()
                 // message test
                 print("connexion réussie !")
-                
                 // dirigé vers "chapitres" via segue
                 self.performSegue(withIdentifier: "connexionSegue", sender: self)
                 
