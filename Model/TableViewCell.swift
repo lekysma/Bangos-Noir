@@ -12,7 +12,7 @@ class TableViewCell: UITableViewCell {
     
     @IBOutlet weak var titreHistoire: UILabel!
     
-    @IBOutlet weak var titreBouton: UIButton!
+    @IBOutlet weak var photoHistoire: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

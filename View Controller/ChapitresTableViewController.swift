@@ -42,7 +42,7 @@ class ChapitresTableViewController: UITableViewController {
         let extractionInfosCellule = tableauDonnees[indexPath.row]
         
         cell.titreHistoire.text = extractionInfosCellule.titreLabel
-        cell.titreBouton.setTitle(extractionInfosCellule.titreButton, for: .normal)
+        cell.photoHistoire.image = UIImage(named: extractionInfosCellule.titreImage)
         
         return cell
     }

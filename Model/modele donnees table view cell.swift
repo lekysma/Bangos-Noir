@@ -11,31 +11,30 @@ import Foundation
 class ContenuCellule {
     
     let titreLabel : String
-    let titreButton : String
+    let titreImage : String
     
-    init(label : String, button : String) {
+    init(label : String, image : String) {
         titreLabel = label
-        titreButton = button
+        titreImage = image
     }
 }
 
 
+//MARK: On cree un tableau qui contient les noms de toutes les images
+var tableauImages = ["mbigiMuntu", "taureauDeBoeuf", "billets", "baronSamedi" ]
 //MARK: On cree ensuite un tableau qui va renfermez la structure de chaque cellule de notre application
 var tableauDonnees = [ContenuCellule]()
 
 //MARK: Enfin on cree une fonction qui va detailler le contenu de chaque cellule de l'application
 
 func contenuDeChaqueCellule () {
+    // on cree des objets sur la base de la classe plus haut
+    let chapitre1 = ContenuCellule(label: "Le Mbigi Muntu", image: tableauImages[0])
+    let chapitre2 = ContenuCellule(label: "Taureau de boeuf", image: tableauImages[1])
+    let chapitre3 = ContenuCellule(label: "Les billets ensorcelés", image: tableauImages[2])
+    let chapitre4 = ContenuCellule(label: "Baron Samedi", image: tableauImages[3])
     
-    let chapitre1 = ContenuCellule(label: "Le Mbigi Muntu", button: "J'y vais")
-    
-    let chapitre2 = ContenuCellule(label: "Taureau de boeuf", button: "J'y vais")
-    
-    let chapitre3 = ContenuCellule(label: "Les billets ensorcelés", button: "J'y vais")
-    
-    let chapitre4 = ContenuCellule(label: "Baron Samedi", button: "J'y vais")
-    
-    //On ajoute ces constantes au tableau (localement cad dans la fonction)
+    // on ajoute ces objets au tableau tableauDonnees
     tableauDonnees.append(chapitre1)
     tableauDonnees.append(chapitre2)
     tableauDonnees.append(chapitre3)
