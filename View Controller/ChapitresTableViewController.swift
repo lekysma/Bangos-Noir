@@ -12,7 +12,7 @@ import Firebase
 // on importe SVProgressHUD
 import SVProgressHUD
 
-let tableauSegues = ["histoire1", "histoire2", "histoire3"]
+let tableauSegues = ["histoire1", "histoire2", "histoire3", "histoire4"]
 
 class ChapitresTableViewController: UITableViewController {
 
@@ -75,7 +75,7 @@ class ChapitresTableViewController: UITableViewController {
         }
         catch {
             
-            print("erreur")
+            print(error.localizedDescription)
             
         }
         

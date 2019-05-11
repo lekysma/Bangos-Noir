@@ -33,10 +33,13 @@ func contenuDeChaqueCellule () {
     
     let chapitre3 = ContenuCellule(label: "Les billets ensorcelés", button: "J'y vais")
     
+    let chapitre4 = ContenuCellule(label: "Baron Samedi", button: "J'y vais")
+    
     //On ajoute ces constantes au tableau (localement cad dans la fonction)
     tableauDonnees.append(chapitre1)
     tableauDonnees.append(chapitre2)
     tableauDonnees.append(chapitre3)
+    tableauDonnees.append(chapitre4)
 }
 
 
