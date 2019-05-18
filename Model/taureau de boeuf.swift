@@ -10,72 +10,67 @@ import Foundation
 
 // par souci de gestion de memoire ce seront tous des let
 
+// variable rejouer histoire
+let rejouerTaureauDeBoeuf = "Revenir à l'accueil"
 
 // compteur = 1
-var demandeProduitQualite : String = "rencontre sorcier Niori NIORLOP; demande produit aphrodisiaque "
-var choix1DemandeProduitQualite : String = "demande test" // vers compteur = 2
-var choix2DemandeProduitQualite : String = "je te fais confiance" // vers compteur = 3
+let visiteSorcier : String = "Vais voir sorcier, demande produit, proposition test"
+let choix1VisiteSorcier : String = "je fais le test" // vers 2
+let choix2VisiteSorcier : String = "pas besoin je te fais confiance" // vers 7
 
 // compteur = 2
-var JeFaisLeTest : String = " Je teste le produit taureau de boeuf"
-var choix1JeFaisLeTest : String = "je fais appel a la fille" // vers compteur = 3
-var choix2JeFaisLeTest : String = "je fais le test sans fille" // vers compteur = 8
+let testFait : String = "test fait, explique procedure pour obtenir produit"
+let choix1TestFait : String = "je donne mon slip" // vers 3
+let choix2TestFait : String = "je ne donne pas mon slip" // vers 8
 
 // compteur = 3
-var decisionAchat : String = " le sorcier demande evaluation : que pensez vous de mon produit ? le produit test ne peut être vendu, il faudra donner 200 000 bangos et votre slip sale"
-var choix1DecisionAchat : String = " apres tout pourquoi pas ?" // vers compteur = 4
-var choix2DecisionAchat : String = "je ne donne pas mon slip" // vers compteur = 9
-
+let ceremonieTaureau : String = "ceremonie sacrifice, je reviens chercher potion, boite de nuit ?"
+let choix1CeremonieTaureau : String = "je vais en boite" // vers 4
+let choix2CeremonieTaureau : String = "je préfère rentrer chez moi" // vers 9
 
 // compteur = 4
-var interlude : String = "processus invocation esprit Dougounou par sorcier"
-var choixInterlude : String = "suite" // vers compteur = 5
-// pas de choix 2
+let rencontreFille : String = "rencontre fille, je fais quoi ?"
+let choix1RencontreFille : String = "je mets la potion dans mon verre" // vers 5
+let choix2RencontreFille : String = "je mets la potion dans nos 2 verres" // vers 10
 
 // compteur = 5
-var viensChercherBouteille : String = "viens chercher bouteille, passe devant club Bagnoules "
-var choix1ViensChercherBouteille : String = "J'entre dans le club" // vers compteur = 6
-var choix2ViensChercherBouteille : String = "je vais chez moi" // vers compteur = 10
+let violInterrompu : String = "viol interrompu (toilettes), qu'est ce qui se passe ?"
+let choix1ViolInterrompu : String = "je rentre chez moi" // vers 6
+let choix2ViolInterrompu : String = "je vais voir sorcier" // vers 12
 
 // compteur = 6
-var rencontreFille : String = "Rencontre fille, fille va aux toilettes"
-var choix1RencontreFille : String = "je verse la potion dans mon verre" // vers compteur = 7
-var choix2RencontreFille : String = "je verse la potion dans nos deux verres" // vers compteur = 11
+let fin4TaureauDeBoeuf4 : String = "je rentre chez moi, utilise produit, news : creature hybride tuée lors viol gringorian"
+// on rejoue
 
 // compteur = 7
-var finTaureauDeBoeuf1 : String = "chauffeur viens me chercher. Suis banni du Bagnoules"
-// pas de choix 2
-
-
-var rejouerTaureauDeBoeuf : String = "Rejouer ?"
-
+let explicationProcedure : String = "explication procedure par sorcier."
+let choix1ExplicationProcedure : String = "Je donne mon slip" // vers 3
+let choix2ExplicationProcedure : String = "je ne donne pas mon slip" // vers 8
 
 // compteur = 8
-var consequenceTest : String = "bois potion test, bête en rut pendant des heures"
-var choix1ConsequenceTest : String = "je suis convaincu" // vers compteur = 3
-var choix2ConsequenceTest : String = "c'est trop dangereux" // vers compteur = 9
+let finTaureauDeBoeuf1 : String = "retour chez moi continue à utiliser produits habituels, regrets parfois"
 
 // compteur = 9
-
-var decisionNegativeAchatPotion : String = "pose question necessite donner slip. reponse sorcier"
-var choix1DecisionNegativeAchatPotion : String = "finalement je donne mon slip" // vers compteur = 3
-var choix2DecisionNegativeAchatPotion : String = "non merci" // vers compteur = 12
+let finTaureauDeBoeuf2 : String = "news : mort en plein ébats sexuels"
 
 // compteur = 10
-var finTaureauDeBoeuf2 : String = "fin, prouesses enormes, mort arrêt cardiaque"
-// on utilise le variable rejouer, l'autre choix est hidden
-
+let sexeBrutal : String = "sexe brutal, en public, interrompu, qu'est ce qui se passe ?"
+let choix1SexeBrutal : String = "je vais voir sorcier" // vers 12
+let choix2SexeBrutal : String = "je rentre chez moi" // vers 11
 
 // compteur = 11
-var finTaureauDeBoeuf3 : String = "on boit tous les 2 boisson spiked; on baise sur place"
-// on utilise variable rejouer, autre choix hidden
+let finTaureauDeBoeuf3 : String = "rentre avec la fille; news : double meurtre-suicide lors ébats sexuels"
 
 // compteur = 12
-var finTaureauDeBoeuf4 : String = "je rentre a bangos, je continue a utiliser produits habituels"
-// on utilise variable rejouer, autre choix hidden
+let secondeVisiteSorcier : String = "vais voir sorcier, il explique consequences cachées "
+let choix1SecondeVisiteSorcier : String = "je me fais justice" // vers 13
+let choix2SecondeVisiteSorcier : String = "vous allez le payer" // vers 14
 
 // compteur = 13
-var finTaureauDeBoeuf5 : String = "j'agresse chauffeur au retour, chute dans fossé, on meurt"
-// var rejouer, autre choix hidden
+let finTaureauDeBoeuf5 : String = "tue sorcier; news : meurtre bizarre, cadavre taureau"
+
+// compteur = 14
+let finTaureauDeBoeuf6 : String = "informe autres victimes, maison sorcier brulée; news : serie de meurtre chez gens riches"
+
 
 

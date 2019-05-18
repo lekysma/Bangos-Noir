@@ -34,9 +34,9 @@ class Chapitre_2_ViewController: UIViewController {
     //MARK: on cree une variable qui contient : histoire + choix au chargement de la vue
     
     func introHistoire2 () {
-        contenuHistoire2.text = demandeProduitQualite
-        choix1Histoire2.setTitle(choix1DemandeProduitQualite, for: .normal)
-        choix2Histoire2.setTitle(choix2DemandeProduitQualite, for: .normal)
+       contenuHistoire2.text = visiteSorcier
+        choix1Histoire2.setTitle(choix1VisiteSorcier, for: .normal)
+        choix2Histoire2.setTitle(choix2VisiteSorcier, for: .normal)
         compteurHistoire2 = 1
     }
 
@@ -53,128 +53,117 @@ class Chapitre_2_ViewController: UIViewController {
     //MARK: Differents choix pour avancer dans l'histoire
     
     @IBAction func ActionHistoire2(_ sender: UIButton) {
-        
         switch compteurHistoire2 {
-            
             // compteur = 1
         case 1:
             if sender.tag == 1 {
-               contenuHistoire2.text = JeFaisLeTest
-                choix1Histoire2.setTitle(choix1JeFaisLeTest, for: .normal)
-                choix2Histoire2.setTitle(choix2JeFaisLeTest, for: .normal)
+                contenuHistoire2.text = testFait
+                choix1Histoire2.setTitle(choix1TestFait, for: .normal)
+                choix2Histoire2.setTitle(choix2TestFait, for: .normal)
                 compteurHistoire2 = 2
             } else {
-                contenuHistoire2.text = decisionAchat
-                choix1Histoire2.setTitle(choix1DecisionAchat, for: .normal)
-                choix2Histoire2.setTitle(choix2DecisionAchat, for: .normal)
-                compteurHistoire2 = 3
-                
+                contenuHistoire2.text = explicationProcedure
+                choix1Histoire2.setTitle(choix1ExplicationProcedure, for: .normal)
+                choix2Histoire2.setTitle(choix2ExplicationProcedure, for: .normal)
+                compteurHistoire2 = 7
             }
             // compteur = 2
         case 2:
             if sender.tag == 1 {
-                contenuHistoire2.text = decisionAchat
-                choix1Histoire2.setTitle(choix1DecisionAchat, for: .normal)
-                choix2Histoire2.setTitle(choix2DecisionAchat, for: .normal)
+                contenuHistoire2.text = ceremonieTaureau
+                choix1Histoire2.setTitle(choix1CeremonieTaureau, for: .normal)
+                choix2Histoire2.setTitle(choix2CeremonieTaureau, for: .normal)
                 compteurHistoire2 = 3
-                
             } else {
-                contenuHistoire2.text = consequenceTest
-                choix1Histoire2.setTitle(choix1ConsequenceTest, for: .normal)
-                choix2Histoire2.setTitle(choix2ConsequenceTest, for: .normal)
+                contenuHistoire2.text = finTaureauDeBoeuf1
+                choix1Histoire2.setTitle(rejouerTaureauDeBoeuf, for: .normal)
+                choix2Histoire2.isHidden = true
                 compteurHistoire2 = 8
-                
             }
             // compteur = 3
         case 3:
             if sender.tag == 1 {
-                contenuHistoire2.text = interlude
-                choix1Histoire2.setTitle(choixInterlude, for: .normal)
-                // pas de choix 2
-                choix2Histoire2.isHidden = true
-                compteurHistoire2 = 4
-            } else {
-                contenuHistoire2.text = decisionNegativeAchatPotion
-                choix1Histoire2.setTitle(choix1DecisionNegativeAchatPotion, for: .normal)
-                choix2Histoire2.setTitle(choix2DecisionNegativeAchatPotion, for: .normal)
-                compteurHistoire2 = 9
-            }
-            
-            // compteur = 4
-        case 4:
-            if sender.tag == 1 {
-                contenuHistoire2.text = viensChercherBouteille
-                choix1Histoire2.setTitle(choix1ViensChercherBouteille, for: .normal)
-                choix2Histoire2.setTitle(choix2ViensChercherBouteille, for: .normal)
-                compteurHistoire2 = 5
-                
-            }
-            // pas de choix 2 car interlude
-            // compteur = 5
-        case 5:
-            if sender.tag == 1 {
                 contenuHistoire2.text = rencontreFille
                 choix1Histoire2.setTitle(choix1RencontreFille, for: .normal)
                 choix2Histoire2.setTitle(choix2RencontreFille, for: .normal)
-                compteurHistoire2 = 6
-                
+                compteurHistoire2 = 4
             } else {
                 contenuHistoire2.text = finTaureauDeBoeuf2
                 choix1Histoire2.setTitle(rejouerTaureauDeBoeuf, for: .normal)
                 choix2Histoire2.isHidden = true
-                compteurHistoire2 = 10
-                
+                compteurHistoire2 = 9
             }
-            // compteur = 6
-        case 6:
+            // compteur = 4
+        case 4:
             if sender.tag == 1 {
+                contenuHistoire2.text = violInterrompu
+                choix1Histoire2.setTitle(choix1ViolInterrompu, for: .normal)
+                choix2Histoire2.setTitle(choix2ViolInterrompu, for: .normal)
+                compteurHistoire2 = 5
+            } else {
+                contenuHistoire2.text = sexeBrutal
+                choix1Histoire2.setTitle(choix1SexeBrutal, for: .normal)
+                choix2Histoire2.setTitle(choix2SexeBrutal, for: .normal)
+                compteurHistoire2 = 10
+            }
+            // compteur = 5
+        case 5:
+            if sender.tag == 1 {
+                contenuHistoire2.text = fin4TaureauDeBoeuf4
+                choix1Histoire2.setTitle(rejouerTaureauDeBoeuf, for: .normal)
+                choix2Histoire2.isHidden = true
+                compteurHistoire2 = 6
+            } else {
+                contenuHistoire2.text = secondeVisiteSorcier
+                choix1Histoire2.setTitle(choix1SecondeVisiteSorcier, for: .normal)
+                choix2Histoire2.setTitle(choix2SecondeVisiteSorcier, for: .normal)
+                compteurHistoire2 = 12
+            }
+            // compteur = 7
+        case 7:
+            if sender.tag == 1 {
+                contenuHistoire2.text = ceremonieTaureau
+                choix1Histoire2.setTitle(choix1CeremonieTaureau, for: .normal)
+                choix2Histoire2.setTitle(choix2CeremonieTaureau, for: .normal)
+                compteurHistoire2 = 3
+            } else {
                 contenuHistoire2.text = finTaureauDeBoeuf1
                 choix1Histoire2.setTitle(rejouerTaureauDeBoeuf, for: .normal)
                 choix2Histoire2.isHidden = true
-                compteurHistoire2 = 7
-                
+                compteurHistoire2 = 8
+            }
+            //compteur = 10
+        case 10:
+            if sender.tag == 1 {
+                contenuHistoire2.text = secondeVisiteSorcier
+                choix1Histoire2.setTitle(choix1SecondeVisiteSorcier, for: .normal)
+                choix2Histoire2.setTitle(choix2SecondeVisiteSorcier, for: .normal)
+                compteurHistoire2 = 12
             } else {
                 contenuHistoire2.text = finTaureauDeBoeuf3
                 choix1Histoire2.setTitle(rejouerTaureauDeBoeuf, for: .normal)
                 choix2Histoire2.isHidden = true
                 compteurHistoire2 = 11
-                
             }
-            // on zappe 7
-            // compteur = 8
-        case 8:
+            // compteur = 12
+        case 12:
             if sender.tag == 1 {
-                contenuHistoire2.text = decisionAchat
-                choix1Histoire2.setTitle(choix1DecisionAchat, for: .normal)
-                choix2Histoire2.setTitle(choix2DecisionAchat, for: .normal)
-                compteurHistoire2 = 3
-                
-            } else {
-                contenuHistoire2.text = decisionNegativeAchatPotion
-                choix1Histoire2.setTitle(choix1DecisionNegativeAchatPotion, for: .normal)
-                choix2Histoire2.setTitle(choix2DecisionNegativeAchatPotion, for: .normal)
-                compteurHistoire2 = 9
-                
-            }
-            // compteur = 9
-        case 9:
-            if sender.tag == 1 {
-                contenuHistoire2.text = decisionAchat
-                choix1Histoire2.setTitle(choix1DecisionAchat, for: .normal)
-                choix2Histoire2.setTitle(choix2DecisionAchat, for: .normal)
-                compteurHistoire2 = 3
-            } else {
-                contenuHistoire2.text = finTaureauDeBoeuf4
+                contenuHistoire2.text = finTaureauDeBoeuf5
                 choix1Histoire2.setTitle(rejouerTaureauDeBoeuf, for: .normal)
                 choix2Histoire2.isHidden = true
-                compteurHistoire2 = 12
+                compteurHistoire2 = 13
+            } else {
+                contenuHistoire2.text = finTaureauDeBoeuf6
+                choix1Histoire2.setTitle(rejouerTaureauDeBoeuf, for: .normal)
+                choix2Histoire2.isHidden = true
+                compteurHistoire2 = 14
             }
-            
-        default:
-            print("rejouer")
+            // prise en compte des options fin d'histoire
+        default :
             navigationController?.popViewController(animated: true)
-            
         }
+        
+
     }
     
     //MARK: On ajoute gestion de la fonction secouer commme aternative pour revenir aux chapitres

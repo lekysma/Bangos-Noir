@@ -162,7 +162,7 @@ class Chapitre3ViewController: UIViewController {
         case 11:
             if sender.tag == 1 {
                 contenuHistoire3.text = conseilFifion
-                choix1Histoire3.setTitle(choix1ConsequenceTest, for: .normal)
+                choix1Histoire3.setTitle(choix1ConseilFifion, for: .normal)
                 choix2Histoire3.setTitle(choix2ConseilFifion, for: .normal)
                 compteurHistoire3 = 6
             } else {
