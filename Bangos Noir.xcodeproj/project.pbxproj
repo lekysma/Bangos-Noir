@@ -25,6 +25,8 @@
 		FBD76D4C225620D300E30C0B /* taureau de boeuf.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD76D4B225620D300E30C0B /* taureau de boeuf.swift */; };
 		FBE7F03F228715FC00553F9E /* Baron Samedi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE7F03E228715FC00553F9E /* Baron Samedi.swift */; };
 		FBE7F041228720E300553F9E /* Chapitre4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE7F040228720E300553F9E /* Chapitre4ViewController.swift */; };
+		FBE7F56F2290267700484207 /* Chapitre5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE7F56E2290267700484207 /* Chapitre5ViewController.swift */; };
+		FBE7F5712290276500484207 /* le temple maudit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE7F5702290276500484207 /* le temple maudit.swift */; };
 		FBEAF1F3221DDA800036590B /* Connexion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAF1F2221DDA800036590B /* Connexion.swift */; };
 		FBEAF1F5221DDF5A0036590B /* Creer profil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAF1F4221DDF5A0036590B /* Creer profil.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +53,8 @@
 		FBD76D4B225620D300E30C0B /* taureau de boeuf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "taureau de boeuf.swift"; sourceTree = "<group>"; };
 		FBE7F03E228715FC00553F9E /* Baron Samedi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baron Samedi.swift"; sourceTree = "<group>"; };
 		FBE7F040228720E300553F9E /* Chapitre4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapitre4ViewController.swift; sourceTree = "<group>"; };
+		FBE7F56E2290267700484207 /* Chapitre5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapitre5ViewController.swift; sourceTree = "<group>"; };
+		FBE7F5702290276500484207 /* le temple maudit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "le temple maudit.swift"; sourceTree = "<group>"; };
 		FBEAF1F2221DDA800036590B /* Connexion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connexion.swift; sourceTree = "<group>"; };
 		FBEAF1F4221DDF5A0036590B /* Creer profil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Creer profil.swift"; sourceTree = "<group>"; };
 		FD6837E4D91503A673D6491B /* Pods-Bangos Noir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bangos Noir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bangos Noir/Pods-Bangos Noir.debug.xcconfig"; sourceTree = "<group>"; };
@@ -108,6 +112,7 @@
 		FBB3F1BA221CB826002444F0 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FBE7F56E2290267700484207 /* Chapitre5ViewController.swift */,
 				FBE7F040228720E300553F9E /* Chapitre4ViewController.swift */,
 				FB912C9D2258B94700FCE557 /* Chapitre3ViewController.swift */,
 				FB912C9B2258B8DE00FCE557 /* Chapitre 2 ViewController.swift */,
@@ -127,6 +132,7 @@
 		FBB3F1CD221CB847002444F0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FBE7F5702290276500484207 /* le temple maudit.swift */,
 				FBE7F03E228715FC00553F9E /* Baron Samedi.swift */,
 				FB74654822632E55007564F4 /* les billets ensorcelés.swift */,
 				FBD76D4B225620D300E30C0B /* taureau de boeuf.swift */,
@@ -285,7 +291,9 @@
 				FBE7F03F228715FC00553F9E /* Baron Samedi.swift in Sources */,
 				FB74654922632E55007564F4 /* les billets ensorcelés.swift in Sources */,
 				FB912C9C2258B8DE00FCE557 /* Chapitre 2 ViewController.swift in Sources */,
+				FBE7F5712290276500484207 /* le temple maudit.swift in Sources */,
 				FBE7F041228720E300553F9E /* Chapitre4ViewController.swift in Sources */,
+				FBE7F56F2290267700484207 /* Chapitre5ViewController.swift in Sources */,
 				FBD76D4C225620D300E30C0B /* taureau de boeuf.swift in Sources */,
 				FBEAF1F5221DDF5A0036590B /* Creer profil.swift in Sources */,
 				FBB3F1BC221CB826002444F0 /* AppDelegate.swift in Sources */,
