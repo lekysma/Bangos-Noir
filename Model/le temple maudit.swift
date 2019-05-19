@@ -72,7 +72,7 @@ let finTempleMaudit4 : String = "je suis possedé, je me dirige vers camp. news 
 
 // 14
 let retourABangos : String = "retour Bangos, meurtres, j'ai des soupçons, je fais quoi ?"
-let choix1RetourABangos : String = "option pere Migoua" // vers 14
+let choix1RetourABangos : String = "option pere Migoua" // vers 15
 let choix2RetourABangos : String = "option Fifion" // vers 19
 
 // 15
