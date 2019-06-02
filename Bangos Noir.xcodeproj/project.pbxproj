@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F0D52356A638F28EA620FEF5 /* Pods_Bangos_Noir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CA433A55FE8B0BB4F28D8C /* Pods_Bangos_Noir.framework */; };
+		FB1E613122A3F32F005C050C /* roundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1E613022A3F32F005C050C /* roundButton.swift */; };
 		FB56BF6622745E4300F8C85D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB56BF6522745E4300F8C85D /* GoogleService-Info.plist */; };
 		FB6FCD0F222D4E4D00AD4FF5 /* Chap1 Contenu ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FCD0E222D4E4D00AD4FF5 /* Chap1 Contenu ViewController.swift */; };
 		FB6FCD11222D874100AD4FF5 /* le mbigi muntu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FCD10222D874100AD4FF5 /* le mbigi muntu.swift */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		139ED520325DF0B4B4AB6CFD /* Pods-Bangos Noir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bangos Noir.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bangos Noir/Pods-Bangos Noir.release.xcconfig"; sourceTree = "<group>"; };
 		C1CA433A55FE8B0BB4F28D8C /* Pods_Bangos_Noir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bangos_Noir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1E613022A3F32F005C050C /* roundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundButton.swift; sourceTree = "<group>"; };
 		FB56BF6522745E4300F8C85D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FB6FCD0E222D4E4D00AD4FF5 /* Chap1 Contenu ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chap1 Contenu ViewController.swift"; sourceTree = "<group>"; };
 		FB6FCD10222D874100AD4FF5 /* le mbigi muntu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "le mbigi muntu.swift"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				FB6FCD10222D874100AD4FF5 /* le mbigi muntu.swift */,
 				FB912C9322566B2F00FCE557 /* modele donnees table view cell.swift */,
 				FB912C9722566DFB00FCE557 /* TableViewCell.swift */,
+				FB1E613022A3F32F005C050C /* roundButton.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				FBE7F56F2290267700484207 /* Chapitre5ViewController.swift in Sources */,
 				FBD76D4C225620D300E30C0B /* taureau de boeuf.swift in Sources */,
 				FBEAF1F5221DDF5A0036590B /* Creer profil.swift in Sources */,
+				FB1E613122A3F32F005C050C /* roundButton.swift in Sources */,
 				FBB3F1BC221CB826002444F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
