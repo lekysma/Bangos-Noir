@@ -251,17 +251,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="separatorColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="separatorColor" cocoaTouchSystemColor="darkTextColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="111" id="tQr-jI-EGu" customClass="TableViewCell" customModule="Bangos_Noir" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" rowHeight="111" id="tQr-jI-EGu" customClass="TableViewCell" customModule="Bangos_Noir" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="111"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tQr-jI-EGu" id="T1l-9c-bPK">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="110.66666666666667"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="376" height="110.66666666666667"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="IHt-JO-YV7">
-                                            <rect key="frame" x="8" y="8" width="398" height="94.666666666666671"/>
+                                            <rect key="frame" x="8" y="8" width="360" height="94.666666666666671"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="error.png" translatesAutoresizingMaskIntoConstraints="NO" id="rSp-8e-7oe">
                                                     <rect key="frame" x="0.0" y="12.333333333333329" width="70" height="70"/>
@@ -273,7 +273,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h4u-Ei-e2Q">
-                                                    <rect key="frame" x="78" y="12.333333333333329" width="320" height="70"/>
+                                                    <rect key="frame" x="78" y="12.333333333333329" width="282" height="70"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="70" id="o7S-WR-N4U"/>
                                                     </constraints>
