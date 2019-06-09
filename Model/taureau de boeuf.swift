@@ -172,7 +172,9 @@ Dans les jours et les semaines qui suivent, vous avez plusieurs fois l'occasion 
 
 Les trous de mémoire de plus en plus présent qui interviennent durant vos ébats sont une lointaine préoccupation.
 
-.... UNE TENTATIVE DE VIOL EVITEE A GRINGORIAN ...
+.... EXTRAIT DU BANGOS TIME ....
+
+UNE TENTATIVE DE VIOL EVITEE A GRINGORIAN
 
 La paripatéticienne Elodie X a échapée à une tentative d'agression hier soir.
 
@@ -194,8 +196,6 @@ let choix2ExplicationProcedure : String = "C'est trop bizarre, je refuse." // ve
 
 // compteur = 8
 let finTaureauDeBoeuf1 : String = """
-retour chez moi continue à utiliser produits habituels, regrets parfois
-
 Votre chauffeur vous dépose chez vous. La visite chez le vieil homme parait ridicule maintenant que vous y pensez, vous n'arrivez pas à croire que vous étiez assez naïf pour aller voir ce vieux sénile. Après tout, vos stimulants habituels vous ont toujours aidé n'est ce pas ? Si vous souhaitez mieux performer, vous devrez juste en prendre plus!
 
 .... FIN ....
@@ -206,7 +206,8 @@ Votre chauffeur vous dépose chez vous. La visite chez le vieil homme parait rid
 // compteur = 9
 let finTaureauDeBoeuf2 : String = """
 
-.... COITUS INTERRUPTUS TRAGIQUE POUR UN IDUSTRIEL BANGOSSIEN ....
+.... EXTRAIT DU BANGOS TIME....
+COITUS INTERRUPTUS TRAGIQUE POUR UN IDUSTRIEL BANGOSSIEN
 
 La police de Bangos a été appelée à l'hotel Ivoire de Bangos ce matin. Elle y a retrouvé le corps sans vie d'Ambalougui MASSISSA, connu pour être le propriétaire de la Tour de l'espérance au centre ville de bangos.
 
@@ -246,7 +247,6 @@ let choix2SexeBrutal : String = "Je rentre chez moi avec la fille" // vers 11
 
 // compteur = 11
 let finTaureauDeBoeuf3 : String = """
-rentre avec la fille; news : double meurtre-suicide lors ébats sexuels
 
 Vous rentrez à votre domicile avec la jeune femme. Ce qui s'est passé dans la boite de nuit était excitant : vous n'avez jamais éprouvé cela. Tant pis pour ces idiots qui vous ont demandé de partir : ils étaient probablement jaloux de votre libido.
 
@@ -269,19 +269,72 @@ Il semble que plus tôt dans la soirée les deux victimes aient été expulsées
 
 // compteur = 12
 let secondeVisiteSorcier : String = """
-vais voir sorcier, il explique consequences cachées
 
-Après avoir ordonné un taxi pour la jeune femme, vous demandez à votre chauffeur de vous dé
+Après avoir ordonné un taxi pour la jeune femme, vous demandez à votre chauffeur de vous déposer de nouveau au domicile du sorcier.
+
+Quelques minutes plus tard, votre voiture s'arréte devant la case du vieil homme.
+- ' Sorcier, vieil homme! Ouvre-moi, ouvre tout de suite!', vous criez en frappant de toutes vos forces à la porte. Bientot, celle-ci s'entrouve pour réveler le regard suspicieux du vieil homme.
+- ' Toi encore ! Tu veux quoi maintenant, on a plus rien a se dire.' il commence. Vous l'interrompez en le bousculant pour entrer dans sa case.
+- 'Vieil homme, il y a quelque chose de bizarre avec ta potion. Je l'ai essayé et c'était bizarre : je ne me souviens pas de ce que j'ai fait, mais apparemment c'était violent. je suis pas comme ça! Qu'est ce que tu m'as fait boire ?!' vous criez votre désaroi au vieil homme qui fuit votre regard.
+- 'Le produit marche n'est ce pas? Tu as tu endurance et performance non? C'est pas ce que tu voulais?', le sorcier vous demande d'un air querelleur.
+- 'Oui, mais je ne veux pas non plus être un monstre!', vous lui répondez tout aussi agressif.
+- 'Moi je t'ai dit, je suis sorcier, je travaille avec les esprits. Tu as demandé produit pour bangala, moi je donne. Si les esprits font quelque chose, ce n'est pas mon problème, c'est toi même toi même oh! Maintenant sors de chez moi!. Le vieil homme ouvre la porte de sa case et désigne la sortie d'un air impérieux.
+
+Votre désaroi laisse peu à peu la place à une colère froide : comme ce vieux misérable ose t-il vous tromper ? Vous n'allez pas le laisser s'en tirer à si bon compte.
 
 """
-let choix1SecondeVisiteSorcier : String = "je me fais justice" // vers 13
-let choix2SecondeVisiteSorcier : String = "vous allez le payer" // vers 14
+let choix1SecondeVisiteSorcier : String = "Je me fais justice" // vers 13
+let choix2SecondeVisiteSorcier : String = "Vous allez me le payer" // vers 14
 
 // compteur = 13
-let finTaureauDeBoeuf5 : String = "tue sorcier; news : meurtre bizarre, cadavre taureau"
+let finTaureauDeBoeuf5 : String = """
+
+-'Espèce de salaud! Tu te prends pour qui ? Me tromper moi! Et ensuite tu me congédie comme un serviteur!', vous avancez calmememt vers le vieil homme. Vous avez décidé que ce menteur va mourir : il est tard, personne n'entendra rien et votre chauffeur James pourra se débarasser du cadavre.
+
+Comme prévu, personne n'entends les cris du vieil homme...
+
+.... EXTRAIT DU BANGOS TIME ....
+
+MORT INEXPLICABLE CHEZ UN INDUSTRIEL LOCAL
+
+La police de Bangos a été appelée tot ce matin dans le quartier du plateau, au domicile de l'industriel Ambalougui MASSISSA.
+Ce dernier est mort piétiné par un taureau.
+
+Pour le moment, la police est incapable d'expliquer comment un animal a pu grimper 2 étages, s'introduire dans la chambre de l'homme d'affaires et l'attaquer à l'arrivée de ce dernier. Plusieurs témoins - parmi lesquels James le chauffeur de l'industriel - jurent avoir vu un taureau sombre émerger de la chambre à coucher du défunt. Le taureau n'a pas encore été retrouvé.
+
+Dans un tout autre registre, le président MA...
+
+.... FIN ....
+
+"""
 
 // compteur = 14
-let finTaureauDeBoeuf6 : String = "informe autres victimes, maison sorcier brulée; news : serie de meurtre chez gens riches"
+let finTaureauDeBoeuf6 : String = """
+
+Vous regardez le sorcier avec antipathie :
+- 'Je pense que tu ne sais pas qui je suis.', vous commencez. 'Je vais partir, mais sache que je vais contacter tous ceux qui sont venu te voir : nous sommes parmi les plus riches dans cette ville; tu peux être certain que nous saurons te faire payer tes mensonges'.
+
+- 'Sors de chez moi', le sorcier insiste l'air indigné. 'C'est vous même vous méme, ce n'est pas mon problème. Vous les jeunes là vous pensez demandez des choses aux esprits sans payer. Vous êtes des idiots, c'est votre problème', le vieil homme continue.
+
+Vous l'ignorez en repartant en direction de votre véhicule. Vous êtes mentalement en train de composer le message que vous enverrez à votre ami MAKANDAL pour demander la liste d'autres hommes riches qui ont également fait appel aux services du sorcier.
+
+.... EXTRAITS DU BANGOS TIME ....
+
+INCENDIE MEURTRIER A GORGORIAN
+
+Un homme est décédé dans l'incendie de sa case hier soir à gorgorian. Il semble que plusieurs personnes au visage masqué soient arrivées à moto et aient délibérement mis le feu à la case. la victime Niori NIORLOP, connu dans le quartier comme un vieux sage est morte sur le coup.
+
+L'affaire a été confiée au commissariat central de Bangos.
+
+.... .....
+HÉCATOMBE MEURTRIERE CHEZ LES RICHES ET LES PUISSANTS A BANGOS
+
+C'est le troisième décès en un mois qui touche certains des plus grandes fortunes de Bangos. Mr Ambalougui MASSISSA est mort hier soir au domicile de sa maitresse Caroline K. où il avait passé la nuit. D'après son amie, au cours de la nuit, elle a fait un tour aux toilettes; à son retour, elle a retrouvé son amant mort. Les blessures présentent sur le corps sont similaires à des sabots de bovins ou d'équidés.
+
+Deux autres hommes d'affaires sont morts dans des conditions similaires...
+
+... FIN ...
+"""
 
 
 
