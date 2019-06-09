@@ -51,6 +51,9 @@ class ChapitresTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         print("segue successfull !")
+        //petite animation pour que la selection d'une histoire soit plus belle
+        tableView.deselectRow(at: indexPath, animated: true)
+        //segue vers histoire
         performSegue(withIdentifier: tableauSegues[indexPath.row], sender: self)
     }
     
