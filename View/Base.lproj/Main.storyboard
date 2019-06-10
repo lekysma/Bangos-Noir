@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" text="Bangos Noir" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4t7-87-Y2n">
-                                <rect key="frame" x="20" y="87" width="374" height="54"/>
+                                <rect key="frame" x="20" y="43" width="374" height="54"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="44"/>
                                 <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -72,7 +72,7 @@
                                 </constraints>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="746" verticalCompressionResistancePriority="744" image="antique-black-and-white-classic-163116" translatesAutoresizingMaskIntoConstraints="NO" id="0nW-ss-Zet">
-                                <rect key="frame" x="20" y="177" width="374" height="381"/>
+                                <rect key="frame" x="20" y="133" width="374" height="425"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -105,7 +105,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="XaW-qL-O1U" userLabel="Mother Stack View">
-                                <rect key="frame" x="8" y="84" width="398" height="482"/>
+                                <rect key="frame" x="8" y="40" width="398" height="526"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="TXQ-sx-GHK" userLabel="Email Stack View">
                                         <rect key="frame" x="0.0" y="0.0" width="398" height="73.333333333333329"/>
@@ -125,7 +125,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="v4c-1N-cbO" userLabel="Password Stack View">
-                                        <rect key="frame" x="0.0" y="221.00000000000003" width="398" height="73.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="243.00000000000003" width="398" height="73.333333333333343"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mot de passe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SkA-Es-Yc9">
                                                 <rect key="frame" x="0.0" y="0.0" width="398" height="23.333333333333332"/>
@@ -142,7 +142,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9TG-Mw-CUE" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="442" width="398" height="40"/>
+                                        <rect key="frame" x="0.0" y="486" width="398" height="40"/>
                                         <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="H2y-8a-mVJ"/>
@@ -827,7 +827,6 @@
         <image name="error.png" width="28" height="28"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="lnm-oW-avM"/>
         <segue reference="bwQ-Js-6hT"/>
         <segue reference="jD7-zK-xmc"/>
     </inferredMetricsTieBreakers>
