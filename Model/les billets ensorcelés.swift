@@ -168,45 +168,280 @@ let choix1ConseilFifion : String = "J'y vais, je n'ai pas le choix" // vers 7
 let choix2ConseilFifion : String = "C'est trop dangereux" // vers 13
 
 // compteur = 7
-let propositionBillets : String = "j'y arrive, propose billets"
-let choix1PropositionBillets : String = "je donne billets" // vers 8
-let choix2PropositionBillets : String = "je laisse les billets sur le sol" // vers 15
+let propositionBillets : String = """
+
+La nuit est bien avancée lorsque vous arrivez à Dibambari. Les rues du quartier sont sales, les maisons souvent en tôle, on a un aspect général d'abandon. Il est clair que les pouvoirs publics investissent peu dans ce quartier. De temps en temps, vous croisez des groupes de personnes : souvent jeunes, les vêtements sales, les yeux vagues du fait de drogues diverses. Vous évitez leur regard.
+
+Vous arrivez à un carrefour. Non loin, un groupe de jeunes fume. Ils vous remarquent est commencent à s'approcher de vous.
+
+Vous pouvez attendre qu'ils vous rejoingnent, ou vous pouvez partir en laissant les billets ensorcelés.
+"""
+let choix1PropositionBillets : String = "J'attends qu'ils approchent" // vers 8
+let choix2PropositionBillets : String = "Je laisse les billets sur le sol" // vers 15
 
 // compteur = 8
-let finBilletsEnsorceles1 : String = "suis tué, par la suite bandit meurt" // vers
+let finBilletsEnsorceles1 : String = """
+suis tué, par la suite bandit meurt
+
+Le coeur battant, vous attendez que les jeunes désoeuvrés s'approchent de vous. Certains sont étonnés; ils sont probablement habitués à ce que les gens fuient lorsqu'ils s'approchent. Ils regardent votre immobilisme d'un air suspicieux.
+
+- 'Tu fais quoi là ? Tu es qui toi? Tu veux quoi?', un des délinquant vous demande agressivement. On le sent tendu comme un ressort, une envie presque compulsive de violence.
+- ' Je veux vous donner de l'argent. Je suis ici pour vous donner de l'argent', vous répondez appeuré. Les délinquants vous regardent avec encore plus de méfiance.
+- 'Pourquoi tu veux nous donner de l'argent ? C'est quoi ton deal, tu veux jouer avec nous c'est ça?', votre premier interlocuteur reprend.
+
+- 'Y a quoi ici?', une nouvelle voix demande d'un air impérieux. Une silhouette bouscule deux voyoux et se fraye un chemin jusqu'à vous. Le nouvel arrivant est immense : deux têtes de plus que vous, des muscles noueux, une longue cicatrice donne un rictus permanent à son visage.
+
+- 'Boss, boss!', un des voyouz l'interpelle. 'On est là, on fume tranquille, et l'autre là il vient. Quant on s'approche, il ne fuit pas, et après il dit qu'il veut nous donner de l'argent', il continue.
+
+- 'Mais c'est exactement ça!', vous intervenez, ' J'ai des billets là', vous dévoilez les billets froissés et les tendez vers lui. 'J'ai juste envie de vous les donner', vous continuez, implorant presque.
+
+Le chef bandit s'approche très près, et envahit votre espace personnel avec la familiarité d'une personne qui ne respecte que la violence. Il vous toise méchament :
+
+- 'Il a raison', il commence en désignant son comparse. ' Personne ne donne l'argent cadeau comme ça! C'est suspicieux!'. Il pose une main sur votre épaule : vous avez l'impression d'être immobilisé par un éteau. Il reprend :
+
+- 'Je vais prendre l'argent, mais je vais aussi prendre autre chose!'
+
+Vous ressentez une douleur soudaine au niveau de l'abdomen....
+
+.... EXTRAIT DU BANGOS TIME ....
+
+ÈNIÈME DRAME À DIBAMBARI
+
+Les habitants de Dibambari ont découvert le corps sans vie d'un jeune homme. Il semble avoir succombé à un coup de couteau durant la nuit dernière. Les habitants ont pointé du doigt la récurrence de ce type de crime en interpellant la police et la municipalité.
+
+Par ailleurs, le corps sans vie du délinquant Papi WATA connu sous le nom de Coupe Coupe (il utilisait une machette dans ses agressions), a été retrouvé à deux pas du premier crime. Il semble qu'il ait succombé à plusieurs coups de couteux. Pour le moment, la piste explorée est celle de la dispute qui a mal tournée.
+
+.... FIN ....
+""" // vers
 
 
 let rejouerHistoire3 : String = "Revenir à l'accueil"
 
 // compteur = 9
-let finBilletsEnsorceles2 : String = "rentre chez moi, toujours pauvre, finis mendiant"
+let finBilletsEnsorceles2 : String = """
+
+La proposition vous parait trop belle pour être vraie! Par ailleurs, il est connu que si Fifion aide bien ceux qui vont le visiter, les conséquences d'une telle aide sont en général bien plus que ce que l'on imagine.
+
+- 'Merci mais non merci!', vous lui répondez. 'Paye-moi juste ma course et chacun continue sa route. Je ne suis pas intéressé'.
+- 'Tu es sûr?' le rabatteur vous demande. 'Mon oncle peut t'aider...', il continue mais vous l'interrompez sèchement :
+- 'Je ne doute pas de l'aide de Fifion, mais le prix qu'il demande en général est trop élevé. Je n'ai pas envie de le payer!'
+
+Le neveu du sorcier vous regarde d'un air déçu :
+- 'Tu me déçois. Je croyais que tu voulais sortir de la misère. Tant pis pour toi.' Il vous paye votre course et s'en va sans se retourner.
+
+.... 3 MOIS PLUS TARD ....
+
+Vous êtes en train de mendier à la gare routière lorsque vous rencontrez de nouveau Moutoukouété RIBANA. Le temps n'a pas été clément avec vous : votre moto est tombée en panne, puis vous êtes tombé malade. Vous avez dû utiliser l'argent prévu pour les réparations afin de vous soigner. Vous avez tenté d'emprunter de l'argent auprès de vos connaissances, mais ces derniers se font rares. Cela fait 3 semaines à présent que vous mendiez dans la rue.
+
+Vous êtes tenté de vous dirigez vers lui, peut être pour lui dire que vous êtes prêt à considérer la proposition qu'il vous avait fait il y a quelaues mois. Ce dernier fuit votre regard. Il se dirige d'un pas pressé vers la file de taxi moto en attente du prochain client. Très vite il s'en va.
+
+Découragé, vous vous rasseyez et vous recommencez à mendier.
+
+.... FIN ....
+
+"""
 
 // compteur = 10
-let refusSacrificeChien : String = "refuse sacrifice, demande amende et punition : reste economies et punition physique"
-let choix1RefusSacrificeChien : String = "je laisse faire" // vers 4
-let choix2RefusSacrificeChien : String = "j'accepte la punition" // vers 16
+let refusSacrificeChien : String = """
+
+Vous avez l'impression d'être en plein cauchemard. Vous interrompez le sorcier :
+
+- 'Sorcier c'est horrible!', vous commencez. 'Je ne peux pas te laisser faire cela!'. La cordialité presque paternelle qu'arborait le sorcier disparait soudain! Vous réalisez que vous venez d'interrompre l'une des personnes les plus dangereuses de Bangos. Le sorcier ne hausse pas la voix, l'autorité absolue, la malveillance qui se dégage de son expression vous glace le sang.
+
+- 'Toi tu viens chez moi, tu entres dans ma case, tu demandes mon aide et après tu me dit ce que je dois faire ?', vous dit-il. Il continue :
+
+- 'Moi je suis grand sorcier! Tu me manques de respect. Tu veux mourir ?'
+
+Il n'y a aucun doute dans votre esprit que ce vieil homme décharné est parfaitement capable de vous tuer : les pouvoirs magiques du Ribane sont bien connus. Vous vous emprésser de vous excuser.
+
+- 'Pardon sorcier, pardon sorcier', vous répetez. ' Je voulais juste...'. Il vous interromp l'air mauvais :
+- 'Pardon ? Tu me parles pas comme ça. Il faut que tu apprennes ta leçon. Soit tu me donnes le reste de tes économies et on continue le sacrifice, soit tu pars. Mais si tu pars, avant il faut que tu acceptes une punition physique. Maintenant choisis!'
+
+Le neveu du sorcier vient se placer devant la porte, vous empêchant de partir.
+
+Que décidez-vous ?
+
+"""
+let choix1RefusSacrificeChien : String = "Je donne mes économies" // vers 4
+let choix2RefusSacrificeChien : String = "J'accepte la punition" // vers 16
 
 // compteur = 11
-let mauvaisReveil : String = "rentre chez moi, me reveille avec billets dans les mains"
-let choix1MauvaisReveil : String = "j'ai besoin d'aide" // vers 6
-let choix2MauvaisReveil : String = "probablement un reve" // vers 17
+let mauvaisReveil : String = """
+Vous décidez de ne pas attendre le résultat et de rentrez chez vous. Après tout, ce carrefour est éclairé, et très fréquenté. Il n'y a pas de doute dans votre esprit que quelqu'un va ramasser les billets.
+
+Vous sifflotez un air populaire sur votre moto en rentrant à votre domicile à la sortie nord de Bangos. Ironiquement, vous remerciez le ciel de votre bonne fortune : tous vos problèmes sont sur le point de disparaitre.
+
+.... QUELQUES HEURES PLUS TARD ....
+
+Vous vous reveillez en sursaut, la respiration sifflante. La lumière lunaire laisse à peine filtrer quelques rayons qui éclairent faiblement le studio que vous louez. Un bout de papier froissé reposant au pied du lit attire votre attention.
+
+- 'Ce n'était pas ici quand je suis rentré', vous murmurez. Vous vous penchez pour le récuperez, et êtes pris de sueurs froides : il s'agit de la liasse de billets que le sorcier avait ensorcelé... et que vous aviez laissé au carrefour.
+
+Vous vous demandez quelle décision prendre.
+
+"""
+let choix1MauvaisReveil : String = "Je vais voir le sorcier" // vers 6
+let choix2MauvaisReveil : String = "Le sacrifice a dû marcher. Je suis riche." // vers 17
 
 // compteur = 12
-let finBilletsEnsorceles3 : String = "infirmier garde billets, accident ambulance, morts, finit riche"
+let finBilletsEnsorceles3 : String = """
+
+Vous vous souvenez de ce que le sorcier a dit : de ne pas reprendre les billets une fois que le sacrifice a été fait. Par un tel altruisme vous parait suspect.
+
+- 'Non merci', vous répondez. 'Je n'en ai pas besoin'. Vous attendez quelques minutes afin d'éviter tous soupçons, avant de rentrer chez vous.
+
+Vous rejoingez votre domicile miteux à la sortie nord de Bangos d'un air guilleret.
+
+- 'Maintenant tout va changer! Merci sorcier Fifion.!
+
+.... EXTRAIT DU BANGOS TIME ....
+
+ACCIDENT D'AMULANCE MORTEL
+
+Tragédie dans la communauté de la santé à Bangos. Une ambulance transportant un patient vers l'hôpital central Mangani MANGOUA s'est ecrasé au carrefour Saint Gregorien la nuit dernière. Personne n'a survécu.
+
+.... EXTRAIT DU BANGOS TIME ....
+
+SUCCÈS STORY BANGOSSIENNE
+
+Bangos Time était présent au mariage du nouvel enfant chéri de Bangos. Sonabébé SONAWÉ a célébré ses secondes fiançailles avec la zomovilloise Mamita GUAJIRA.
+Sonabébé SONAWÉ possède une entreprise d'import export ainsi que plusieurs proprietés à Bangos et Zommoville. C'est ainsi qu'il a rencontré sa deuxième épouse : elle était l'agent immoblier en charge de la vente d'un immeuble qui l'intéressait.
+
+Nous présentons nos voeux de succès au couple.
+
+.... FIN ....
+
+"""
 
 // compteur = 13
-let trouverAutreCible : String = "fifion : il faut trouver une autre victime"
-let choix1TrouverAutreCible : String = "appelle neveu fifion" // vers 14
-let choix2TrouverAutreCible : String = "l'esprit a deja tué" // vers 18
+let trouverAutreCible : String = """
+
+La solution vous apparait soudain : il faut juste trouver une personne à qui vous allez donner les billets. Tant que vous ne finissez pas la nuit avec ces billets, tout ira bien.
+
+D'un autre coté, il ya déjà eu un mort. Normalement les esprits ont été nourrits. Il se peut que le sorcier soit juste alarmiste.
+
+Vous êtes encore en train de cogiter lorsque vous voyez le neveu de Fifion s'approcher de la case de son oncle. Vous pouvez trouver un prétexte pour lui donner les billets, ou vous pouvez choisir de rentrer chez vous.
+
+
+"""
+let choix1TrouverAutreCible : String = "Je m'approche du neveu" // vers 14
+let choix2TrouverAutreCible : String = "Pas nécessaire, les esprits ont déjà mangé" // vers 18
 
 // compteur = 14
-let finBilletsEnsorceles4 : String = "donne a neveu fifion, je suis, neveu meurt, je ne dors pas depuis 6 mois, deviens fou"
+let finBilletsEnsorceles4 : String = """
+
+Vous enroulez les billets en boule et vous dirigez vers le neveu du sorcier.
+
+- 'Hé Moutoukouété! Moutoukouété!, vous l'appelez. Il se dirige vers vous d'un air surpris :
+- 'Tu fais quoi encore ici?', vous demande t-il. Vous lui tendez le tas de billets ensorcelés tout en lui répondant.
+
+- 'Je suis venu remercier le sorcier puisque le sacrifice a marché. Comme c'est toi qui m'a mit en contact, je me suis dit que je peux te remercier aussi. Tiens, le reste de mes économies. Merci pour l'aide mon gars!'
+
+Il a l'air agréablement surpris :
+- 'C'est la première fois que quelqu'un me remercie... Mais hé! Ce sont les billets que oncle Fifion a ensorcelé! Hé reviens ici, reviens!
+
+Vous marchez très vite en vous dirigeant vers votre moto. Le neveu de Fifion arrive trop tard pour vous empêcher de partir à toute vitesse sur votre moto.
+
+Dans les jours qui suivent, vous vous faites rare : vous évitez de sortir de votre domicile et évitez particulièrement la gare routière. Un mois plus tard, vous tombez sur une connaissance commune qui vous dit que Fifion a perdu un membre de sa famille dans un accident. Il semblerait qu'il s'agisse de sorcellerie qui a mal tourné. On dit que le sorcier jure de se venger.
+
+.... 3 MOIS PLUS TARD....
+
+Vous pensiez que le sorcier n'aurait pas pu vous trouver mais il semble que si : vous n'avez pas fermé l'oeuil depuis 2 mois. Chaque fois que vous fermez les yeux, vous êtes assailli par des visions horribles.
+
+Cela affecte toute votre vie : vous avez perdu l'appétit, chaque fois que vous sortez vous avez l'impression que quelqu'un ou quelque chose vous poursuit, donc vous vous terrez chez vous.  Vous évitez les rivières ayant failli être dévoré par un crocodile la dernière fois que vous étiez dans la rivière Oyanne - connue pour ne pas avoir de crocodiles.
+
+Vous savez que personne ne va risquer de contrarier Fifion en vous aidant. Vous vous demandez quoi faire.
+
+
+.... EXTRAIT DU BANGOS TIME ....
+
+TENTATIVE DE SUICIDE A BRINBORIAN
+
+Des habitants de Brinborian ont interrompus une tentative de suicide à proximité du carrefour Général Mangani MANGOUA. Un jeune homme a tenté de se jeter devant un bus. L'accident a été évité grâce au courage des habitants et aux réflexes du chauffeur de bus.
+
+Le jeune homme dont on ne connait pas encore l'identité a été transporté vers l'hôpital psychiatrique de Saint LOCA. D'après certains témoins, il murmurait 'Pardon sorcier' lorsqu'il a été secouru.
+
+.... FIN ....
+
+"""
 
 // compteur = 15
-let finBilletsEnsorceles5 : String = "bandit meurt, je vis riche, mais malheureux"
+let finBilletsEnsorceles5 : String = """
+
+Vous décidez de ne pas approchez les jeunes. Vous vous dirigez vers l'une des rares rues encore éclairées. La lumière que projette le seul lampadaire encore en activité est suffisante  pour ce que vous envisagez.
+
+En vous assurant que personne ne vous observe, vous posez les billets dans la lumière et allez vous réfugier dans une rue voisine. Vous voulez vous assurer que tout se passe bien comme prévu.
+
+Les minutes qui suivent sont agoissantes : deux fois, vous devez vous éloigner lorsque des groupes de voyoux trop curieux s'approchent de votre cachette.
+
+Vous avez presque décidé de changer l'emplacement des billets lorsque les choses vous sourient enfin. Une bande de 3 jeunes s'avancent dans la rue éclairée. Même à cette distance, il n'y a pas de doute qu'ils sont drogués.
+
+- 'Allez ramasse les billets, ramasse les billets!', vous encouragez les voyous à voix basse.
+
+L'un d'eux remarque les billets; la dispute qui suit dégénère rapidement. Le moins blessé des 3 combattants s'extirpe de la mélée les billets en main et s'enfuit en courant. Il se retourne une seconde pour célebrer sa victoire ... et une voiture roulant à vive allure surgit de nulle part alors le renverse.
+
+Votre mission est un succès. Vous vous dépêchez de rentrez chez vous.
+
+.... LE LENDEMAIN MATIN ...
+
+Votre sommeil n'a pas été paisible, la tension des évènements de la nuit dernière vous a empêché de dormir. Vous vous souvenez également de la promesse du sorcier : qu'une fortune vous attendrait à votre réveil une fois le sacrifice réussi.
+
+Vous sautez donc de votre lit et dirigez votre regard autour de la case afin de voir si quelque chose est apparu au cours de la nuit. Un sac en toile attire votre attention : il est posé au pied de votre lit et vous êtes certain qu'il n'était pas là la veille. Le coeur battant, vous videz son contenu sur le lit. Des liasses de billets flambants neufs, une véritable fortune s'offre à votre regard.
+
+Vous exultez :
+- 'Je suis riche! Je suis vraiment riche! Merci sorcier Fifion, tu es le meilleur!'.
+
+Fiévreusement vous vous mettez à compter votre argent.
+
+.... 3 MOIS PLUS TARD ....
+Vous êtes assis seul sur le canapé de la villa que vous avez acheté avec vos gains. Vos anciens amis ne reconnaitraient pas la personne que vous êtes devenu : les vêtements miteux ont été remplacés par des costumes de marque. Vous avez pris du poids, peut-être un peu trop. Vos doigts sont parés de bagues, et vous portez une énorme montre en or au poignet.
+
+Pourtant à y regarder de plus prêt, tout de parait pas rose. Vos yeux sont bouffis par l'alcool et la fatigue, votre bouche est déformée par un rictus amer qui semble permanent. Vous avez l'air d'avoir pris 10 ans en quelques mois.
+
+Il est vrai que les derniers mois n'ont pas toujours été roses. Votre fortune nouvelle a éloigné vos amis de toujours, d'autant plus que vous n'avez jamais pu expliquer l'origine de votre fortune de manière convaincante. Vous n'avez pas été capable de vous créer des relations au sein de la haute société bangossienne : leur clanisme vous a fermé toutes les portes.
+
+Surtout, depuis ce jour où votre vie a changé, vous êtes incapable de dormir. Ni l'alcool, ni les drogues, ni même les femmes ne sont capables de vous combler pleinement. Vous avez constamment un gout de cendres dans la bouche. Et sans cesse, vous ne cesser de penser au sacrifice, à cette vie que vous avez pris. Plusieurs fois par jour, vous avez l'impression de croiser votre victime dans la rue, au restaurant, devant l'écran de télévision. Chaque soir, son visage hante vos rêves.
+
+Votre regard se dirige vers l'objet posé sur la table basse. Vous prenez le pistolet et le contemplez d'un air songeur.
+
+.... FIN ....
+"""
 
 // compteur = 16
-let finBilletsEnsorceles6 : String = "testicules broyés, pauvre, rentre chez moi, finis mendiant"
+let finBilletsEnsorceles6 : String = """
+
+- 'Je choisis la punition sorcier', vous répondez la voix tremblante.
+
+Fifion vous regarde d'un vicieux :
+- 'Punition ça fait mal : je vais prendre un marteau, tu vas baisser ton pantalon et tu vas t'asseoir sur le sol là. Je vais prendre le marteau et je vais donner deux coups de marteau sur tes testicules. Est ce que tu es d'accord ?'
+
+- 'Sorcier', vous commencez...
+- 'Est ce que tu es d'accord ?', le sorcier vous demande de nouveau, l'air implacable.
+- 'Je comprends sorcier, je suis d'accord', vous finissez.
+
+Fifion se tourne vers son neveu :
+- 'Moutoukouété, va chercher le vieu marteau; tu sais celui qu'on utilise pour assomer les moutons que je sacrifie.'
+
+Quelques minutes plus tard, ce dernier revient avec un vieux marteau rouillé qu'il tend à son oncle.
+
+- 'Viens ici chenapan!', le sorcier ordonne, impérieux. Vous hésitez, vous savez que vous aller souffrir le martyr.
+
+Une éternité plus tard, vous vous relevez du sol en tremblant. Vous n'osez pas regarder en dessous de votre nombril : vous savez que vous avez dû vous évanouir pendant ou juste après le second coup de marteau. Vous vous rhabillez en silence. Fifion ne vous regarde même pas :
+
+- 'Maintenant pars, tu n'est pas sérieux. Va t'en, ne reviens pas ici.'
+
+Vous quittez la case du sorcier aussi vite que vos jambes le permettent.
+
+.... 3 MOIS PLUS TARD ....
+
+Vous êtes en train de mendier à la gare routière lorsque vous rencontrez de nouveau Moutoukouété RIBANA. Le temps n'a pas été clément avec vous : votre moto est tombée en panne, puis vous êtes tombé malade. Vous avez dû utiliser l'argent prévu pour les réparations afin de vous soigner. Vous avez tenté d'emprunter de l'argent auprès de vos connaissances, mais ces derniers se font rares. Cela fait 3 semaines à présent que vous mendiez dans la rue.
+
+Vous êtes tenté de vous dirigez vers lui, peut être pour lui dire que vous êtes prêt à considérer la proposition qu'il vous avait fait il y a quelaues mois. Ce dernier fuit votre regard. Il se dirige d'un pas pressé vers la file de taxi moto en attente du prochain client. Très vite il s'en va.
+
+Découragé, vous vous rasseyez et vous recommencez à mendier.
+
+.... FIN ....
+"""
 
 // compteur = 17
 let finBilletsEnsorceles7 : String = "mort inexplicable, victime expression epouvante"

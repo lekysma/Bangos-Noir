@@ -76,6 +76,7 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.57414853570000002" green="0.57416242360000003" blue="0.57415497299999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="4t7-87-Y2n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="5aZ-ZD-n8o"/>
                             <constraint firstItem="PJu-Fg-qKC" firstAttribute="top" secondItem="0nW-ss-Zet" secondAttribute="bottom" constant="58" id="634-l9-hHZ"/>
@@ -366,7 +367,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Kgt-h8-s3N" userLabel="mother Stack View">
-                                <rect key="frame" x="20" y="84" width="374" height="632"/>
+                                <rect key="frame" x="20" y="40" width="374" height="676"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="YMW-pH-fxH">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="420"/>
@@ -379,7 +380,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Z9J-sf-RIZ" userLabel="button Stack View">
-                                        <rect key="frame" x="0.0" y="546" width="374" height="86"/>
+                                        <rect key="frame" x="0.0" y="590" width="374" height="86"/>
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUY-lv-SCe" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="33"/>
@@ -452,7 +453,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="tgc-Q4-mqJ" userLabel="mother Stack View">
-                                <rect key="frame" x="20" y="84" width="374" height="632"/>
+                                <rect key="frame" x="20" y="40" width="374" height="676"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="BZi-kF-CoZ">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="420"/>
@@ -464,7 +465,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ghH-qQ-dk3" userLabel="choice Button Stack View">
-                                        <rect key="frame" x="0.0" y="546" width="374" height="86"/>
+                                        <rect key="frame" x="0.0" y="590" width="374" height="86"/>
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1bw-kg-w2n" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="33"/>
@@ -537,7 +538,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="8tD-zh-E4B" userLabel="mother Stack View">
-                                <rect key="frame" x="20" y="84" width="374" height="632"/>
+                                <rect key="frame" x="20" y="40" width="374" height="676"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="gxJ-TH-VzA">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="420"/>
@@ -550,7 +551,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="J9S-8R-qaT" userLabel="button Stack View">
-                                        <rect key="frame" x="0.0" y="546" width="374" height="86"/>
+                                        <rect key="frame" x="0.0" y="590" width="374" height="86"/>
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejt-KM-L2H" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="33"/>
@@ -623,7 +624,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="EeG-Xg-yee" userLabel="mother Stack View">
-                                <rect key="frame" x="20" y="84" width="374" height="632"/>
+                                <rect key="frame" x="20" y="40" width="374" height="676"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="1eB-vF-eEZ">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="420"/>
@@ -636,7 +637,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Aeq-jP-XLI" userLabel="buttonStack View">
-                                        <rect key="frame" x="0.0" y="546" width="374" height="86"/>
+                                        <rect key="frame" x="0.0" y="590" width="374" height="86"/>
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvK-FF-IUJ" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="33"/>
@@ -709,7 +710,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="K6W-cP-n3b" userLabel="mother Stack View">
-                                <rect key="frame" x="20" y="84" width="374" height="632"/>
+                                <rect key="frame" x="20" y="40" width="374" height="676"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="P2d-5l-EHx">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="420"/>
@@ -721,7 +722,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Xz8-qG-Bq7" userLabel="button Stack View">
-                                        <rect key="frame" x="0.0" y="546" width="374" height="86"/>
+                                        <rect key="frame" x="0.0" y="590" width="374" height="86"/>
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zki-or-dpo" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="33"/>
