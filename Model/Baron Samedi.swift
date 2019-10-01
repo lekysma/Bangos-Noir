@@ -13,12 +13,16 @@ let rejouerBaronSamedi = "Rejouer"
 
 // 1
 let vaChercherGare : String = """
-Il fait chaud en ce dimanche après-midi à la gare de Fort Canal, une cité balnéaire située à 50 km au Nord De Bangos. Vous avez conduit votre patron et employeur Timothée Eustache MAKANDAL. Ce dernier vous a chargé d'aller attendre un invité, qui doit arriver dans le prochain train en provenance de Bangos. C'est la raison pour laquelle vous vous tenez sur le quai.
+Il fait chaud en ce dimanche après-midi à la gare de Fort Canal, une cité balnéaire située à 50 km au Nord De Bangos.
+
+Vous avez conduit votre patron et employeur Timothée Eustache MAKANDAL. Ce dernier vous a chargé d'aller attendre un invité, qui doit arriver dans le prochain train en provenance de Bangos.
+
+C'est la raison pour laquelle vous vous tenez sur le quai.
 
 20 minutes plus tard, la vieille locomotive à vapeur qui effectue péniblement la liaison avec Bangos arrive enfin. Les voyageurs se hâtent de descendre, comme pressés de vaquer à leurs occupations respectives. La personne que vous attendez s'appelle Fifion RIBANAT. Votre patron vous a donné une photo. Deux personnes, parmi les dernières à descendre semblent correspondre.
 """
 let choix1VaChercherGare : String = "Je consulte de nouveau la photo" // vers 3
-let choix2VaChercherGare : String = "Je n'ai pas besoin de rafraîchir ma mémoire" // vers 2
+let choix2VaChercherGare : String = "Pas besoin de rafraîchir ma mémoire" // vers 2
 // 2
 let mauvaixChoix : String = """
 Vous vous dirigez vers un homme d'une soixantaine d'années. Ce dernier porte un vieux costume, ainsi qu'un casque colonial jaunit par le temps et le soleil. On dirait un instituteur à la retraite.
@@ -79,7 +83,7 @@ Tout seul avec votre patron, vous osez exprimer vos craintes.
 Vous vous demandez quoi faire.
 """
 let choix1NecessiteFaireSacrifice : String = "Je suis avec vous patron" // vers 4
-let choix2NecessiteFaireSacrifice : String = "Vous avez tort, je refuse de vous suivre" // vers 17
+let choix2NecessiteFaireSacrifice : String = "Je refuse de vous suivre" // vers 17
 //4
 let chercherPrisonnier : String = """
 La nuit est déja avancée lorsque vous vous dirigez vers les cachots situés au sous-sol de la résidence de MAKANDAL. Vous en ressortez en tirant un homme malgré les efforts - impuissants, il semble ne pas avoir mangé depuis plusieurs jours - de ce dernier.
@@ -91,6 +95,7 @@ let choix2ChercherPrisonnier : String = "Je le saoule" // vers 5
 //5
 let optionBoisson : String = """
 Vous forcez une bouteille entre ses lèvres.
+
 -'Allez bois !', vous ordonnez. Malgré ses protestations, vous le forcez à avaler plusieurs gorgées de rhum. Son estomac vide - et sans doute une longe familiarité avec l'alcool - signifie qu'il termine très vite la bouteille.
 
 Incohérent, il titube dans votre direction, et finit par vomir sur vos chaussures. Une puanteur atroce se répand. Les lèvres pincées, vous le forcez à entrer dans le coffre de la limousine. Votre patron et le sorcier - son baluchon sur les genoux - sont déjà sur la banquette arrière.
@@ -101,6 +106,7 @@ Incohérent, il titube dans votre direction, et finit par vomir sur vos chaussur
 Une vingtaine de minutes plus tard, vous vous arrêtez devant le portail du cimetière municipal de Fort Canal de St Ixion. Des nuages sombres obscurcissent un ciel, donnant l'impression que la lune elle-même ne souhaite pas être témoin de ce qui est sur le point de prendre place. Un hibou solitaire perce le silence nocturne d'un hululement sinistre.
 
 Vous êtes pris malgré vous par cette atmosphère angoissante. Votre patron ne semble pas touché et vous ordonne sèchement d'aller chercher le sacrifice. A votre retour, Fifion s'adresse soudain à votre patron :
+
 - 'Nous sommes sur le point de commencer le sacrifice. Avant d'entrer dans le cimetière, je recommande qu'on laisse une offrande à Baron Samedi.'
 
 MAKANDAL le regarde impatiemment :
@@ -108,33 +114,42 @@ MAKANDAL le regarde impatiemment :
 - 'Cest un esprit, c'est le gardien des cimetières. Pour l'apaiser, laissez une bouteille de rhum et quelques cigares. Laissez-les à l'entrée du cimetière et après on peut continuer.'
 
 Votre patron prend très mal ce nouveau contretemps :
+
 - 'Fifion, je suis déjà venu dans ce cimetière, même en soirée. Je n'ai jamais laissé quoi que ce soit. Et mes collègues qui font des rites ici n'ont jamais mentionné des cadeaux à un Baron machin quelque chose !'
 
 Vous intervenez respectueusement.
 
 """
-let choix1OptionBoisson : String = "Nous n'avons ni le temps, ni les offrandes" // vers 6
-let choix2OptionBoisson : String = "Peut-être qu'on devrait écouter l'expert" // vers 7
+let choix1OptionBoisson : String = "Nous n'avons pas le temps" // vers 6
+let choix2OptionBoisson : String = "Nous devrions écouter l'expert" // vers 7
 //6
 let baronApparait : String = """
 - 'Nous n'avons le temps !', tranche MAKANDAL. 'Dépêchons-nous, il est déjà tard et je veux en finir.', il termine.
 
 Le sorcier le regarde le visage fermé :
+
 - 'Ce que vous faites, c'est vous-même, vous même ! Moi j'ai dit ce que je devais dire !'
 - 'Allons sorcier, ne t'inquiète pas tout vas bien se passer.', MAKANDAL insiste d'un air encourageant.
 
 C'est avec beaucoup de réticence que le sorcier vous dirige vers l'une des tombes les plus vieilles du cimetière. Vous déposez votre fardeau sur la pierre tombale. Celui-ci proteste faiblement :
+
 - 'On est où, vous allez faire quoi avec moin ?'
 - 'On va t'arracher le coeur !', intervient MAKANDAL, l'air féroce. 'On va te sacrifier sur cette tombe. Maintenant laisse-toi faire.
 
 Le prisonnier se met à sangloter :
+
 - 'Pas arracher coeur à moin, fais pas ça ! Pas coeur à moin !'
 
-Vous arrivez sans problèmes à l'empêcher de bouger. Dans son état, il n'offre qu'une faible résistance. Bientôt, MAKANDAL se tient devant lui et plonge le poignard de toute ses forces dans la poitrine du prisonnier. La mort est presque immédiate. MAKANDAL se sert du couteau de sacrifice pour ouvrir bien grand le sternum de la victime, et bientôt, il tient entre ses mains une petite boule encore palpitante.
+Vous arrivez sans problèmes à l'empêcher de bouger. Dans son état, il n'offre qu'une faible résistance.
 
-Soudain, un grand bruit se fait entendre, vous sentez la pierre tombale sur laquelle vous êtes, glisser, s'ouvrir. Vous perdez l'équilibre et tombez au sol, suivi de votre patron. Il semble que tous les animaux des environs se sont réveillés : un concert d'aboiements, de hululements, de cris divers se fait entendre.
+Bientôt, MAKANDAL se tient devant lui et plonge le poignard de toute ses forces dans la poitrine du prisonnier. La mort est presque immédiate.
+MAKANDAL se sert du couteau de sacrifice pour ouvrir bien grand le sternum de la victime, et bientôt, il tient entre ses mains une petite boule encore palpitante.
 
-Une silhouette émerge de la tombe : in s'agit d'un homme grand, au teint d'un noir de jais. Il est vêtu d'un chapeau haut de forme et d'une redingote noire. Un air absolu d'autorité se dégage de lui. Il n'y a pas de doute dans votre esprit qu'il s'agit bien de Baron Samedi, celui dont Fifion vous parlé.
+Soudain, un grand bruit se fait entendre, vous sentez la pierre tombale sur laquelle vous êtes, glisser, s'ouvrir.
+Vous perdez l'équilibre et tombez au sol, suivi de votre patron. Il semble que tous les animaux des environs se sont réveillés : un concert d'aboiements, de hululements, de cris divers se fait entendre.
+
+Une silhouette émerge de la tombe : in s'agit d'un homme grand, au teint d'un noir de jais. Il est vêtu d'un chapeau haut de forme et d'une redingote noire.
+Un air absolu d'autorité se dégage de lui. Il n'y a pas de doute dans votre esprit qu'il s'agit bien de Baron Samedi, celui dont Fifion vous parlé.
 
 - 'Que faites-vous ici ? Pourquoi venez-vous profaner les morts ? Où sont mes cigares, où est mon rhum ?', le Baron vous demande.
 - 'Sorcier, on fait quoi ?', MAKANDAL demande. Vous aussi cherchez le sorcier du regard. Il semble s'être eclipsé sans vous prévenir.
@@ -145,13 +160,19 @@ let choix1BaronApparait : String = "On résiste" // vers 9
 let choix2BaronApparait : String = "Fuyons" // vers 7
 //7
 let FuiteCimetiere : String = """
-Sans vous consulter, votre patron et vous vous dirigez à toute vitesse vers la sortie du cimetière. Vous vous frayez un chemin en trébuchant aux milieu des tombes. Plusieurs fois, vous êtes tenté de regarder en arrière, mais vous savez que quelque chose de néfaste vous arriverait.
+Sans vous consulter, votre patron et vous vous dirigez à toute vitesse vers la sortie du cimetière.
+Vous vous frayez un chemin en trébuchant aux milieu des tombes.
+Plusieurs fois, vous êtes tenté de regarder en arrière, mais vous savez que quelque chose de néfaste vous arriverait.
 
-- 'Attends-moi !', MAKANDAL vous demande. Peu à peu, vous avez pris de la distance par rapport à lui. Sourd à ses appels, vous continuez à courir. Après une éternité, l'entrée du cimetière apparait enfin. Vous vous dépechez de déverouiller les portières de la limousine. Vous devez vous y prendre plusieurs fois, car vos mains tremblent.
+- 'Attends-moi !', MAKANDAL vous demande. Peu à peu, vous avez pris de la distance par rapport à lui.
+Sourd à ses appels, vous continuez à courir. Après une éternité, l'entrée du cimetière apparait enfin.
+Vous vous dépechez de déverouiller les portières de la limousine. Vous devez vous y prendre plusieurs fois, car vos mains tremblent.
 
-Vous jetez un coup d'oeil rapide vers le cimetière. Votre patron court, une expression de peur abjecte sur le visage. Derrière lui, se profile la silhouette du Baron. A bout de souffle, MAKANDAL parvient enfin à entrer dans la voiture (vous aviez laissé la porte du siège passager ouverte.
+Vous jetez un coup d'oeil rapide vers le cimetière. Votre patron court, une expression de peur abjecte sur le visage.
+Derrière lui, se profile la silhouette du Baron. A bout de souffle, MAKANDAL parvient enfin à entrer dans la voiture (vous aviez laissé la porte du siège passager ouverte.
 
-- 'Démarre ! Démarre, voyons !', il vous ordonne. Sans dire un mot, vous obtempérez. Vous roulez à toute allure vers la résidence de votre patron. Celui-ci ne dit pas un mot, mais vous lance de temps en temps un regard noir. Vous vous doutez qu'il n'a pas apprecié que vous ne l'ayez pas attendu.
+- 'Démarre ! Démarre, voyons !', il vous ordonne. Sans dire un mot, vous obtempérez. Vous roulez à toute allure vers la résidence de votre patron.
+Celui-ci ne dit pas un mot, mais vous lance de temps en temps un regard noir. Vous vous doutez qu'il n'a pas apprecié que vous ne l'ayez pas attendu.
 
 En très peu de temps, vous arrivez enfin au domicile de MAKANDAL. Dès que la voiture s'arrête, il sort et se précipite vers la villa. Il vous lance :
 - 'Monte la garde, et assure toi que personne n'entre. Prends le fusil qui se trouve dans le salon.'; il continue sans vous regarder.

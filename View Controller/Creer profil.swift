@@ -32,17 +32,6 @@ class Creer_profil: UIViewController, UITextFieldDelegate {
         champMotDePasse.delegate = self
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-    
     //MARK: On cree 2 fonctions pour gerer la presence du clavier au moment de la saisie du mot de passe
     
     // au debut de la saisie
@@ -92,7 +81,7 @@ class Creer_profil: UIViewController, UITextFieldDelegate {
             
             // si il y a erreur dans la creation du profil
             if error != nil {
-                print(error!)
+                print("Erreur!, \(String(describing: error))")
                 // on fait disparaitre le SVProgressHUD avant d'afficher l'alerte erreur
                 SVProgressHUD.dismiss()
                 self.ErreurAlerteCreationProfil()
