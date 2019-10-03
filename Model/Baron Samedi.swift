@@ -203,10 +203,52 @@ Aux premières heures du matin, les corps de Timothée Eustache MAKANDAL et de s
 """
 // on rejoue, pas de choix 2
 // 9
-let finBaronSamedi2 : String = "j'affronte baron samedi, meurs, news : crime bizarre cimetiere"
+let finBaronSamedi2 : String = """
+
+Vous vous placez courageusement devant votre patron.
+- 'N'ayez pas peur patron !', vous dites, en brandissant le couteau utilisé pour le sacrifice, 'Je vais vous protéger. Vous aussi sorcier.' Vous cherchez le troisième membre de votre groupe, mais il semble que ce dernier se soit eclipsé.
+
+La nouvelle apparition avance lentement vers vous. Avec effroi, vous réalisez qu'il semble à peine toucher le sol. Les touffes d'herbes se désèchent et meurent à son passage. Vous êtes clairement en face d'une créature surnaturelle.
+
+Vous ne pouvez vous empêcher de penser, tout en vous préparant à l'affronter, si vos efforts seront suffisants.
+
+.... EXTRAIT DU BANGOS TIME ....
+IGNOBLE CRIME A ST IXION
+
+La police de Fort Canal était présente au cimetière St Ixion aux premières heures de la matinée suite à la découverte de trois corps ensanglantés.
+
+Un couteau a été retrouvé sur les lieux du crime. D'après les premiers éléments de l'enquête, il s'agirait d'un crime rituel.
+
+La police a lancé un avis de recherche.
+
+.... FIN ....
+"""
 // on rejoue, pas de choix 2
 // 10
-let finBaronSamedi3 : String = "je suis arreté par la police avec corps prisonnier, news: Makandal mort, + tard visite baron"
+let finBaronSamedi3 : String = """
+
+Vous vous dirigez vers une petite plage isolée située au sud de la ville. De nombreux clandestins venant de la petite république bananière de St Domingo y atterissent. Il sera facile de faire passer ce corps pour une victime des passeurs.
+
+Soudain, une sirène retentit. Une voiture de police apparait dans votre rétroviseur et vous fait signe de vous arrêter. Vous vous demandez si vous ne devriez pas tenter de les semer. C'est à ce moment qu'une seconde voiture de police vient rejoindre la première.
+
+Les appels de phare de la première voiture se font plus insistants. Au final vous décidez de vous garer.
+
+- 'Bonsoir Monsieur, sortez du véhicule avec les papiers de ce dernier', un policier s'est approché, la main sur son arme de service. Il semble qu'il soit suspicieux après que vous ayez hésité à obéir.
+
+- 'Tony viens voir! Il y a du sang qui coule du coffre !', soudain la voix du second policier, qui s'était approché à votre insu de l'arrière de votre voiture, retentit.
+- 'Jetez les clés de votre véhicule au sol et les mains en l'air !, le premier policier aboie. 'Un seul geste brusque et vous prenez une balle !'.
+
+.... EXTRAIT DU BANGOS TIME ....
+ACCIDENT OU PUNITION DIVINE ? CRIME BIZARRE A FORT CANAL
+
+Le corps du chauffeur de l'homme d'affaires Timothée Eustache MAKANDAL a été découvert sans vie ce matin dans sa cellule au commissariat principal de Fort Canal. Il était sur le point d'être déféré au tribunal après qu'un cadavre ait été découvert dans le véhicule qu'il conduisait.
+
+Il avait indiqué aux enquêteurs avoir tenté de se débarasser du corps sur les ordres de son empoyeur qui aurait participé à un crime rituel. Ce dernier n'a pu être interrogé car il a été retrouvé mort dans des conditions similaires au premier cadavre. La police a diligenté une enquête afin de s'assurer qu'il ne s'agit pas d'un meurtre.
+
+.... FIN ....
+
+
+"""
 // on rejoue, pas de choix 2
 // 11
 let sacrificeRAS : String = "sacrifice RAS, on laisse le corps sur place ou on le rapporte ?"
