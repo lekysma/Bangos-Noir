@@ -19,7 +19,8 @@ Vous avez conduit votre patron et employeur Timothée Eustache MAKANDAL. Ce dern
 
 C'est la raison pour laquelle vous vous tenez sur le quai.
 
-20 minutes plus tard, la vieille locomotive à vapeur qui effectue péniblement la liaison avec Bangos arrive enfin. Les voyageurs se hâtent de descendre, comme pressés de vaquer à leurs occupations respectives. La personne que vous attendez s'appelle Fifion RIBANAT. Votre patron vous a donné une photo. Deux personnes, parmi les dernières à descendre semblent correspondre.
+20 minutes plus tard, la vieille locomotive à vapeur qui effectue péniblement la liaison avec Bangos arrive enfin. Les voyageurs se hâtent de descendre, comme pressés de vaquer à leurs occupations respectives. La personne que vous attendez s'appelle Fifion RIBANAT.
+Votre patron vous a donné une photo. Deux personnes, parmi les dernières à descendre semblent correspondre.
 """
 let choix1VaChercherGare : String = "Je consulte de nouveau la photo" // vers 3
 let choix2VaChercherGare : String = "Pas besoin de rafraîchir ma mémoire" // vers 2
@@ -58,7 +59,9 @@ Pendant que les deux trinquent, vous vous mettez poliment à l'écart. Le sorcie
 - 'Tu sais qui je suis ? Je suis Fifion RIBANA, le plus grand sorcier de Bangos. Tu m'as appelé chez toi pour quoi ?
 
 Votre patron pose également son verre et commence prudemment :
-- 'Je sais que vous êtes le plus grand sorcier de Bangos. C'est la raison pour laquelle je vous ai invité. Vous voyez, je suis l'homme le plus riche de Fort Canal, je possède la Marina, et le plus grand hotel de la ville. Mais je veux plus, je veux être élu Maire de la ville. Le problème, c'est que les gens ne m'aiment pas; ils sont probablement jaloux de ma réussite, mais ils ne voteraient jamais pour moi. J'ai donc besoin des services d'un spécialiste en nécromancie.
+- 'Je sais que vous êtes le plus grand sorcier de Bangos. C'est la raison pour laquelle je vous ai invité.
+Vous voyez, je suis l'homme le plus riche de Fort Canal, je possède la Marina, et le plus grand hotel de la ville. Mais je veux plus, je veux être élu Maire de la ville.
+Le problème, c'est que les gens ne m'aiment pas; ils sont probablement jaloux de ma réussite, mais ils ne voteraient jamais pour moi. J'ai donc besoin des services d'un spécialiste en nécromancie.
 
 Fifion le regarde d'un air franc, à la limite de l'insolence.
 - 'Tout d'abord, faut me payer, je travaille pas cadeau.'; sans un mot, votre patron sort des liasses de bangos d'une serviette posée sur la table et les tend vers le sorcier.
@@ -103,7 +106,8 @@ Incohérent, il titube dans votre direction, et finit par vomir sur vos chaussur
 - 'Tout est bon?', votre patron demande l'air impatient. Vous confirmez.
 - 'Alors allons-y ! Il se fait tard.' Votre patron continue.
 
-Une vingtaine de minutes plus tard, vous vous arrêtez devant le portail du cimetière municipal de Fort Canal de St Ixion. Des nuages sombres obscurcissent un ciel, donnant l'impression que la lune elle-même ne souhaite pas être témoin de ce qui est sur le point de prendre place. Un hibou solitaire perce le silence nocturne d'un hululement sinistre.
+Une vingtaine de minutes plus tard, vous vous arrêtez devant le portail du cimetière municipal de Fort Canal de St Ixion.
+Des nuages sombres obscurcissent un ciel, donnant l'impression que la lune elle-même ne souhaite pas être témoin de ce qui est sur le point de prendre place. Un hibou solitaire perce le silence nocturne d'un hululement sinistre.
 
 Vous êtes pris malgré vous par cette atmosphère angoissante. Votre patron ne semble pas touché et vous ordonne sèchement d'aller chercher le sacrifice. A votre retour, Fifion s'adresse soudain à votre patron :
 
@@ -146,7 +150,7 @@ Bientôt, MAKANDAL se tient devant lui et plonge le poignard de toute ses forces
 MAKANDAL se sert du couteau de sacrifice pour ouvrir bien grand le sternum de la victime, et bientôt, il tient entre ses mains une petite boule encore palpitante.
 
 Soudain, un grand bruit se fait entendre, vous sentez la pierre tombale sur laquelle vous êtes, glisser, s'ouvrir.
-Vous perdez l'équilibre et tombez au sol, suivi de votre patron. Il semble que tous les animaux des environs se sont réveillés : un concert d'aboiements, de hululements, de cris divers se fait entendre.
+Vous perdez l'équilibre et tombez au sol, suivi de votre patron. Il semble que tous les animaux des environs se soient réveillés : un concert d'aboiements, de hululements, de cris divers se fait entendre.
 
 Une silhouette émerge de la tombe : in s'agit d'un homme grand, au teint d'un noir de jais. Il est vêtu d'un chapeau haut de forme et d'une redingote noire.
 Un air absolu d'autorité se dégage de lui. Il n'y a pas de doute dans votre esprit qu'il s'agit bien de Baron Samedi, celui dont Fifion vous parlé.
@@ -160,8 +164,7 @@ let choix1BaronApparait : String = "On résiste" // vers 9
 let choix2BaronApparait : String = "Fuyons" // vers 7
 //7
 let FuiteCimetiere : String = """
-Sans vous consulter, votre patron et vous vous dirigez à toute vitesse vers la sortie du cimetière.
-Vous vous frayez un chemin en trébuchant aux milieu des tombes.
+Sans vous consulter, votre patron et vous vous dirigez à toute vitesse vers la sortie du cimetière. Vous vous frayez un chemin en trébuchant aux milieu des tombes.
 Plusieurs fois, vous êtes tenté de regarder en arrière, mais vous savez que quelque chose de néfaste vous arriverait.
 
 - 'Attends-moi !', MAKANDAL vous demande. Peu à peu, vous avez pris de la distance par rapport à lui.
@@ -206,7 +209,8 @@ Aux premières heures du matin, les corps de Timothée Eustache MAKANDAL et de s
 let finBaronSamedi2 : String = """
 
 Vous vous placez courageusement devant votre patron.
-- 'N'ayez pas peur patron !', vous dites, en brandissant le couteau utilisé pour le sacrifice, 'Je vais vous protéger. Vous aussi sorcier.' Vous cherchez le troisième membre de votre groupe, mais il semble que ce dernier se soit eclipsé.
+- 'N'ayez pas peur patron !', vous dites, en brandissant le couteau utilisé pour le sacrifice, 'Je vais vous protéger. Vous aussi sorcier.'
+Vous cherchez le troisième membre de votre groupe, mais il semble que ce dernier se soit eclipsé.
 
 La nouvelle apparition avance lentement vers vous. Avec effroi, vous réalisez qu'il semble à peine toucher le sol. Les touffes d'herbes se désèchent et meurent à son passage. Vous êtes clairement en face d'une créature surnaturelle.
 
@@ -243,7 +247,7 @@ ACCIDENT OU PUNITION DIVINE ? CRIME BIZARRE A FORT CANAL
 
 Le corps du chauffeur de l'homme d'affaires Timothée Eustache MAKANDAL a été découvert sans vie ce matin dans sa cellule au commissariat principal de Fort Canal. Il était sur le point d'être déféré au tribunal après qu'un cadavre ait été découvert dans le véhicule qu'il conduisait.
 
-Il avait indiqué aux enquêteurs avoir tenté de se débarasser du corps sur les ordres de son empoyeur qui aurait participé à un crime rituel. Ce dernier n'a pu être interrogé car il a été retrouvé mort dans des conditions similaires au premier cadavre. La police a diligenté une enquête afin de s'assurer qu'il ne s'agit pas d'un meurtre.
+Il a indiqué aux enquêteurs avoir tenté de se débarasser du corps sur les ordres de son empoyeur qui aurait participé à un crime rituel. Ce dernier n'a pu être interrogé car il a été retrouvé mort dans des conditions similaires au premier cadavre. La police a diligenté une enquête afin de s'assurer qu'il ne s'agit pas d'un meurtre.
 
 .... FIN ....
 
@@ -251,21 +255,80 @@ Il avait indiqué aux enquêteurs avoir tenté de se débarasser du corps sur le
 """
 // on rejoue, pas de choix 2
 // 11
-let sacrificeRAS : String = "sacrifice RAS, on laisse le corps sur place ou on le rapporte ?"
-let choix1SacrificeRAS : String = "on laisse le corps au cimetiere" // vers 12
-let choix2SacrificeRAS : String = "on emporte le corps avec nous" // vers 13
+let sacrificeRAS : String = """
+
+Le corps sans vie du prisonnier reste recroquevillé sur la tombe sur laquelle il a été tué. Vous eprouvez un sentiment d'incrédulité face à ce qui vient de se dérouler.
+
+A coté de vous, votre patron et surtout le sorcier ont l'air presque blasé. Ils se demandent que faire du cadavre. Le sorcier est d'avis qu'il soit abandonné, alors que MAKANDAL propose plutôt que le cadavre soit emporté, pour que l'on puisse s'en débarasser discrètement.
+
+Ce dernier vous interpelle :
+- 'On fait quoi du corps ? C'est pour ton conseil que je te paye !'
+
+"""
+let choix1SacrificeRAS : String = "Laissons le corps au cimetiere" // vers 12
+let choix2SacrificeRAS : String = "Emportons le corps avec nous" // vers 13
 // 12
 let finBaronSamedi4 : String = "le baron apparait, mentionne manque de respect, on meurt tous les deux"
 // on rejoue, pas de choix 2
 // 13
-let decisionSeDebarasserDuCorps : String = "on rapporte le corps dans voiture; comment se debarasser du corps ?"
-let choix1DecisionSeDebarasserDuCorps : String = "vers la mer" // vers 15
-let choix2DecisionSeDebarasserDuCorps : String = "on l'enterre chez le patron" // 14
+let decisionSeDebarasserDuCorps : String = """
+
+- 'Nous devrions ramener le corps avec nous patron', vous répondez. 'Nous pouvons soit l'enterrer sur votre propriété, soit utiliser une des plages de pêcheurs. Il y a souvent des histoires de clandestins retrouvés sur ces plages.'
+
+MAKANDAL vous regarde l'air approbateur:
+- 'Cest bien ! Je savais que je pouvais compter sur toi. Ok, je te laisse t'en charger'
+"""
+let choix1DecisionSeDebarasserDuCorps : String = "Je l'emmène vers l'océan" // vers 15
+let choix2DecisionSeDebarasserDuCorps : String = "Je le ramène chez MAKANDAL" // 14
 // 14
-let finBaronSamedi5 : String = "RAS, je finis par demissionner; news : decouverte macabre chez Makandal, je suis recherché"
+let finBaronSamedi5 : String = """
+
+Alors que votre patron et son invité sont partis dormir depuis plusieurs heures déjà, vous êtes dans le jardin de l'immense propriété de MAKANDAL en train de creuser une sépulture de fortune pour le corps que vous avez ramené avec vous.
+
+L'aube n'est plus très loin lorsque vous terminez enfin de tasser le sol à coups de pelle afin de vous assurer que des animaux sauvages ne détèrent pas le cadavre.
+
+Plus vous pensez aux évènements de cette nuit, et plus vous vous sentez souillés. Vous étiez d'accord pour frapper un pêcheur entré sans autorisation sur la proprieté de votre employeur, mais vous n'avez jamais souhaité vous retrouver complice d'un meurtre.
+Le fait que votre patron soit également prêt à pratiquer les pires des sorcelleries est la goutte d'eau qui fait déborder le vase pour vous.
+
+Vous décidez aussitôt de quitter votre emploi : vous allez quitter Fort Canal pour Bangos. Vous espérez que vous fondrez plus facilement dans l'anonymat de cette metropole.
+
+.... EXTRAIT DU BANGOS TIME ....
+UN CADAVRE CHEZ MAKANDAL
+
+Des restes humains ont été retrouvés sur la proprieté de l'homme d'affaires Timothée Eustache MAKANDAL. Il semble que la police ait été alertée par des voisins qui se seraient plaints de la persistence d'une odeur désagréable venant de la villa du notable.
+
+MAKANDAL a été transporté vers le commissariat central de Fort Canal, accompagné de son avocat. Pour ce dernier, Maître KWASA KWASA, son client est innocent et se réserve le droit d'attaquer en justice tous ceux qui attenteraient à son honneur.
+
+Les recherches se portent également sur l'ancien chauffeur de MAKANDAL. Il a été vu pour la dernière fois il y a 3 semaines.
+
+.... FIN ....
+
+"""
 // on rejoue, pas de choix 2
 // 15
-let finBaronSamedi6 : String = "controle de police, le policier decouvre le corps. on se dechire au proces"
+let finBaronSamedi6 : String = """
+
+Vous vous dirigez vers une petite plage isolée située au sud de la ville. De nombreux clandestins venant de la petite république bananière de St Domingo y atterissent. Il sera facile de faire passer ce corps pour une victime des passeurs.
+
+Soudain, une sirène retentit. Une voiture de police apparait dans votre rétroviseur et vous fait signe de vous arrêter. Vous vous demandez si vous ne devriez pas tenter de les semer. C'est à ce moment qu'une seconde voiture de police vient rejoindre la première.
+
+Les appels de phare de la première voiture se font plus insistants. Au final vous décidez de vous garer.
+
+- 'Bonsoir Monsieur, sortez du véhicule avec les papiers de ce dernier', un policier s'est approché, la main sur son arme de service. Il semble qu'il soit suspicieux après que vous ayez hésité à obéir.
+
+- 'Tony viens voir! Il y a du sang qui coule du coffre !', soudain la voix du second policier, qui s'était approché à votre insu de l'arrière de votre voiture, retentit.
+- 'Jetez les clés de votre véhicule au sol et les mains en l'air !, le premier policier aboie. 'Un seul geste brusque et vous prenez une balle !'.
+
+.... EXTRAIT DU BANGOS TIME ....
+ACCIDENT OU PUNITION DIVINE ? CRIME BIZARRE A FORT CANAL
+
+Le corps du chauffeur de l'homme d'affaires Timothée Eustache MAKANDAL a été découvert sans vie ce matin dans sa cellule au commissariat principal de Fort Canal. Il était sur le point d'être déféré au tribunal après qu'un cadavre ait été découvert dans le véhicule qu'il conduisait.
+
+Il a indiqué aux enquêteurs avoir tenté de se débarasser du corps sur les ordres de son empoyeur qui aurait participé à un crime rituel. D'après l'avocat de MAKANDAL, Maitre KWASA KWASA, son client ignore tout de cette affaire. Il a porté plainte contre son (ex) employé pour diffamation et atteinte à son honneur.
+
+.... FIN ....
+
+"""
 // on rejoue, pas de choix 2
 //16
 let optionViolence : String = """
@@ -293,7 +356,31 @@ Vous intervenez respectueusement.
 let choix1OptionViolence : String = "On n'a ni le temps, ni les offrandes" // vers 6
 let choix2OptionViolence : String = "Peut-être que nous devrions écouter le sorcier" // vers 11
 // 17
-let finBaronSamedi7 : String = "je demissionne, news : makandal a gagné elections, il meurt par la suite"
+let finBaronSamedi7 : String = """
+
+Vous intervenez respectueusement, mais fermement :
+- 'Patron, ce que vous faites là est mal. Il ne s'agit plus juste de frappez une personne qui vous critique ou le mari d'un de vos bureaux - vos amantes - : il s'agit de meurtre et de sorcellerie.'
+
+MAKANDAL vous regarde d'un air supérieur :
+- 'Tu es qui pour me dire ce que je dois faire ? Je suis Timothée Eustache MAKANDAL ! Je suis riche, je suis puissant et je serai encore plus puissant grâce à ce que je vais faire. Toi tu n'es rien ! Je t'ai pris de ta broussem je te nourris, je te loge. Tu fais ce que je demande et tu le fais sans discuter, tu m'entends ?', il continue.
+
+Vous le regarder sans expression, et reprenez :
+- 'Il s'agit de meurtre et de sorcellerie : je ne fais pas ça. Je préfère encore partir.'
+
+- 'CLAP', MAKANDAL vous donne une gifle retentissante ! Il vous hurle dessus, la bave aux lèvres :
+- 'Dans ce cas casse toi ! Va t'en, sors de chez moi! Espèce de sale ingrat ! Je peux avoir des dizaines, des centaines de personnes pour te remplacer !'
+
+Sans un mot, vous partez récupérer vos quelques affaires.
+
+.... EXTRAIT DU BANGOS TIME ....
+VICTOIRE POST-ELECTORALE QUI TOURNE AU DRAME
+
+La célébration de la victoire de l'élection de l'homme d'affaires Timothée Eustache MAKANDAL à la mairie de Fort Canal a tourné au drame. Ce dernier a été retrouvé sans vie dans le fumoir de son immense proprieté où il semblerait qu'il se soit isolé.
+
+La police a été dépêchée sur les lieux. D'après certains témoins, le défunt arborait une expression d'épouvante sur son visage.
+
+.... FIN ....
+"""
 
 
 
