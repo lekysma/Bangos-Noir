@@ -12,24 +12,120 @@ import Foundation
 let rejouerTempleMaudit : String = "Revenir à l'accueil"
 
 // 1
-let tempete : String = "tempete, on fait quoi ?"
-let choix1Tempete : String = "on etablit le camp sur place" // vers 10
-let choix2Tempete : String = "on va au monastere" // vers 2
+let tempete : String = """
+
+Deux heures après l'apparition des premiers nuages noirs, vous réalisez que vous n'échaperez pas à la tempête qui s'annonçait depuis le début de votre ascension.
+
+Vous accompagnez le professeur Ebenezer OTANAZIEV du Centre de Recherches Avancées de Bangos. Vous êtes actuellement sur les flancs de l'Himalaya pour une mission d'observations météorologiques d'une semaine.
+
+Vous vous approchez du professeur, un homme d'environ 70 ans, à l'aspect encore vigoureux. Il regarde également les nuages d'un air inquiet.
+
+- 'Professeur', vous commencez. 'Nous ne pouvons pas continuer. La tempête va bientôt arriver. Nous devons nous abriter.'
+
+Le responsable en charge de la sécurité et le guide principal de la mission vous rejoingnent. Le premier s'appelle Charles DISSOU. Il est un ancien major de l'armée révolutionnaire Bangosienne. Il a été principalement choisi pour ses qualités de leadership.
+Votre guide est un local qui a organisé des dizaines d'expéditions sur l'Himalaya.
+
+Le chef de la sécurité intervient :
+- 'Je recommande qu'on trouve un abri. Y a t-il un endroit à proximité qui peut nous servir de refuge ?', il demande au guide.
+
+Celui-ci tend le bras vers une vallée au sud :
+- 'Il y a un monastère thibétain a environ une heure d'ici. Tous les autres refuges sont trop éloignés'.
+
+Le professeur semble contrarié par cette réponse :
+- 'Il n'est pas possible d'établir le camp ici ?' Il se tourne vers vous : 'Qu'en pensez-vous cher assistant ?'
+
+Quelle sera votre recommandation ?
+"""
+let choix1Tempete : String = "On établit le camp sur place" // vers 10
+let choix2Tempete : String = "Allons au monastère" // vers 2
 
 // 2
-let monastere : String = "reception monastere, legende"
-let choix1Monastere : String = "ce sont des fictions" // vers 3
-let choix2Monastere : String = "moi je crois" // vers 24
+let monastere : String = """
+
+Il pleut déjà énormément lorsque vous arrivez enfin au monastère. Il semble que les moines ont vu votre groupe arriver car un petit groupe se tient à l'entrée pour vous accueillir.
+
+Vous êtes scindés en petits groupes et dirigés vers la salle centrale. Une centaines de moines vêtus de leurs traditionnelles robes rouges et jaunes sont assis sur des bancs simples. Vous êtes arrivés à l'heure du repas communal.
+
+Votre guide échange à voix basse avec un des moines qui vous a accueilli. Les deux s'approchent de vous.
+- 'Nous allons rencontrer le Lama principal, suivez-moi', il vous demande.
+
+Vous dirigez vers le fonds du réfectoire. Un vieil homme est assis seul sur un banc similaire à ceux qu'occupent les autres moines. Il lève les yeux et vous invite à le rejoindre avec un sourire.
+
+Une impression de sérénité se dégage du personnage. Vous avez l'image d'un homme simple, qui a laissé derrière lui la civillisation car celle-ci ne lui convenait plus. Votre impression est confirmée lorsqu'il s'adresse directement à vous.
+
+- 'Bonjour étrangers, je suis Romsong LAMPA, et je suis le Lama principal de ce monastère. Soyez les bienvenus parmi nous. Je serais ravi de partager notre repas avec vous; vous trouverez également un abri contre la tempête cette nuit.
+
+- 'Merci Lama', répond le professeur OTANAZIEF. 'Mon équipe et moi sommes venus de Bangos pour effectuer des relevés météorologiques.' Il continue : 'Si la tempête se calme, nous allons nous diriger vers la vallée située à 2 000 m d'altitude à l'Ouest.
+Des aviateurs ont indiqué avoir été exposés à d'impressionnantes effets orographiques. Nous allons tenter de les mesurer.'
+
+A ces mots, le Lama sursaute un peu. Il vous interpelle urgemment :
+- 'Etrangers, je sais que vous avez dépensé beaucoup d'argent pour venir ici. Je vous demande juste de faire attention. Nous ici au temple, nous connaissons cette vallée mais on n'y va pas. Les locaux n'y vont pas également.'
+
+Vous demandez la permission au professeur OTANAZIEV avant de demander :
+- 'Pourquoi personne n'y va ?'
+
+Le Lama vous regarde d'un air sérieux :
+- 'Parce que c'est une vallée hantée. Il y a un temple là bas, qui existe depuis des siècles. Ce temple a été construit pour piéger un démon. Il est déconseillé d'entrer dans ce temple. Il est recommandé de de jamais s'approcher de cette vallée surtout la nuit.'
+
+Soudain, le professeur éclate de rire. Plusieurs fois il tente de reprendre la parole, mais il est repris par une nouvelle bouffée de rire. Il s'interromp enfin et répond au Lama :
+- 'J'ai pensé que vous alliez jouer la corde historique, parler de préserver le patrimoine. Je ne m'attendais certainement pas à ce ramassis de superstitions!', il énonce.
+
+Les propos sont choquants, voire injurieux envers le Lama. D'un autre coté, vous êtes un homme de sciences.
+
+Allez-vous vous ranger du coté du Professeur ou de celui du Lama ?
+"""
+let choix1Monastere : String = "Je crois le professeur" // vers 3
+let choix2Monastere : String = "Je crois le Lama" // vers 24
 
 // 3
-let arriveeTemple : String = "arrive dans vallee et decouvre temple"
-let choix1ArriveeTemple : String = "on explore le temple" // vers 4
-let choix2ArriveeTemple : String = "on n'explore pas" // vers 5
+let arriveeTemple : String = """
+
+Le lendemain dès les aurores, votre groupe se met en route en direction de la vallée ou se tient le temple. D'après votre guide, vous devriez arriver en fin de journée.
+
+Vous n'êtes pas fâché de quitter le monastère. La discussion de la veille et votre volonté de visiter la vallée, et éventuellement d'entrer dans le temple ont jeté un froid. Ainsi, aucun moine n'est présent pour vous voir partir.
+
+Le trajet vers la vallée est épuisant. Les routes sont glissantes et boueuses à cause de la tempête de la veille. Plus vous grimpez et plus les routes sont remplacées par de simples pistes recouvertes d'un mélange de verglas et de boue.
+
+Seul le professeur OTANAZIEV arbore un sourire. Il semble plein d'enthousiasme et négocie le parcours avec la vigueur d'un homme 20 ans plus jeune.
+
+Il fait déjà nuit lorsque vous entrez enfin dans la vallée. La lueur de vos torches révèle une végétation inexistante. Un silence lourd, presque opressant pèse sur la vallée toute entière.
+
+Pendant que le reste du groupe établit le camp, le professeur s'approche de vous :
+- 'Allez viens avec moi ! Le temple est à 20 minutes de marche. J'ai vu le batiment an arrivant.'
+
+Vous vous rappelez l'avertissement du Lama. Que décidez-vous de faire ?
+"""
+let choix1ArriveeTemple : String = "Explorons le temple" // vers 4
+let choix2ArriveeTemple : String = "Restons ici" // vers 5
 
 // 4
-let ExplorationTemple : String = "visite temple, statues demoniaques, bruit"
-let choix1ExplorationTemple : String = "on enquete le bruit" // vers 11
-let choix2ExplorationTemple : String = "fuyons" // vers 5
+let ExplorationTemple : String = """
+visite temple, statues demoniaques, bruit
+
+Vous vous tenez devant les portes imposantes du temple. Loin des constructions gracieuces et colorées caractéristiques du style tibétain, cet édifice est trapu, imposant, presque sévère dans son architecture. Ce n'est clairement pas un endroit construit pour aider l'homme à atteindre l'éveil spirituel.
+
+Le professeur OTANAZIEF interromp vos réflexions :
+- 'Allez, aide-moi à ouvrir cette porte.'
+
+Vous hésitez une seconde, puis commencez à pousser les portes du temple, de concert avec le professeur. Ces dernières s'ouvrent enfin avec un bruit de pierre et de métal torturé. Au-delà, une pénombre d'un noir plus sombre que la nuit vous empêche de distinguer quoi que ce soit.
+
+Sans hésiter, le professeur entre dans le temple, sa lampe brandie devant lui. Vous le suivez. Une épaisse couche de poussière étouffe vos pas; vous respirez un air qui n'a pas été raffraichit depuis longtemps.
+Vos lampes éclairent de maanière fugace des colonnades de pierre sur lesquelles des inscriptions indéchifrables ont été gravée. Des statues de créatures grotesques et monstrueuses apparaissent à intervalle régulier.
+
+Le professeur est aux anges, sa voix tranche le silence oppressant :
+- 'Vous voyez ces motifs et ces sculptures ? Il n'y a rien de similaire dans l'art tibétain. C'est peut être une culture entièrement nouvelle qui a peut être précédée le boudhisme tibétain.
+Est-ce que vous réalisez les implications historiques ? C'est la gloir mon petit : lorsque j'écrirais le compte-rendu de ma découverte, je n'oublierai pas de vous citer.'
+
+Il pose une main paternaliste sur votre épaule :
+- 'Je n'arrive pas à croire que ces idiots de moines aient cachés un tel trésor...'
+
+Soudain, vous entendez un étrange bruit.
+- 'Professeur, vous avez entendu cela?', vous demandez. Le bruit se répète; il semble provenir de votre droite.
+
+Que décidez-vous de faire ?
+"""
+let choix1ExplorationTemple : String = "Allons enquêter" // vers 11
+let choix2ExplorationTemple : String = "Partons du temple" // vers 5
 
 // 5
 let attaqueCamp : String = "camp attaqué, je vais voir ce qui se passe ?"
