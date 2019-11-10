@@ -30,6 +30,8 @@ class Creer_profil: UIViewController, UITextFieldDelegate {
         
         //MARK: Cette vue est le delegate du champ mot de passe
         champMotDePasse.delegate = self
+        
+        navigationController?.navigationBar.tintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
     }
     
     //MARK: On cree 2 fonctions pour gerer la presence du clavier au moment de la saisie du mot de passe

@@ -35,6 +35,8 @@ class Connexion: UIViewController, UITextFieldDelegate {
         
         ChampMotDePasse.delegate = self
         
+        navigationController?.navigationBar.tintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+        
     }
     
 
