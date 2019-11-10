@@ -28,17 +28,7 @@ class Chap1_Contenu_ViewController: UIViewController {
         // on appelle la fonction accueil
         accueilAChapitre1()
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
     // une fonction qui affiche un contenu une fois que la vue est ouverte pour la premiere fois
     
     func accueilAChapitre1 () {
