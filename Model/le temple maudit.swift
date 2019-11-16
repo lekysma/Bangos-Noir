@@ -46,10 +46,12 @@ Il pleut déjà énormément lorsque vous arrivez enfin au monastère. Il semble
 
 Vous êtes scindés en petits groupes et dirigés vers la salle centrale. Une centaines de moines vêtus de leurs traditionnelles robes rouges et jaunes sont assis sur des bancs simples. Vous êtes arrivés à l'heure du repas communal.
 
+
 Votre guide échange à voix basse avec un des moines qui vous a accueilli. Les deux s'approchent de vous.
 - 'Nous allons rencontrer le Lama principal, suivez-moi', il vous demande.
 
 Vous dirigez vers le fonds du réfectoire. Un vieil homme est assis seul sur un banc similaire à ceux qu'occupent les autres moines. Il lève les yeux et vous invite à le rejoindre avec un sourire.
+
 
 Une impression de sérénité se dégage du personnage. Vous avez l'image d'un homme simple, qui a laissé derrière lui la civillisation car celle-ci ne lui convenait plus. Votre impression est confirmée lorsqu'il s'adresse directement à vous.
 
@@ -58,8 +60,10 @@ Une impression de sérénité se dégage du personnage. Vous avez l'image d'un h
 - 'Merci Lama', répond le professeur OTANAZIEF. 'Mon équipe et moi sommes venus de Bangos pour effectuer des relevés météorologiques.' Il continue : 'Si la tempête se calme, nous allons nous diriger vers la vallée située à 2 000 m d'altitude à l'Ouest.
 Des aviateurs ont indiqué avoir été exposés à d'impressionnantes effets orographiques. Nous allons tenter de les mesurer.'
 
+
 A ces mots, le Lama sursaute un peu. Il vous interpelle urgemment :
 - 'Etrangers, je sais que vous avez dépensé beaucoup d'argent pour venir ici. Je vous demande juste de faire attention. Nous ici au temple, nous connaissons cette vallée mais on n'y va pas. Les locaux n'y vont pas également.'
+
 
 Vous demandez la permission au professeur OTANAZIEV avant de demander :
 - 'Pourquoi personne n'y va ?'
@@ -67,14 +71,16 @@ Vous demandez la permission au professeur OTANAZIEV avant de demander :
 Le Lama vous regarde d'un air sérieux :
 - 'Parce que c'est une vallée hantée. Il y a un temple là bas, qui existe depuis des siècles. Ce temple a été construit pour piéger un démon. Il est déconseillé d'entrer dans ce temple. Il est recommandé de de jamais s'approcher de cette vallée surtout la nuit.'
 
+
 Soudain, le professeur éclate de rire. Plusieurs fois il tente de reprendre la parole, mais il est repris par une nouvelle bouffée de rire. Il s'interromp enfin et répond au Lama :
 - 'J'ai pensé que vous alliez jouer la corde historique, parler de préserver le patrimoine. Je ne m'attendais certainement pas à ce ramassis de superstitions!', il énonce.
+
 
 Les propos sont choquants, voire injurieux envers le Lama. D'un autre coté, vous êtes un homme de sciences.
 
 Allez-vous vous ranger du coté du Professeur ou de celui du Lama ?
 """
-let choix1Monastere : String = "Je crois le professeur" // vers 3
+let choix1Monastere : String = "Je crois le professeus" // vers 3
 let choix2Monastere : String = "Je crois le Lama" // vers 24
 
 // 3
@@ -82,13 +88,17 @@ let arriveeTemple : String = """
 
 Le lendemain dès les aurores, votre groupe se met en route en direction de la vallée ou se tient le temple. D'après votre guide, vous devriez arriver en fin de journée.
 
+
 Vous n'êtes pas fâché de quitter le monastère. La discussion de la veille et votre volonté de visiter la vallée, et éventuellement d'entrer dans le temple ont jeté un froid. Ainsi, aucun moine n'est présent pour vous voir partir.
+
 
 Le trajet vers la vallée est épuisant. Les routes sont glissantes et boueuses à cause de la tempête de la veille. Plus vous grimpez et plus les routes sont remplacées par de simples pistes recouvertes d'un mélange de verglas et de boue.
 
 Seul le professeur OTANAZIEV arbore un sourire. Il semble plein d'enthousiasme et négocie le parcours avec la vigueur d'un homme 20 ans plus jeune.
 
+
 Il fait déjà nuit lorsque vous entrez enfin dans la vallée. La lueur de vos torches révèle une végétation inexistante. Un silence lourd, presque opressant pèse sur la vallée toute entière.
+
 
 Pendant que le reste du groupe établit le camp, le professeur s'approche de vous :
 - 'Allez viens avec moi ! Le temple est à 20 minutes de marche. J'ai vu le batiment an arrivant.'
@@ -100,45 +110,122 @@ let choix2ArriveeTemple : String = "Restons ici" // vers 5
 
 // 4
 let ExplorationTemple : String = """
-visite temple, statues demoniaques, bruit
 
 Vous vous tenez devant les portes imposantes du temple. Loin des constructions gracieuces et colorées caractéristiques du style tibétain, cet édifice est trapu, imposant, presque sévère dans son architecture. Ce n'est clairement pas un endroit construit pour aider l'homme à atteindre l'éveil spirituel.
+
 
 Le professeur OTANAZIEF interromp vos réflexions :
 - 'Allez, aide-moi à ouvrir cette porte.'
 
 Vous hésitez une seconde, puis commencez à pousser les portes du temple, de concert avec le professeur. Ces dernières s'ouvrent enfin avec un bruit de pierre et de métal torturé. Au-delà, une pénombre d'un noir plus sombre que la nuit vous empêche de distinguer quoi que ce soit.
 
+
 Sans hésiter, le professeur entre dans le temple, sa lampe brandie devant lui. Vous le suivez. Une épaisse couche de poussière étouffe vos pas; vous respirez un air qui n'a pas été raffraichit depuis longtemps.
 Vos lampes éclairent de maanière fugace des colonnades de pierre sur lesquelles des inscriptions indéchifrables ont été gravée. Des statues de créatures grotesques et monstrueuses apparaissent à intervalle régulier.
+
 
 Le professeur est aux anges, sa voix tranche le silence oppressant :
 - 'Vous voyez ces motifs et ces sculptures ? Il n'y a rien de similaire dans l'art tibétain. C'est peut être une culture entièrement nouvelle qui a peut être précédée le boudhisme tibétain.
 Est-ce que vous réalisez les implications historiques ? C'est la gloir mon petit : lorsque j'écrirais le compte-rendu de ma découverte, je n'oublierai pas de vous citer.'
 
+
 Il pose une main paternaliste sur votre épaule :
 - 'Je n'arrive pas à croire que ces idiots de moines aient cachés un tel trésor...'
+
 
 Soudain, vous entendez un étrange bruit.
 - 'Professeur, vous avez entendu cela?', vous demandez. Le bruit se répète; il semble provenir de votre droite.
 
+
 Que décidez-vous de faire ?
 """
 let choix1ExplorationTemple : String = "Allons enquêter" // vers 11
-let choix2ExplorationTemple : String = "Partons du temple" // vers 5
+let choix2ExplorationTemple : String = "Quittons le temple" // vers 5
 
 // 5
-let attaqueCamp : String = "camp attaqué, je vais voir ce qui se passe ?"
-let choix1AttaqueCamp : String = "je vais enqueter" // vers 12
-let choix2AttaqueCamp : String = "je reste en securité" // vers 6
+let attaqueCamp : String = """
+
+Vous êtes subitement reveillé par des cris qui retentissent á l'extérieur de votre tente.
+
+Le professeur qui partage la tente avec vous se réveille quelques secondes plus tard.
+
+- 'Qu'est ce qui se passe ?', il vous demande, la voix pâteuse par le sommeil.
+- 'Chut professeur', vous murmurez. 'J'ai entendu des des coups de feu'.
+
+
+Soudain, de nouveaux cris reprennent, entrecoupés de rafales d'armes à feu. Le professeur vous regarde l'air appeuré, il parait entièrement réveillé à présent.
+
+- 'Qu'est-ce qu'on fait', il vous demande à voix basse.
+
+
+Vous hésitez entre rester à l'abri dans votre tente, et aller voir ce qui se passe à l'extérieur.
+"""
+let choix1AttaqueCamp : String = "Je vais enqueter" // vers 12
+let choix2AttaqueCamp : String = "Je reste dans la tente" // vers 6
 
 // 6
-let retourTempleMaudit : String = "retour temple, on rencontre demon qui s'approche"
-let choix1RetourTempleMaudit : String = "je prends mes distances" // vers 7
-let choix2RetourTempleMaudit : String = "je m'approche" // vers 13
+let retourTempleMaudit : String = """
+
+L'air appeuré vous conseillez au professeur de rester dans la tente.
+
+- 'Nous sommes des scientifiques, pas des guerriers, et nous n'avons pas d'armes. Laissons les autres membres de l'expédition s'en occuper.'
+
+
+Vous restez terrés comme des rats pendant qu'à l'extérieur, les coups de feu se font plus rares, les hurlements d'agonie plus fréquents. Vous vous haïssez intérieurement pour votre lâcheté, que vous justifiez en disant que vous devez protéger le professeur.
+
+
+Après ce qui vous paraît une éternité, la vallée où vous aviez trouvé refuge redevient paisible. Plus aucun bruit ne brise le silence.
+L'air appeuré, vous décidez d'aller enquêter à l'extérieur. Le professeur se dépêche de vous suivre, moins par courage que par peur de ne pas se retrouver seul.
+
+
+Un carnage vous accueille à votre sortie. Les corps déchiquetés des membres de l'expédition gisent sur le sol. Aucun d'entre eux n'a survécu.
+Ils présentent tous des blessures béantes, comme causées par des créatures qui n'existent plus depuis la préhistoire.
+
+- 'Mon Dieu ! qu'est ce qui a pu faire cela!', vous murmuez l'air choqué. Derrière vous, le professeur se met à vomir.
+
+
+A la lueur de la lampe torche que vous avez allumée pour examiner l'étendue du massacre révèle des traces de pas ensanglantées. Elles se dirigent vers le temple que vous aviez visité plus tôt dans la soirée.
+
+
+- 'Professeur, professeur', vous vous exclamez, 'Venez voir ! Vous voyez ces traces ? Il se peut qu'il y ait des survivants. Ils ont pu aller se réfugier dans le temple.
+Nous pouvons les rejoindre et leur portez secours'.
+
+
+Sans attendre, vous vous dirigez vers le temple. Le professeur vous emboite le pas.
+
+
+Si le temple vous paraissait sinistre lors de votre première visite, vous ressentez à présent une impression de malveillance presque palpable. La lumière combinée de vos deux lampes n'arrive pas à percer l'obscurité au-delà de quelques mètres devant vous.
+
+- 'Il y a quelqu'un ?', vous demandez. 'Je suis avec le professeur, nous avons de l'eau et des médicaments. On va vous aider', vous continuez.
+
+
+- 'Oh ? Vous souhaitez m'aider? Vraiment ?', une voix sybilline vous répond. Elle semble venir de votre gauche.
+
+L'air soulagé, le professeur et vous courez en direction de cette voix, trébuchant sur les gravas qui jonchent le sol.
+
+Bientôt, vous distinguez une forme quelques mètres devant vous.
+
+
+- 'Après le plaisir, j'ai un moyen de transport. Excellent !', la voix voix sybilline vient bien de cette personne.
+
+
+Vous interrompez votre approche en entendant ces mots. Vous n'êtes plus certain de vouloir vous rapprocher. Le professeur vous touche l'épaule et vous surautez violemment.
+
+- ' Qu'attends-tu ? Il est peut-être blessé.'
+
+
+Quelle décision prenez-vous ?
+"""
+let choix1RetourTempleMaudit : String = "Je garde mes distances" // vers 7
+let choix2RetourTempleMaudit : String = "Je m'approche de lui" // vers 13
 
 // 7
-let possessionProfesseur : String = "professeur possedé, on rentre camp, retour via monastere ou direct vers bangos ?"
+let possessionProfesseur : String = """
+professeur possedé, on rentre camp, retour via monastere ou direct vers bangos ?
+
+L
+
+"""
 let choix1PossessionProfesseur : String = "on passe par le monastere" // vers 8
 let choix2PossessionProfesseur : String = "rentrons à bangos" // vers 14
 
