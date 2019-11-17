@@ -259,9 +259,57 @@ let choix1PossessionProfesseur : String = "Je reviens au monastère" // vers 8
 let choix2PossessionProfesseur : String = "Je repars à Bangos" // vers 14
 
 // 8
-let retourMonastere : String = "retour monastere, detection du demon, exorcisme necessaire"
-let choix1RetourMonastere : String = "j'assiste a la ceremonie" // vers 9
-let choix2RetourMonastere : String = "je n'assiste pas" // vers 16
+let retourMonastere : String = """
+
+Il vous a fallu presque une semaine de marche pour y arriver, mais enfin, vous vous présentez devant les portes du monastère.
+
+Durant ce périple, était complétement sans réponse. Vous avez dû le trainer avec vous afin qu'il vous suive.
+
+Vous interrompez les deux moines qui vous approchent :
+
+- 'Voir le Lama, important ! Professeur', vous haletezm en désignant la marque sur le front de votre compagnon.
+
+
+
+La sollicitude des moines est immédiatement remplacée par une expression d'effroi. Il est clair qu'ils ont reconnu cette marque.
+
+- 'Evacuez le monastère !', le premier moine se met à crier. 'Que tout le monde parte d'ici et que quelqu'un aille chercher le Lama. Notre cauchemard est de retour.
+Il continue :
+
+- 'Toi reste avec eux, pendant que j'organise l'évacuation du monastère !', il ordonne au second moine. Sans vous regarde, il se précipite vers les autres moines et commence à leur ordonner de quitter les lieux.
+
+
+
+Ce qui suit ne pourrait pas être qualifié d'évacuation ordonnée. Les moines se retiennent de prendre leur jambe à leur coup, mais l'urgence est évidente.
+Bientôt, vous êtes seul avec le professeur et le second moine. Durant tout ce temps, le professeur n'a pas bougé une seule fois. Le second moine se tient prudemment a distance, le regard paniqué.
+
+
+Finalement, le moine revient accompagné du Lama. Celui-ci s'approche de vous :
+
+- 'Que se passe t-il mon fils ?', il vous demande.
+
+- 'Professeur, je pense que le professeur a été possédé'. En quelques mots, vous lui racontez ce qui vous est arrivé.
+
+- '... une fois que la marque est apparue, j'ai décidé de le ramener au monastère, en espérant que vous aurez une solution', vous terminez.
+
+
+
+Le Lama vous regarde avec pitié.
+
+- 'Vous les gens de la ville, vous croyez tout savoir. Vous n'écoutez personne et comme toujours ce sont d'autres personnes qui paient pour vos actions.'
+
+- 'Je peux l'exorcicer, mais ce sera dangereux et il y a des chances que je perde la vie, voire que ce monastère soit entièrement détruit.
+Cependant c'est la raison principale de mon existence et je vais le faire. Souhaitez-vous particpiez au rituel ? Vous ne serez pas de trop.'
+
+
+
+Vous vous demandez quelle réponse donner au Lama.
+
+
+
+"""
+let choix1RetourMonastere : String = "Je vais participer au rituel" // vers 9
+let choix2RetourMonastere : String = "Je ne vais pas participer au rituel" // vers 16
 
 // 9
 let finTempleMaudit2 : String = "je participe a l'exorcisme, cela me rend fou. news : je suis interné a saint zonzon a Bangos"
