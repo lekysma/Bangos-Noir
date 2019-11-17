@@ -223,11 +223,40 @@ let choix2RetourTempleMaudit : String = "Je m'approche de lui" // vers 13
 let possessionProfesseur : String = """
 professeur possedé, on rentre camp, retour via monastere ou direct vers bangos ?
 
-L
+L'air hésitant, vous vous rapprochez de la silhouette. Celle-ci ne bouge pas, ne fais aucum mouvement, et pourtant, vous ne vous êtes jamais aussi senti en danger que maintenant.
 
+- 'Vos ne faites pas partie de votre expédition. Qui êtes-vous?', vous demandez. Vous avez du mal à masquer les tremblements de votre voix.
+
+
+La lumière de vos torches vous permettent enfin de distinguer ses trains. Dans un premier temps, vous pensez qu'il s'agit d'un moine. L'individu est en effet vêtu d'une robe et de sandales.
+Très vite cependant, vous distinguez plusieurs différences : l'individu a une longue chevelure qui traine jusqu'au sol, il porte autour du cou un large collier décoré d'un médaillon dont l'apparence vous rappelle les statues que vous aview trouvé dans ce temple ... et aucun moine n'arborerait un sourire aussi malveillant.
+
+
+L'individu vous sourit, révélant des dents entièrement noircies.
+
+- 'Je m'appelle Bazouzeus, je suis un démon. Plus exactement je régne sur les tempêtes et la folie. Et vous, vous êtes les deux idiots qui m'ont reveillé en visitant mon temple et en mettant à ma disposition tous ces jeunes hommes vigoureux. Un régal !
+
+
+- 'Quu quoi ?', vous n'arrivez pas à croire que quelque chose comme cela existe. Vous auriez dû écouter le Lama et ne pas venir dans cette vallée.
+
+
+L'inconnu reprend :
+
+- 'A présent je vais utiliser l'un de vous pour aller visiter un peu le monde. Le vieil homme fera l'affaire'.
+
+Il disparait soudain, et le professeur se met pousser des cris de douleur.
+
+- 'Professeur, que se passe t-il', vous accourez vers lui. Celui ne semble pas vous entendre et continue de criez.
+Vous avez le plus grand mal à le contrôler, le professeur semble habité par une force inconnue.
+
+
+Il arrête de crier sans prévenir et git dans vos bras d'un air catatonique. Vous réalisez avec effroi qu'ne marque est apparue sur son front. Elle apparait comme marquée au fer rouge et ressemble au médaillon que portait l'inconnu.
+
+
+Vous vous demandez si vous devez conduire le professeur au monastère auprès du Lama, ou rentrer directement à Bangos avec lui.
 """
-let choix1PossessionProfesseur : String = "on passe par le monastere" // vers 8
-let choix2PossessionProfesseur : String = "rentrons à bangos" // vers 14
+let choix1PossessionProfesseur : String = "Je reviens au monastère" // vers 8
+let choix2PossessionProfesseur : String = "Je repars à Bangos" // vers 14
 
 // 8
 let retourMonastere : String = "retour monastere, detection du demon, exorcisme necessaire"
