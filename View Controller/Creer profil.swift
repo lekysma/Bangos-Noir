@@ -43,7 +43,7 @@ class Creer_profil: UIViewController, UITextFieldDelegate {
         
         UIView.animate(withDuration: 0.3) {
             // on augmente hauteur contraite basse de la mise en page
-            self.bottomHeightConstraint.constant = 258 + 50
+            //self.bottomHeightConstraint.constant = 258 + 50
             // MAJ layout si necessaire
             self.view.layoutIfNeeded()
         }
@@ -55,7 +55,7 @@ class Creer_profil: UIViewController, UITextFieldDelegate {
         // idem mais a l'envers
         
         UIView.animate(withDuration: 0.3) {
-            self.bottomHeightConstraint.constant = (258 + 50) - 258
+            //self.bottomHeightConstraint.constant = (258 + 50) - 258
             self.view.layoutIfNeeded()
         }
         

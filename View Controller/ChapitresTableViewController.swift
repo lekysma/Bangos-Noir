@@ -22,6 +22,9 @@ class ChapitresTableViewController: UITableViewController {
         // Uncomment the following line to preserve selection between presentations
         
         contenuDeChaqueCellule()
+        
+        // on affiche uniquement les cellules pleines
+        tableView.tableFooterView = UIView()
     }
 
     // MARK: - Table view data source

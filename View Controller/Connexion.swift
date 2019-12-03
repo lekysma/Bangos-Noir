@@ -57,7 +57,7 @@ class Connexion: UIViewController, UITextFieldDelegate {
         UIView.animate(withDuration: 0.3) {
             
             // on ajoute une hauteur de contraite superieure a la hauteur du clavier qui est 258
-            self.bottomHeightConstraint.constant = 258 + 50
+           // self.bottomHeightConstraint.constant = 258 + 20
             // on met a jour la mise en page de la vue
             self.view.layoutIfNeeded()
             
@@ -70,7 +70,7 @@ class Connexion: UIViewController, UITextFieldDelegate {
         // on fait le contraire ici, une fois que l'on a fini de saisir dans le champ mot de passe
         UIView.animate(withDuration: 0.3) {
             
-            self.bottomHeightConstraint.constant = (258+50)-258
+            //self.bottomHeightConstraint.constant = (258+20)-258
             self.view.layoutIfNeeded()
             
             
