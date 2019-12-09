@@ -13,14 +13,14 @@
             <objects>
                 <viewController title="Accueil" id="BYZ-38-t0r" customClass="ViewController" customModule="Bangos_Noir" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="746" verticalCompressionResistancePriority="744" image="antique-black-and-white-classic-163116" translatesAutoresizingMaskIntoConstraints="NO" id="0nW-ss-Zet">
-                                <rect key="frame" x="0.0" y="114" width="414" height="406"/>
+                                <rect key="frame" x="0.0" y="114" width="414" height="386"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="PJu-Fg-qKC" userLabel="button Stack View">
-                                <rect key="frame" x="8" y="578" width="398" height="100"/>
+                                <rect key="frame" x="8" y="558" width="398" height="100"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H1O-Nc-Idc" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="398" height="40"/>
@@ -91,11 +91,11 @@
             <objects>
                 <viewController title="Créer profil" id="BLy-Bd-i9n" customClass="Creer_profil" customModule="Bangos_Noir" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uPP-wI-Ky6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="XaW-qL-O1U" userLabel="Mother Stack View">
-                                <rect key="frame" x="20" y="124.33333333333331" width="374" height="164"/>
+                                <rect key="frame" x="20" y="20" width="374" height="164"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="TXQ-sx-GHK" userLabel="Email Stack View">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="78"/>
@@ -107,7 +107,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Adresse email valide" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jO0-5c-DOH">
-                                                <rect key="frame" x="0.0" y="44.000000000000014" width="374" height="34"/>
+                                                <rect key="frame" x="0.0" y="44" width="374" height="34"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -116,7 +116,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="v4c-1N-cbO" userLabel="Password Stack View">
-                                        <rect key="frame" x="0.0" y="86.000000000000014" width="374" height="77.999999999999986"/>
+                                        <rect key="frame" x="0.0" y="86" width="374" height="78"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mot de passe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SkA-Es-Yc9">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="24"/>
@@ -135,7 +135,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9TG-Mw-CUE" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
-                                <rect key="frame" x="20" y="327.33333333333331" width="374" height="40"/>
+                                <rect key="frame" x="20" y="223" width="374" height="40"/>
                                 <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="H2y-8a-mVJ"/>
@@ -183,11 +183,11 @@
             <objects>
                 <viewController title="Connexion" id="SEW-nS-tnq" customClass="Connexion" customModule="Bangos_Noir" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VS1-nN-JVa">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8Oi-D2-DA9" userLabel="Mother Stack View">
-                                <rect key="frame" x="20" y="124.33333333333331" width="374" height="184"/>
+                                <rect key="frame" x="20" y="20" width="374" height="184"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="cBh-nN-mD9" userLabel="Email Stack View">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="88"/>
@@ -199,7 +199,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Adresse email valide" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M2d-tA-iHH">
-                                                <rect key="frame" x="0.0" y="54.000000000000014" width="374" height="34"/>
+                                                <rect key="frame" x="0.0" y="54" width="374" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" textContentType="email"/>
                                             </textField>
@@ -215,7 +215,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Au moins 6 chiffres" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xaP-LE-GWe">
-                                                <rect key="frame" x="0.0" y="53.999999999999972" width="374" height="34"/>
+                                                <rect key="frame" x="0.0" y="54" width="374" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                             </textField>
@@ -269,7 +269,7 @@
             <objects>
                 <tableViewController title="Chapitres" id="EQx-wJ-jrw" customClass="ChapitresTableViewController" customModule="Bangos_Noir" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="slY-a7-BHM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="separatorColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -350,11 +350,11 @@
             <objects>
                 <viewController title="Les billets ensorcelés" id="09B-Py-VWg" customClass="Chapitre3ViewController" customModule="Bangos_Noir" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AGv-df-J3T">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Kgt-h8-s3N" userLabel="mother Stack View">
-                                <rect key="frame" x="20" y="124.33333333333331" width="374" height="591.66666666666674"/>
+                                <rect key="frame" x="20" y="20" width="374" height="676"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="YMW-pH-fxH">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="420"/>
@@ -367,7 +367,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Z9J-sf-RIZ" userLabel="button Stack View">
-                                        <rect key="frame" x="0.0" y="499.66666666666674" width="374" height="92"/>
+                                        <rect key="frame" x="0.0" y="584" width="374" height="92"/>
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUY-lv-SCe" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
@@ -436,11 +436,11 @@
             <objects>
                 <viewController title="Baron Samedi" id="ug5-RA-vAz" customClass="Chapitre4ViewController" customModule="Bangos_Noir" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UA9-j5-1BZ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="tgc-Q4-mqJ" userLabel="mother Stack View">
-                                <rect key="frame" x="20" y="124.33333333333331" width="374" height="591.66666666666674"/>
+                                <rect key="frame" x="20" y="20" width="374" height="676"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="BZi-kF-CoZ">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="420"/>
@@ -448,11 +448,12 @@
                                             <constraint firstAttribute="height" constant="420" id="Cre-JD-6gN"/>
                                         </constraints>
                                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ghH-qQ-dk3" userLabel="choice Button Stack View">
-                                        <rect key="frame" x="0.0" y="499.66666666666674" width="374" height="92"/>
+                                        <rect key="frame" x="0.0" y="584" width="374" height="92"/>
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1bw-kg-w2n" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
@@ -521,11 +522,11 @@
             <objects>
                 <viewController title="Le Mbigi Muntu" id="9kS-PR-UQb" customClass="Chap1_Contenu_ViewController" customModule="Bangos_Noir" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p3p-Fo-o3m">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="8tD-zh-E4B" userLabel="mother Stack View">
-                                <rect key="frame" x="20" y="124.33333333333331" width="374" height="591.66666666666674"/>
+                                <rect key="frame" x="20" y="20" width="374" height="676"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="gxJ-TH-VzA">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="420"/>
@@ -538,7 +539,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="J9S-8R-qaT" userLabel="button Stack View">
-                                        <rect key="frame" x="0.0" y="499.66666666666674" width="374" height="92"/>
+                                        <rect key="frame" x="0.0" y="584" width="374" height="92"/>
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejt-KM-L2H" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
@@ -607,11 +608,11 @@
             <objects>
                 <viewController title="Taureau de boeuf" id="zxC-tJ-27J" customClass="Chapitre_2_ViewController" customModule="Bangos_Noir" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r0k-8E-dvc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="EeG-Xg-yee" userLabel="mother Stack View">
-                                <rect key="frame" x="20" y="124.33333333333331" width="374" height="591.66666666666674"/>
+                                <rect key="frame" x="20" y="20" width="374" height="676"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="1eB-vF-eEZ">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="420"/>
@@ -624,7 +625,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Aeq-jP-XLI" userLabel="buttonStack View">
-                                        <rect key="frame" x="0.0" y="499.66666666666674" width="374" height="92"/>
+                                        <rect key="frame" x="0.0" y="584" width="374" height="92"/>
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvK-FF-IUJ" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
@@ -693,11 +694,11 @@
             <objects>
                 <viewController title="Le Temple Maudit" id="jpn-Bm-ztP" customClass="Chapitre5ViewController" customModule="Bangos_Noir" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kea-H8-ggs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="K6W-cP-n3b" userLabel="mother Stack View">
-                                <rect key="frame" x="20" y="124.33333333333331" width="374" height="591.66666666666674"/>
+                                <rect key="frame" x="20" y="20" width="374" height="676"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="P2d-5l-EHx">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="420"/>
@@ -705,11 +706,12 @@
                                             <constraint firstAttribute="height" constant="420" id="OEm-ZH-Myi"/>
                                         </constraints>
                                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Xz8-qG-Bq7" userLabel="button Stack View">
-                                        <rect key="frame" x="0.0" y="499.66666666666674" width="374" height="92"/>
+                                        <rect key="frame" x="0.0" y="584" width="374" height="92"/>
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zki-or-dpo" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
@@ -802,7 +804,7 @@
         <image name="error.png" width="28" height="28"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="B4U-4B-hFe"/>
-        <segue reference="gHC-Hv-NFb"/>
+        <segue reference="s74-Cw-xou"/>
+        <segue reference="jD7-zK-xmc"/>
     </inferredMetricsTieBreakers>
 </document>

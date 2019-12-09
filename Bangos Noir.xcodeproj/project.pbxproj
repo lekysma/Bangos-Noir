@@ -19,7 +19,7 @@
 		FB912C9C2258B8DE00FCE557 /* Chapitre 2 ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB912C9B2258B8DE00FCE557 /* Chapitre 2 ViewController.swift */; };
 		FB912C9E2258B94700FCE557 /* Chapitre3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB912C9D2258B94700FCE557 /* Chapitre3ViewController.swift */; };
 		FBB3F1BC221CB826002444F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB3F1BB221CB826002444F0 /* AppDelegate.swift */; };
-		FBB3F1BE221CB826002444F0 /* Accueil ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB3F1BD221CB826002444F0 /* Accueil ViewController.swift */; };
+		FBB3F1BE221CB826002444F0 /* AccueilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB3F1BD221CB826002444F0 /* AccueilViewController.swift */; };
 		FBB3F1C1221CB826002444F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB3F1BF221CB826002444F0 /* Main.storyboard */; };
 		FBB3F1C3221CB828002444F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB3F1C2221CB828002444F0 /* Assets.xcassets */; };
 		FBB3F1C6221CB828002444F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB3F1C4221CB828002444F0 /* LaunchScreen.storyboard */; };
@@ -47,7 +47,7 @@
 		FB912C9D2258B94700FCE557 /* Chapitre3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapitre3ViewController.swift; sourceTree = "<group>"; };
 		FBB3F1B8221CB826002444F0 /* Bangos Noir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bangos Noir.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB3F1BB221CB826002444F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FBB3F1BD221CB826002444F0 /* Accueil ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Accueil ViewController.swift"; sourceTree = "<group>"; };
+		FBB3F1BD221CB826002444F0 /* AccueilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccueilViewController.swift; sourceTree = "<group>"; };
 		FBB3F1C0221CB826002444F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBB3F1C2221CB828002444F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBB3F1C5221CB828002444F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 				FB912C9522566DC600FCE557 /* ChapitresTableViewController.swift */,
 				FBEAF1F4221DDF5A0036590B /* Creer profil.swift */,
 				FBEAF1F2221DDA800036590B /* Connexion.swift */,
-				FBB3F1BD221CB826002444F0 /* Accueil ViewController.swift */,
+				FBB3F1BD221CB826002444F0 /* AccueilViewController.swift */,
 				FBB3F1BB221CB826002444F0 /* AppDelegate.swift */,
 				FBB3F1C2221CB828002444F0 /* Assets.xcassets */,
 				FBB3F1C7221CB828002444F0 /* Info.plist */,
@@ -284,7 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB912C9422566B2F00FCE557 /* modele donnees table view cell.swift in Sources */,
-				FBB3F1BE221CB826002444F0 /* Accueil ViewController.swift in Sources */,
+				FBB3F1BE221CB826002444F0 /* AccueilViewController.swift in Sources */,
 				FB912C9E2258B94700FCE557 /* Chapitre3ViewController.swift in Sources */,
 				FB6FCD11222D874100AD4FF5 /* le mbigi muntu.swift in Sources */,
 				FB6FCD0F222D4E4D00AD4FF5 /* Chap1 Contenu ViewController.swift in Sources */,
