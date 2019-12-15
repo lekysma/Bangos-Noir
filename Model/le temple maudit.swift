@@ -80,7 +80,7 @@ Les propos sont choquants, voire injurieux envers le Lama. D'un autre coté, vou
 
 Allez-vous vous ranger du coté du Professeur ou de celui du Lama ?
 """
-let choix1Monastere : String = "Je crois le professeus" // vers 3
+let choix1Monastere : String = "Je crois le professeur" // vers 3
 let choix2Monastere : String = "Je crois le Lama" // vers 24
 
 // 3
@@ -317,7 +317,6 @@ let choix2RetourMonastere : String = "Je ne vais pas participer au rituel" // ve
 
 // 9
 let finTempleMaudit2 : String = """
-je participe a l'exorcisme, cela me rend fou. news : je suis interné a saint zonzon a Bangos
 
 Pendant que deux assistant lient le professeur à l'intérieur d'un cercle hâtivement dessiné sur le sol, le Lama vous explique la procédure.
 
@@ -349,7 +348,7 @@ Soudain, avec un cri de rage, une ombre quitte le professeur OTANAZIEF et pénè
 
 .... EXTRAIT DU BANGOS TIME ....
 
-ARCHEOLOGISTE INTERNÉ
+ARCHEOLOGUE INTERNÉ
 
 L'hôpital psychiatrique St Zonzou a accueilli un nouveau patient. Ce dernier est arrivé du Tibet ou il avait accompagné le célèbre professeur Ebenezer OTANAZIEF. Il semble qu'il a vécu un évènement traumatique durant son séjour
 
