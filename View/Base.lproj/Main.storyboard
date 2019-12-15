@@ -362,71 +362,69 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Kgt-h8-s3N" userLabel="mother Stack View">
-                                <rect key="frame" x="20" y="20" width="374" height="676"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="YMW-pH-fxH">
+                                <rect key="frame" x="20" y="8" width="374" height="420"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="420" id="tGx-RO-NZ5"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Z9J-sf-RIZ" userLabel="button Stack View">
+                                <rect key="frame" x="20" y="604" width="374" height="92"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="YMW-pH-fxH">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="420"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="420" id="tGx-RO-NZ5"/>
-                                        </constraints>
-                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                        <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Z9J-sf-RIZ" userLabel="button Stack View">
-                                        <rect key="frame" x="0.0" y="584" width="374" height="92"/>
-                                        <subviews>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUY-lv-SCe" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
-                                                <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
-                                                <state key="normal" title="Choix 1 ">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="rondeur">
-                                                        <real key="value" value="20"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="largeur">
-                                                        <real key="value" value="1"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="evolutionHistoire3:" destination="09B-Py-VWg" eventType="touchUpInside" id="D9X-05-pGq"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhA-Vo-0vr" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="56" width="374" height="36"/>
-                                                <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
-                                                <state key="normal" title="Button">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="rondeur">
-                                                        <real key="value" value="20"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="largeur">
-                                                        <real key="value" value="1"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="evolutionHistoire3:" destination="09B-Py-VWg" eventType="touchUpInside" id="4IR-3t-r0e"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUY-lv-SCe" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
+                                        <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <state key="normal" title="Choix 1 ">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rondeur">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="largeur">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="evolutionHistoire3:" destination="09B-Py-VWg" eventType="touchUpInside" id="D9X-05-pGq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhA-Vo-0vr" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="56" width="374" height="36"/>
+                                        <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rondeur">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="largeur">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="evolutionHistoire3:" destination="09B-Py-VWg" eventType="touchUpInside" id="4IR-3t-r0e"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Kgt-h8-s3N" firstAttribute="top" secondItem="66N-JV-Q7z" secondAttribute="top" constant="20" id="JYd-wx-Rvr"/>
-                            <constraint firstItem="66N-JV-Q7z" firstAttribute="trailing" secondItem="Kgt-h8-s3N" secondAttribute="trailing" constant="20" id="SQ9-OT-MOJ"/>
-                            <constraint firstItem="Kgt-h8-s3N" firstAttribute="leading" secondItem="66N-JV-Q7z" secondAttribute="leading" constant="20" id="iKp-3W-25f"/>
-                            <constraint firstItem="66N-JV-Q7z" firstAttribute="bottom" secondItem="Kgt-h8-s3N" secondAttribute="bottom" constant="20" id="znQ-S6-Z1A"/>
+                            <constraint firstItem="66N-JV-Q7z" firstAttribute="trailing" secondItem="Z9J-sf-RIZ" secondAttribute="trailing" constant="20" id="2gB-zx-KDo"/>
+                            <constraint firstItem="66N-JV-Q7z" firstAttribute="trailing" secondItem="YMW-pH-fxH" secondAttribute="trailing" constant="20" id="D7g-85-Ii8"/>
+                            <constraint firstItem="YMW-pH-fxH" firstAttribute="top" secondItem="66N-JV-Q7z" secondAttribute="top" constant="8" id="FfN-Ba-dhL"/>
+                            <constraint firstItem="YMW-pH-fxH" firstAttribute="leading" secondItem="66N-JV-Q7z" secondAttribute="leading" constant="20" id="JCc-8f-7Ql"/>
+                            <constraint firstItem="66N-JV-Q7z" firstAttribute="bottom" secondItem="Z9J-sf-RIZ" secondAttribute="bottom" constant="20" id="fNG-3v-v5N"/>
+                            <constraint firstItem="Z9J-sf-RIZ" firstAttribute="leading" secondItem="66N-JV-Q7z" secondAttribute="leading" constant="20" id="gXr-Km-D7S"/>
+                            <constraint firstItem="Z9J-sf-RIZ" firstAttribute="top" relation="lessThanOrEqual" secondItem="YMW-pH-fxH" secondAttribute="bottom" constant="176" id="qmh-Md-04c"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="66N-JV-Q7z"/>
                     </view>
@@ -448,71 +446,69 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="tgc-Q4-mqJ" userLabel="mother Stack View">
-                                <rect key="frame" x="20" y="20" width="374" height="676"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="BZi-kF-CoZ">
+                                <rect key="frame" x="20" y="8" width="374" height="420"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="420" id="Cre-JD-6gN"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ghH-qQ-dk3" userLabel="choice Button Stack View">
+                                <rect key="frame" x="20" y="604" width="374" height="92"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="BZi-kF-CoZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="420"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="420" id="Cre-JD-6gN"/>
-                                        </constraints>
-                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ghH-qQ-dk3" userLabel="choice Button Stack View">
-                                        <rect key="frame" x="0.0" y="584" width="374" height="92"/>
-                                        <subviews>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1bw-kg-w2n" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
-                                                <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
-                                                <state key="normal" title="Choix 1">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="rondeur">
-                                                        <real key="value" value="20"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="largeur">
-                                                        <real key="value" value="1"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="controlFlowHistoire4:" destination="ug5-RA-vAz" eventType="touchUpInside" id="2rm-tN-aUY"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AqP-fx-pkF" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="56" width="374" height="36"/>
-                                                <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
-                                                <state key="normal" title="Choix 2">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="rondeur">
-                                                        <real key="value" value="20"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="largeur">
-                                                        <real key="value" value="1"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="controlFlowHistoire4:" destination="ug5-RA-vAz" eventType="touchUpInside" id="rtp-pt-Gqj"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1bw-kg-w2n" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
+                                        <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <state key="normal" title="Choix 1">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rondeur">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="largeur">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="controlFlowHistoire4:" destination="ug5-RA-vAz" eventType="touchUpInside" id="2rm-tN-aUY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AqP-fx-pkF" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="56" width="374" height="36"/>
+                                        <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <state key="normal" title="Choix 2">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rondeur">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="largeur">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="controlFlowHistoire4:" destination="ug5-RA-vAz" eventType="touchUpInside" id="rtp-pt-Gqj"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="G7I-xR-HuL" firstAttribute="bottom" secondItem="tgc-Q4-mqJ" secondAttribute="bottom" constant="20" id="OeW-Zw-aei"/>
-                            <constraint firstItem="G7I-xR-HuL" firstAttribute="trailing" secondItem="tgc-Q4-mqJ" secondAttribute="trailing" constant="20" id="Pgf-ki-5n0"/>
-                            <constraint firstItem="tgc-Q4-mqJ" firstAttribute="leading" secondItem="G7I-xR-HuL" secondAttribute="leading" constant="20" id="ghh-hp-o2f"/>
-                            <constraint firstItem="tgc-Q4-mqJ" firstAttribute="top" secondItem="G7I-xR-HuL" secondAttribute="top" constant="20" id="ua6-0L-agB"/>
+                            <constraint firstItem="G7I-xR-HuL" firstAttribute="trailing" secondItem="ghH-qQ-dk3" secondAttribute="trailing" constant="20" id="BrM-s1-gmb"/>
+                            <constraint firstItem="G7I-xR-HuL" firstAttribute="bottom" secondItem="ghH-qQ-dk3" secondAttribute="bottom" constant="20" id="G5m-jY-6ET"/>
+                            <constraint firstItem="ghH-qQ-dk3" firstAttribute="top" relation="lessThanOrEqual" secondItem="BZi-kF-CoZ" secondAttribute="bottom" constant="176" id="HyQ-aN-J1W"/>
+                            <constraint firstItem="G7I-xR-HuL" firstAttribute="trailing" secondItem="BZi-kF-CoZ" secondAttribute="trailing" constant="20" id="bfc-3q-nWm"/>
+                            <constraint firstItem="BZi-kF-CoZ" firstAttribute="top" secondItem="G7I-xR-HuL" secondAttribute="top" constant="8" id="dXX-RQ-d4a"/>
+                            <constraint firstItem="ghH-qQ-dk3" firstAttribute="leading" secondItem="G7I-xR-HuL" secondAttribute="leading" constant="20" id="e5t-BA-Ax4"/>
+                            <constraint firstItem="BZi-kF-CoZ" firstAttribute="leading" secondItem="G7I-xR-HuL" secondAttribute="leading" constant="20" id="oF7-Sj-ncg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="G7I-xR-HuL"/>
                     </view>
@@ -535,10 +531,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="J9S-8R-qaT" userLabel="button Stack View">
-                                <rect key="frame" x="8" y="604" width="398" height="92"/>
+                                <rect key="frame" x="20" y="604" width="374" height="92"/>
                                 <subviews>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejt-KM-L2H" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="398" height="36"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
                                         <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                         <state key="normal" title="Choix 1">
@@ -557,7 +553,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsF-dy-SgC" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="56" width="398" height="36"/>
+                                        <rect key="frame" x="0.0" y="56" width="374" height="36"/>
                                         <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                         <state key="normal" title="Choix 2">
@@ -578,7 +574,7 @@
                                 </subviews>
                             </stackView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="gxJ-TH-VzA">
-                                <rect key="frame" x="8" y="8" width="398" height="420"/>
+                                <rect key="frame" x="20" y="8" width="374" height="420"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="420" id="gSs-Hv-bl4"/>
                                 </constraints>
@@ -591,11 +587,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="J9S-8R-qaT" firstAttribute="top" relation="lessThanOrEqual" secondItem="gxJ-TH-VzA" secondAttribute="bottom" constant="176" id="8I8-RU-tru"/>
-                            <constraint firstItem="J9S-8R-qaT" firstAttribute="leading" secondItem="MWp-jK-RKg" secondAttribute="leading" constant="8" id="BWl-WB-lJQ"/>
+                            <constraint firstItem="J9S-8R-qaT" firstAttribute="leading" secondItem="MWp-jK-RKg" secondAttribute="leading" constant="20" id="BWl-WB-lJQ"/>
                             <constraint firstItem="gxJ-TH-VzA" firstAttribute="top" secondItem="MWp-jK-RKg" secondAttribute="top" constant="8" id="Bcy-Lg-EK5"/>
-                            <constraint firstItem="MWp-jK-RKg" firstAttribute="trailing" secondItem="J9S-8R-qaT" secondAttribute="trailing" constant="8" id="HAX-eA-GNs"/>
-                            <constraint firstItem="MWp-jK-RKg" firstAttribute="trailing" secondItem="gxJ-TH-VzA" secondAttribute="trailing" constant="8" id="e1o-J2-0SO"/>
-                            <constraint firstItem="gxJ-TH-VzA" firstAttribute="leading" secondItem="MWp-jK-RKg" secondAttribute="leading" constant="8" id="vnX-V6-c31"/>
+                            <constraint firstItem="MWp-jK-RKg" firstAttribute="trailing" secondItem="J9S-8R-qaT" secondAttribute="trailing" constant="20" id="HAX-eA-GNs"/>
+                            <constraint firstItem="MWp-jK-RKg" firstAttribute="trailing" secondItem="gxJ-TH-VzA" secondAttribute="trailing" constant="20" id="e1o-J2-0SO"/>
+                            <constraint firstItem="gxJ-TH-VzA" firstAttribute="leading" secondItem="MWp-jK-RKg" secondAttribute="leading" constant="20" id="vnX-V6-c31"/>
                             <constraint firstItem="MWp-jK-RKg" firstAttribute="bottom" secondItem="J9S-8R-qaT" secondAttribute="bottom" constant="20" id="wEo-1m-rF4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MWp-jK-RKg"/>
@@ -618,71 +614,69 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="EeG-Xg-yee" userLabel="mother Stack View">
-                                <rect key="frame" x="20" y="20" width="374" height="676"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="1eB-vF-eEZ">
+                                <rect key="frame" x="20" y="8" width="374" height="420"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="420" id="K7E-wx-cWk"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Aeq-jP-XLI" userLabel="buttonStack View">
+                                <rect key="frame" x="20" y="604" width="374" height="92"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="1eB-vF-eEZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="420"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="420" id="K7E-wx-cWk"/>
-                                        </constraints>
-                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                        <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Aeq-jP-XLI" userLabel="buttonStack View">
-                                        <rect key="frame" x="0.0" y="584" width="374" height="92"/>
-                                        <subviews>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvK-FF-IUJ" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
-                                                <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
-                                                <state key="normal" title="Choix 1">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="rondeur">
-                                                        <real key="value" value="20"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="largeur">
-                                                        <real key="value" value="1"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="ActionHistoire2:" destination="zxC-tJ-27J" eventType="touchUpInside" id="298-1z-zm1"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yac-C5-PjN" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="56" width="374" height="36"/>
-                                                <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
-                                                <state key="normal" title="Choix 2">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="rondeur">
-                                                        <real key="value" value="20"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="largeur">
-                                                        <real key="value" value="1"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="ActionHistoire2:" destination="zxC-tJ-27J" eventType="touchUpInside" id="Lyq-x7-K5m"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvK-FF-IUJ" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
+                                        <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <state key="normal" title="Choix 1">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rondeur">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="largeur">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="ActionHistoire2:" destination="zxC-tJ-27J" eventType="touchUpInside" id="298-1z-zm1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yac-C5-PjN" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="56" width="374" height="36"/>
+                                        <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <state key="normal" title="Choix 2">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rondeur">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="largeur">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="ActionHistoire2:" destination="zxC-tJ-27J" eventType="touchUpInside" id="Lyq-x7-K5m"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="EeG-Xg-yee" firstAttribute="leading" secondItem="CD4-b0-Zr9" secondAttribute="leading" constant="20" id="0w2-dW-EKm"/>
-                            <constraint firstItem="CD4-b0-Zr9" firstAttribute="trailing" secondItem="EeG-Xg-yee" secondAttribute="trailing" constant="20" id="XZw-Mi-0d5"/>
-                            <constraint firstItem="CD4-b0-Zr9" firstAttribute="bottom" secondItem="EeG-Xg-yee" secondAttribute="bottom" constant="20" id="emk-Jx-10n"/>
-                            <constraint firstItem="EeG-Xg-yee" firstAttribute="top" secondItem="CD4-b0-Zr9" secondAttribute="top" constant="20" id="shh-zF-11E"/>
+                            <constraint firstItem="1eB-vF-eEZ" firstAttribute="top" secondItem="CD4-b0-Zr9" secondAttribute="top" constant="8" id="3mU-Gw-bJB"/>
+                            <constraint firstItem="CD4-b0-Zr9" firstAttribute="trailing" secondItem="Aeq-jP-XLI" secondAttribute="trailing" constant="20" id="Lbh-fp-IGr"/>
+                            <constraint firstItem="Aeq-jP-XLI" firstAttribute="top" relation="lessThanOrEqual" secondItem="1eB-vF-eEZ" secondAttribute="bottom" constant="176" id="MTI-ok-SNr"/>
+                            <constraint firstItem="CD4-b0-Zr9" firstAttribute="trailing" secondItem="1eB-vF-eEZ" secondAttribute="trailing" constant="20" id="Oej-7M-9rN"/>
+                            <constraint firstItem="1eB-vF-eEZ" firstAttribute="leading" secondItem="CD4-b0-Zr9" secondAttribute="leading" constant="20" id="mbi-cm-ido"/>
+                            <constraint firstItem="Aeq-jP-XLI" firstAttribute="leading" secondItem="CD4-b0-Zr9" secondAttribute="leading" constant="20" id="wvS-py-kqB"/>
+                            <constraint firstItem="CD4-b0-Zr9" firstAttribute="bottom" secondItem="Aeq-jP-XLI" secondAttribute="bottom" constant="20" id="xMK-tx-kbl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="CD4-b0-Zr9"/>
                     </view>
@@ -704,71 +698,69 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="K6W-cP-n3b" userLabel="mother Stack View">
-                                <rect key="frame" x="20" y="20" width="374" height="676"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="P2d-5l-EHx">
+                                <rect key="frame" x="20" y="8" width="374" height="420"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="420" id="OEm-ZH-Myi"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Xz8-qG-Bq7" userLabel="button Stack View">
+                                <rect key="frame" x="20" y="604" width="374" height="92"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="P2d-5l-EHx">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="420"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="420" id="OEm-ZH-Myi"/>
-                                        </constraints>
-                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Xz8-qG-Bq7" userLabel="button Stack View">
-                                        <rect key="frame" x="0.0" y="584" width="374" height="92"/>
-                                        <subviews>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zki-or-dpo" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
-                                                <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
-                                                <state key="normal" title="Choix 1">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="rondeur">
-                                                        <real key="value" value="20"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="largeur">
-                                                        <real key="value" value="1"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="controlHistoire5:" destination="jpn-Bm-ztP" eventType="touchUpInside" id="pdA-8u-WaA"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8r5-10-1eS" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="56" width="374" height="36"/>
-                                                <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
-                                                <state key="normal" title="Choix 2">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="rondeur">
-                                                        <real key="value" value="20"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="largeur">
-                                                        <real key="value" value="1"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="controlHistoire5:" destination="jpn-Bm-ztP" eventType="touchUpInside" id="tHY-eg-eHY"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zki-or-dpo" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
+                                        <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <state key="normal" title="Choix 1">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rondeur">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="largeur">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="controlHistoire5:" destination="jpn-Bm-ztP" eventType="touchUpInside" id="pdA-8u-WaA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8r5-10-1eS" customClass="roundButton" customModule="Bangos_Noir" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="56" width="374" height="36"/>
+                                        <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <state key="normal" title="Choix 2">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rondeur">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="largeur">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="controlHistoire5:" destination="jpn-Bm-ztP" eventType="touchUpInside" id="tHY-eg-eHY"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="K6W-cP-n3b" firstAttribute="top" secondItem="zmp-nF-lPI" secondAttribute="top" constant="20" id="DRa-kH-HUW"/>
-                            <constraint firstItem="zmp-nF-lPI" firstAttribute="bottom" secondItem="K6W-cP-n3b" secondAttribute="bottom" constant="20" id="jHj-I8-bWS"/>
-                            <constraint firstItem="K6W-cP-n3b" firstAttribute="leading" secondItem="zmp-nF-lPI" secondAttribute="leading" constant="20" id="lUa-j2-dxd"/>
-                            <constraint firstItem="zmp-nF-lPI" firstAttribute="trailing" secondItem="K6W-cP-n3b" secondAttribute="trailing" constant="20" id="luJ-dr-MJv"/>
+                            <constraint firstItem="zmp-nF-lPI" firstAttribute="trailing" secondItem="Xz8-qG-Bq7" secondAttribute="trailing" constant="20" id="LOL-h3-aci"/>
+                            <constraint firstItem="Xz8-qG-Bq7" firstAttribute="top" relation="lessThanOrEqual" secondItem="P2d-5l-EHx" secondAttribute="bottom" constant="176" id="UTj-IF-xIM"/>
+                            <constraint firstItem="Xz8-qG-Bq7" firstAttribute="leading" secondItem="zmp-nF-lPI" secondAttribute="leading" constant="20" id="Ziz-w9-rUD"/>
+                            <constraint firstItem="zmp-nF-lPI" firstAttribute="trailing" secondItem="P2d-5l-EHx" secondAttribute="trailing" constant="20" id="e9X-BA-M10"/>
+                            <constraint firstItem="P2d-5l-EHx" firstAttribute="leading" secondItem="zmp-nF-lPI" secondAttribute="leading" constant="20" id="jJs-Du-xjq"/>
+                            <constraint firstItem="P2d-5l-EHx" firstAttribute="top" secondItem="zmp-nF-lPI" secondAttribute="top" constant="8" id="le9-6O-0Ig"/>
+                            <constraint firstItem="zmp-nF-lPI" firstAttribute="bottom" secondItem="Xz8-qG-Bq7" secondAttribute="bottom" constant="20" id="mvR-Cc-k46"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zmp-nF-lPI"/>
                     </view>
