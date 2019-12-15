@@ -22,10 +22,6 @@ class ContenuCellule {
 
 
 
-//MARK: Enfin on cree une fonction qui va detailler le contenu de chaque cellule de l'application
-
-
-
 
 
 
