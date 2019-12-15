@@ -101,6 +101,7 @@ Il fait déjà nuit lorsque vous entrez enfin dans la vallée. La lueur de vos t
 
 
 Pendant que le reste du groupe établit le camp, le professeur s'approche de vous :
+
 - 'Allez viens avec moi ! Le temple est à 20 minutes de marche. J'ai vu le batiment an arrivant.'
 
 Vous vous rappelez l'avertissement du Lama. Que décidez-vous de faire ?
@@ -115,6 +116,7 @@ Vous vous tenez devant les portes imposantes du temple. Loin des constructions g
 
 
 Le professeur OTANAZIEF interromp vos réflexions :
+
 - 'Allez, aide-moi à ouvrir cette porte.'
 
 Vous hésitez une seconde, puis commencez à pousser les portes du temple, de concert avec le professeur. Ces dernières s'ouvrent enfin avec un bruit de pierre et de métal torturé. Au-delà, une pénombre d'un noir plus sombre que la nuit vous empêche de distinguer quoi que ce soit.
@@ -125,15 +127,18 @@ Vos lampes éclairent de maanière fugace des colonnades de pierre sur lesquelle
 
 
 Le professeur est aux anges, sa voix tranche le silence oppressant :
+
 - 'Vous voyez ces motifs et ces sculptures ? Il n'y a rien de similaire dans l'art tibétain. C'est peut être une culture entièrement nouvelle qui a peut être précédée le boudhisme tibétain.
-Est-ce que vous réalisez les implications historiques ? C'est la gloir mon petit : lorsque j'écrirais le compte-rendu de ma découverte, je n'oublierai pas de vous citer.'
+Est-ce que vous réalisez les implications historiques ? C'est la gloire mon petit : lorsque j'écrirais le compte-rendu de ma découverte, je n'oublierai pas de vous citer.'
 
 
 Il pose une main paternaliste sur votre épaule :
+
 - 'Je n'arrive pas à croire que ces idiots de moines aient cachés un tel trésor...'
 
 
 Soudain, vous entendez un étrange bruit.
+
 - 'Professeur, vous avez entendu cela?', vous demandez. Le bruit se répète; il semble provenir de votre droite.
 
 
@@ -209,9 +214,9 @@ Bientôt, vous distinguez une forme quelques mètres devant vous.
 - 'Après le plaisir, j'ai un moyen de transport. Excellent !', la voix voix sybilline vient bien de cette personne.
 
 
-Vous interrompez votre approche en entendant ces mots. Vous n'êtes plus certain de vouloir vous rapprocher. Le professeur vous touche l'épaule et vous surautez violemment.
+Vous interrompez votre approche en entendant ces mots. Vous n'êtes plus certain de vouloir vous rapprocher. Le professeur vous touche l'épaule et vous sursautez violemment.
 
-- ' Qu'attends-tu ? Il est peut-être blessé.'
+- ' Qu'attends-tu ? Il est peut-être blessé! Vas l'aider!'
 
 
 Quelle décision prenez-vous ?
@@ -221,7 +226,6 @@ let choix2RetourTempleMaudit : String = "Je m'approche de lui" // vers 13
 
 // 7
 let possessionProfesseur : String = """
-professeur possedé, on rentre camp, retour via monastere ou direct vers bangos ?
 
 L'air hésitant, vous vous rapprochez de la silhouette. Celle-ci ne bouge pas, ne fais aucum mouvement, et pourtant, vous ne vous êtes jamais aussi senti en danger que maintenant.
 
@@ -244,13 +248,13 @@ L'inconnu reprend :
 
 - 'A présent je vais utiliser l'un de vous pour aller visiter un peu le monde. Le vieil homme fera l'affaire'.
 
-Il disparait soudain, et le professeur se met pousser des cris de douleur.
+Il disparait soudain; le professeur se met à hurler quelques secondes plus tard.
 
 - 'Professeur, que se passe t-il', vous accourez vers lui. Celui ne semble pas vous entendre et continue de criez.
 Vous avez le plus grand mal à le contrôler, le professeur semble habité par une force inconnue.
 
 
-Il arrête de crier sans prévenir et git dans vos bras d'un air catatonique. Vous réalisez avec effroi qu'ne marque est apparue sur son front. Elle apparait comme marquée au fer rouge et ressemble au médaillon que portait l'inconnu.
+Soudain, il arrête de hurler, et git dans vos bras, l'air catatonique. Vous réalisez avec effroi qu'ne marque est apparue sur son front. Elle apparait comme marquée au fer rouge et ressemble au médaillon que portait l'inconnu.
 
 
 Vous vous demandez si vous devez conduire le professeur au monastère auprès du Lama, ou rentrer directement à Bangos avec lui.
@@ -312,7 +316,47 @@ let choix1RetourMonastere : String = "Je vais participer au rituel" // vers 9
 let choix2RetourMonastere : String = "Je ne vais pas participer au rituel" // vers 16
 
 // 9
-let finTempleMaudit2 : String = "je participe a l'exorcisme, cela me rend fou. news : je suis interné a saint zonzon a Bangos"
+let finTempleMaudit2 : String = """
+je participe a l'exorcisme, cela me rend fou. news : je suis interné a saint zonzon a Bangos
+
+Pendant que deux assistant lient le professeur à l'intérieur d'un cercle hâtivement dessiné sur le sol, le Lama vous explique la procédure.
+
+- 'Notre religion explique qu'il existe plusieurs plans d'existence, parmi lesquels celui des démons. Avec les bons rituels, il est possible d'inviter d'attirer un des habitants de ces plans vers notre dimension.
+
+il continue :
+
+- Dans le cas d'un exorcisme normal, nous devrions juste menacer le démon avec le nom de Boudha pour le forcer à relâcher sa victime. Ensuite, il s'agirait de le forcer à rejoindre sa dimension d'origine.'
+
+Il marque une pause pour ordonner à ses assistants de commencer le rituel. Ces derniers se mettent à bruler de l'encens, et entonnent des chants dans une langue inconnue. Le lama continue ses explications.
+
+- 'Dans le cas d'un démon aussi puissant que Bazouzeus, on ne peux pas tout simplement le renvoyer dans sa dimension d'origine. Il est tout simplement trop puissant. Nous allons tenter de le détruire en le piégant dans un objet de pouvoir, puis en brulant cet objet.'
+
+Il vous tend une dague à 3 lames : vous reconnaissez un phurba, une dague tibétaine présente dans de nombreuses cérémonies religieuses. Celle-ci parait très vieille, et est ornée de têtes de démons sur le pommeau. Le Lama pose la main sur votre épaule :
+
+- 'Il est possible que le rituel d'exorcisme ne réussisse pas. Dans ce cas, je veux que vous utilisiez cette dague pour poignarder le démon. Est-ce je peux compter sur vous ?
+
+En tremblant, vous répondez par l'affirmative. C'est de votre faute, et vous allez tout faire pour la réparer.
+
+
+Sans plus attendre, le Lama se dirige vers le professeur possédé. Avec de l'argile, il construit une éffigie sur laquelle il verse du vin. Il se met à invoquer le nom du démon:
+
+- 'Bazouseus, démon des tempêtes! Bazouzeus, démon de la folie! Je t'ordonne de quitter ce corps! Regarde, avec mes mains, je t'ai façonné un nouveau corps. J'ai parfumé ce corps avec du vin pour le rendre attirant pour toi. Bazouzeus, viens et possède cette nouvelle enveloppe charnelle.'
+
+Soudain, avec un cri de rage, une ombre quitte le professeur OTANAZIEF et pénètre dans la poupée d'argile. Le Lama est projeté au sol par la force de l'impact. Ses assistants accourent et tentent de mettre feu à la poupée pour détruire le démon, mais malgré toutes leurs tentatives, l'effigie demeure intacte.
+
+- 'Aidez-nous jeune homme!', le Lama vous implore. Poussant un cri de peur et de rage, vous brandissez votre dague et vous dirigez vers l'effigie hantée.
+
+
+.... EXTRAIT DU BANGOS TIME ....
+
+ARCHEOLOGISTE INTERNÉ
+
+L'hôpital psychiatrique St Zonzou a accueilli un nouveau patient. Ce dernier est arrivé du Tibet ou il avait accompagné le célèbre professeur Ebenezer OTANAZIEF. Il semble qu'il a vécu un évènement traumatique durant son séjour
+
+La police a longuement interrogé le professeur, mais pour le moment aucune autre information n'est disponible.
+
+.... FIN ....
+"""
 
 // 10
 let campSurPlace : String = "on perd des hommes. lendemainm visite monastere ou vallee direct ?"
