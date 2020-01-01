@@ -22,7 +22,7 @@ Vous vous approchez du professeur, un homme d'environ 70 ans, à l'aspect encore
 
 - 'Professeur', vous commencez. 'Nous ne pouvons pas continuer. La tempête va bientôt arriver. Nous devons nous abriter.'
 
-Le responsable en charge de la sécurité et le guide principal de la mission vous rejoingnent. Le premier s'appelle Charles DISSOU. Il est un ancien major de l'armée révolutionnaire Bangosienne. Il a été principalement choisi pour ses qualités de leadership.
+Le responsable en charge de la sécurité et le guide principal de la mission vous rejoingnent. Le premier s'appelle Vladimir OUSPENZKY. Il est un ancien major de l'armée révolutionnaire Bangosienne. Il a été principalement choisi pour ses qualités de leadership.
 Votre guide est un local qui a organisé des dizaines d'expéditions sur l'Himalaya.
 
 Le chef de la sécurité intervient :
@@ -358,17 +358,70 @@ La police a longuement interrogé le professeur, mais pour le moment aucune autr
 """
 
 // 10
-let campSurPlace : String = "on perd des hommes. lendemainm visite monastere ou vallee direct ?"
-let choix1CampSurPlace : String = "on visite monastere" //  vers 2
-let choix2CampSurPlace : String = "on part directement" // vers 3
+let campSurPlace : String = """
+
+Contre l'avis du responsable de la sécurité et du guide local, le professeur décide de camper sur place.
+
+Vous avez à peine le temps d'installer vos tentes que la tempête est sur vous. Vous vous enfermez précipitament.
+
+L'orage s'abat toute la nuit sur votre camp. Terré dans votre tente, vous n'avez aucune idée de la situation des autres membres de l'expédition...
+
+
+Au matin, le bilan est lourd : l'orage a causé un glissement de terrain qui a emporté une tente. Deux membres de l'expédition, des biologistes, ont été emportés.
+
+
+Après une tentative infructueuse pour retrouver leurs corps, le guide local revient vers vous. Il indique que vous pouvez rejoindre un temple boudhiste, ou alors vous diriger vers une vallée qui vous protégera mieux des intempéries. Les deux destinations sont à environ une journée de marche.
+
+Après sa désastreuse décision de la veille, le professeur OTANAZIEF sollicite votre avis: que lui conseillez-vous ?
+"""
+let choix1CampSurPlace : String = "Allons au monastère" //  vers 2
+let choix2CampSurPlace : String = "Allons vers la vallée" // vers 3
 
 // 11
-let presenceDemon : String = "presence demon detectée, je prends mes distances ou je me rapproche ?"
-let choix1PresenceDemon : String = "je prends mes distances" // vers 7
-let choix2PresenceDemon : String = "je me rapproche" // vers 13
+let presenceDemon : String = """
+Vous vous dirigez prudemment vers l'endroit d'où semblent venir les sons. Malgré la pénombre, vous finissez par distinguer une silhouete immobile au milieu de la pièce.
+
+
+Le professeur l'interpelle :
+
+- 'Bonsoir, tout va bien Monsieur?', il commence. 'Avez-vous besoin d'aide' ?
+
+
+Bien que cette personne n'ai rien fait de menaçant, vous ne pouvez vous empêcher d'éprouver une certaine inquiétude. Alors même que le professeur se rapproche de l'individu, vous vous demandez si vous devriez le suivre.
+"""
+let choix1PresenceDemon : String = "Je garde mes distances" // vers 7
+let choix2PresenceDemon : String = "Je me rapproche" // vers 13
 
 // 12
-let finTempleMaudit1 : String = "je meurs tué; news : pas de nouvelles des explorateurs"
+let finTempleMaudit1 : String = """
+
+La scène qui vous accueille à votre sortie est digne d'un film d'horreur.
+
+Des corps gisent sur le sol; les nombreuses blessures qu'ils arborent ne laissent pas un doute quant à leur état : vous reconnaissez parmi les corps ceux d'amis, de collègues...
+
+Soudain, vous entendez une rafale de coups de feux : Vladimir OUSPENZKY, le chef de la sécurité tire en direction de quelque chose qui s'avancent. Derrière lui se terrent les mambres restants de votre expédition.
+
+
+Pris d'un courage suicidaire, vous ramassez un piton utilisé pour ancrer les tentes au sol - vous vous dites qu'elle peut causer des dégats - et vous dirigez vers le groupe.
+Pendant ce temps, la personne sur laquelle tire le chef de la sécurité continue d'avancer malgré les impacts de balles. Elle dégaine des griffes qu'un dinosaure serait fier d'arborer et se met à tailler en pièces vos collègues.
+
+
+Vous regardez OUSPENZKY puis les autres tomber sous les coups de cette créature. Vous fermez les yeux, priant que toute ceci n'est qu'un rêve et que vous vous reveillerez bientôt.
+D'un air persque résigné, vous sentez une respiration animale en face de vous...
+
+
+SANS REPONSE DE L'EXPEDITION SCIENTIFIQUE
+
+.... EXTRAIT DU BANGOS TIME ....
+
+Nous sommes toujours sans réponses de l'expédition vers le Tibet menée par l'estimé professeur Ebenezer OTANAZIEF. Ce dernier avait créé la controverse en décidant d'organiser l'expédition en pleine saison orageuse.
+
+Des hélicoptères de la marine Bangossienne ont été dépêchés sur place pour participer aux recherches.
+
+
+.... FIN ....
+
+"""
 
 // 13
 let finTempleMaudit4 : String = "je suis possedé, je me dirige vers camp. news : entiere equipe morte, pas de trace assistant"

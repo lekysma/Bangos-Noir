@@ -362,7 +362,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="YMW-pH-fxH">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMW-pH-fxH">
                                 <rect key="frame" x="20" y="8" width="374" height="420"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="420" id="tGx-RO-NZ5"/>
@@ -446,7 +446,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="BZi-kF-CoZ">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BZi-kF-CoZ">
                                 <rect key="frame" x="20" y="8" width="374" height="420"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="420" id="Cre-JD-6gN"/>
@@ -573,7 +573,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="gxJ-TH-VzA">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxJ-TH-VzA">
                                 <rect key="frame" x="20" y="8" width="374" height="420"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="420" id="gSs-Hv-bl4"/>
@@ -614,7 +614,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="1eB-vF-eEZ">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1eB-vF-eEZ">
                                 <rect key="frame" x="20" y="8" width="374" height="420"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="420" id="K7E-wx-cWk"/>
@@ -698,7 +698,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="P2d-5l-EHx">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2d-5l-EHx">
                                 <rect key="frame" x="20" y="8" width="374" height="420"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="420" id="OEm-ZH-Myi"/>
@@ -803,7 +803,7 @@
         <image name="error.png" width="28" height="28"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="s74-Cw-xou"/>
+        <segue reference="B4U-4B-hFe"/>
         <segue reference="jD7-zK-xmc"/>
     </inferredMetricsTieBreakers>
 </document>
