@@ -424,26 +424,168 @@ Des hélicoptères de la marine Bangossienne ont été dépêchés sur place pou
 """
 
 // 13
-let finTempleMaudit4 : String = "je suis possedé, je me dirige vers camp. news : entiere equipe morte, pas de trace assistant"
+let finTempleMaudit4 : String = """
+
+Vous retenez le professeur par la main :
+
+- 'Il se peut que cela ne soit pas un des nôtres professeur. Laissez-moi vérifier'.
+
+Vous vous approchez prudemment de l'individu.
+
+
+Soudain, ce dernier lève la tête et exhibe des dents que l'on retrouverait plutôt chez un requin. Il vous aggripe brusquement d'un poigne de fer.
+
+Une voix se fait entendre dans votre tête :
+
+- 'Je suis Bazouseus, démon des tempêtes et de la folie. Merci d'avoir mis ton corps à ma disposition. Cela fait des siècles que je n'ai pas tué. Je vais commencer par ton compagnon'.
+
+
+.... EXTRAIT DU BANGOS TIMES ....
+
+ARCHEOLOGUES BANGOSSIENS MASSACRÉS AU TIBET
+
+Nous avons récemment été informé que les membres d'une équipe archéologiques qui était au Tibet a été retrouvée morte. D'après nos premières informations, il s'agirait d'un crime. Parmi les victimes figure le professeur Ebenezer OTANAZIEF qui était le premier Bangossien a avoir reçu le prix Nobel.
+
+
+.... FIN ....
+"""
 
 // 14
-let retourABangos : String = "retour Bangos, meurtres, j'ai des soupçons, je fais quoi ?"
-let choix1RetourABangos : String = "option pere Migoua" // vers 15
-let choix2RetourABangos : String = "option Fifion" // vers 19
+let retourABangos : String = """
+
+Vous êtes de retour à Bangos, mais ce qui s'est passé au Tibet vous obsède. Le professeur OTANAZIEF a complètement changé. Il est devenu un être froid, cruel même, que la plupart de ses collègues fuient.
+
+Vous vous doutez que la science ne pourra pas vous aider : vous avez tous les deux effectués une batterie d'examens médicaux qui n'ont rien révélé. Mais au fonds de vous, vous savez qu'une créature malfaisante se cache à présent sous les traits du professeur.
+
+Il existe peut-être une solution : Bangos est connue pour être la seule capitale africaine à avoir un exorciste de renommée mondiale, le père MIGOUA.
+Il y a également Fifion RIBANA, le plus grand sorcier de Bangos, dont les pouvoirs magiques sont unanimement reconnus.
+Les deux pourraient vous aider à sauver le professeur.
+
+"""
+let choix1RetourABangos : String = "Il me faut l'exorciste" // vers 15
+let choix2RetourABangos : String = "J'ai besoin du sorcier" // vers 19
 
 // 15
-let visiteMigoua : String = "je vais voir pere Migoua, exorcisme, nous confrontons le demon"
-let choix1VisiteMigoua : String = "je participe a l'exorcisme" // vers 17
-let choix2VisiteMigoua : String = "je m'enfuis" // vers 18
+let visiteMigoua : String = """
+
+Vous vous dirigez vers la paroisse Saint Banayo, dans le quartier de Brimborian.
+
+
+Vous trouvez le père MIGOUA dans une modeste maison située derrière l'église. Le père est un vieil homme frêle d'environ 70 ans, qui dégage une impression de bienveillance. Seul son regard perçant fait entrevoir un caractère bien trempé.
+
+Il vous écoute sans vous interrompre. Son visage à la fin de votre récit est grave:
+
+
+- 'Je connais bien Bazouseus, c'est un démon particulièrement vicieux. Je suis désolé que vous ayez dû vivre cela. Nous pouvons tenter de l'exorciser : si tout se passe bien, le démon sera banni.'
+
+
+Il vous demande si vous souhaitez participer à l'exorcisme.
+
+
+Vous vous demandez quoi faire.
+"""
+let choix1VisiteMigoua : String = "Je participe a l'exorcisme" // vers 17
+let choix2VisiteMigoua : String = "Je refuse de participer" // vers 18
 
 // 16
-let finTempleMaudit3 : String = "succes, mais tous les moines meurent. news : je fais une these sur la spiritualite thibetaine"
+let finTempleMaudit3 : String = """
+
+Vous refusez catégoriquement de participer à l'exorcisme. Vous vous enfuyez avec les autres moines est passez une nuit misérable loin du temple.
+
+Le lendemain, un groupe de moines se dirige vers le monastère. Ils sont de retour plusieurs heures plus tard. Ils transportent sur une civière improvisée, le corps du professeur OTANAZIEF.
+
+- 'Professeur, professeur! Il va bien ?', vous demandez anxieusement aux moines ?
+
+
+L'un des moines vous dévisage d'un air impassible.
+
+- 'Etranger, votre compagnon est toujours vivant et devrait se réveiller bientôt. L'exorcisme a marché '. Il reprend :
+
+- 'Au cas où cela vous intéresserait, le Lama et ses disciples n'ont pas survécu'.
+
+
+Vous n'osez les regarder :
+
+- 'Je suis désolé', vous commencez. Il vous interrompnd sans peine :
+
+- 'Rentrez juste chez vous et laissez nous pleurer notre maître. Nous n'avons pas besoins de vos excuses. Au revoir!'
+
+
+Il vous tourne le dos et se dirige vers le monastère. Les autres moines le suivent, bientôt vous êtes seul avec le professeur. Vous vous demandez combien de temps il vous faudra pour quitter cette vallée.
+
+
+.... EXTRAIT DU BANGOS NOIR ....
+
+MISSION SCIENTIFIQUE BANGOSSIENNE DE RETOUR AU PAYS
+
+Le professeur OTANAZIEF et son assistant sont rentrés d'une mission scientifique au Tibet. Ils sont les seuls membres survivants de cette expédition. Pour le moment, ni le professeur, ni les services de police de Bangos ne se sont exprimés.
+
+Une conférence de presse est prévue pour la fin de la semaine, au commissariat central de Bangos.
+
+.... FIN ....
+
+"""
 
 // 17
-let finTempleMaudit5 : String = "exorcisme realisé par pretre, je demissione et repars au tibet"
+let finTempleMaudit5 : String = """
 
+Vous décidez de participer à l'exorcisme.
+
+Vous vous confiez auprès de certains collègues à l'université de Bangos. Ils vous aident activement à distraire le professeur OTANAZIEF, afin que le père MIGOUA puisse se recueillir dans l'appartement de ce dernier.
+
+Vous réalisez que vos collègues aussi ont remarqué qu'il y avait quelque chose de sinistre chez le professeur.
+
+
+Le soir venu, alors que le professeur entre dans son appartement, vous vous saississez de lui, et non sans peine, le père MIGOUA et vous arrivez à attacher le professeur sur son lit.
+
+
+Le masque qu'il arborait a disparu, il est clair qu'une créature démoniaque habite le professeur. Il bave abondament et vous invective, vous menaçant des pires sévices.
+
+Vous avez peur, et seule la présence rassurante du père MIGOUA vous empêche de vous enfuir.
+
+
+Toute la nuit, le père MIGOUA prie autour du professeur. Ce dernier résiste, geint, pleurt et vous insulte. Il tente de se débasser des liens, de mordre parfois. Vous tremblez mais restez à coté du prêtre, ajoutant vos prières aux siennes.
+
+
+Le matin venu, le père MIGOUA interromp enfin son exorcisme:
+
+- 'Le démon est parti, le professeur est à présent libre', il reprend :
+
+- 'Ce genre de choses laisse des stigmates. Si jamais les choses deviennent trop dures, n'hésitez pas à venir me voir. J'espère aussi que le professeur pourra compter sur vous.
+
+
+Tout aussi discrétement, il quitte l'appartement, vous laissant avec le professeur qui dort d'un air apaisé.
+
+
+.... FIN ....
+"""
 // 18
-let finTempleMaudit6 : String = "durant ma fuite, je suis agressé et je meurs sous les coups. news : pere migoua hospitalisé"
+let finTempleMaudit6 : String = """
+durant ma fuite, je suis agressé et je meurs sous les coups. news : pere migoua hospitalisé
+
+Vous refusez de participez à l'exorcisme et vous enfuyez en courant de la maison du père MIGOUA.
+
+
+Vous courrez longtemps sans prêter attention à vos alentours. Lorsque vous vous arrêtez enfin, vous réalisez que vous êtes près du cimetière de Gorgorian.
+
+
+Vous distinguez un groupe de jeunes désoeuvrés qui trainent près d'un lampadaire. Alors que vous tentez de vous éloigner prudemment, ces derniers vous interpellent:
+
+
+- 'Hey, toi, viens ici!'. Sans les écoutez, vous décidez de prendre la fuite. Ils se mettent à vous poursuivre.
+
+
+.... EXTRAIT DU BANGOS TIME ....
+
+CRIME CRAPULEUX À GORGORIAN
+
+Les services de police du commissariat de Gorgorian ont procédé à plusieurs arrestations après la découverte du corps sans vie d'un étudiant en thèse de l'université de Bangos en début de matinée. D'après nos premières informations, il s'agirait d'un braquage qui a mal tourné.
+
+Nous avons également été informés que le père MIGOUA, le curé de la paroisse Saint Banayo, a été hospitalisé d'urgence à l'hôpital Mangani Mangoua de Bangos. Ses jours ne seraient cependant pas en danger.
+
+
+.... FIN ....
+"""
 
 // 19
 let optionFifion : String = "visite Fifion; option : sacrifice corporel ou argent"
