@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F0D52356A638F28EA620FEF5 /* Pods_Bangos_Noir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CA433A55FE8B0BB4F28D8C /* Pods_Bangos_Noir.framework */; };
 		FB1E613122A3F32F005C050C /* roundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1E613022A3F32F005C050C /* roundButton.swift */; };
 		FB56BF6622745E4300F8C85D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB56BF6522745E4300F8C85D /* GoogleService-Info.plist */; };
 		FB6FCD0F222D4E4D00AD4FF5 /* Chap1 Contenu ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FCD0E222D4E4D00AD4FF5 /* Chap1 Contenu ViewController.swift */; };
@@ -23,6 +22,8 @@
 		FBB3F1C1221CB826002444F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB3F1BF221CB826002444F0 /* Main.storyboard */; };
 		FBB3F1C3221CB828002444F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB3F1C2221CB828002444F0 /* Assets.xcassets */; };
 		FBB3F1C6221CB828002444F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB3F1C4221CB828002444F0 /* LaunchScreen.storyboard */; };
+		FBC877D2243A18CD00CD3D11 /* Pods_Bangos_Noir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CA433A55FE8B0BB4F28D8C /* Pods_Bangos_Noir.framework */; };
+		FBC877D3243A18CD00CD3D11 /* Pods_Bangos_Noir.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1CA433A55FE8B0BB4F28D8C /* Pods_Bangos_Noir.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FBD76D4C225620D300E30C0B /* taureau de boeuf.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD76D4B225620D300E30C0B /* taureau de boeuf.swift */; };
 		FBE7F03F228715FC00553F9E /* Baron Samedi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE7F03E228715FC00553F9E /* Baron Samedi.swift */; };
 		FBE7F041228720E300553F9E /* Chapitre4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE7F040228720E300553F9E /* Chapitre4ViewController.swift */; };
@@ -31,6 +32,20 @@
 		FBEAF1F3221DDA800036590B /* Connexion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAF1F2221DDA800036590B /* Connexion.swift */; };
 		FBEAF1F5221DDF5A0036590B /* Creer profil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAF1F4221DDF5A0036590B /* Creer profil.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FBC877D4243A18CD00CD3D11 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FBC877D3243A18CD00CD3D11 /* Pods_Bangos_Noir.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		139ED520325DF0B4B4AB6CFD /* Pods-Bangos Noir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bangos Noir.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bangos Noir/Pods-Bangos Noir.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0D52356A638F28EA620FEF5 /* Pods_Bangos_Noir.framework in Frameworks */,
+				FBC877D2243A18CD00CD3D11 /* Pods_Bangos_Noir.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +182,7 @@
 				FBB3F1B5221CB826002444F0 /* Frameworks */,
 				FBB3F1B6221CB826002444F0 /* Resources */,
 				ABC1FA7E076520D086BFFA47 /* [CP] Embed Pods Frameworks */,
+				FBC877D4243A18CD00CD3D11 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

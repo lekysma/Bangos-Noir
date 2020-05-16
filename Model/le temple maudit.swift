@@ -348,9 +348,9 @@ Soudain, avec un cri de rage, une ombre quitte le professeur OTANAZIEF et pénè
 
 .... EXTRAIT DU BANGOS TIME ....
 
-ARCHEOLOGUE INTERNÉ
+MÉTÉOROLOGUE INTERNÉ
 
-L'hôpital psychiatrique St Zonzou a accueilli un nouveau patient. Ce dernier est arrivé du Tibet ou il avait accompagné le célèbre professeur Ebenezer OTANAZIEF. Il semble qu'il a vécu un évènement traumatique durant son séjour
+L'hôpital psychiatrique St Zonzon a accueilli un nouveau patient. Ce dernier est arrivé du Tibet où il avait accompagné le célèbre professeur Ebenezer OTANAZIEF. Il semble qu'il a vécu un évènement traumatique durant son séjour
 
 La police a longuement interrogé le professeur, mais pour le moment aucune autre information n'est disponible.
 
@@ -410,9 +410,9 @@ Vous regardez OUSPENZKY puis les autres tomber sous les coups de cette créature
 D'un air persque résigné, vous sentez une respiration animale en face de vous...
 
 
-SANS REPONSE DE L'EXPEDITION SCIENTIFIQUE
-
 .... EXTRAIT DU BANGOS TIME ....
+
+SANS REPONSE DE L'EXPEDITION SCIENTIFIQUE
 
 Nous sommes toujours sans réponses de l'expédition vers le Tibet menée par l'estimé professeur Ebenezer OTANAZIEF. Ce dernier avait créé la controverse en décidant d'organiser l'expédition en pleine saison orageuse.
 
@@ -442,9 +442,9 @@ Une voix se fait entendre dans votre tête :
 
 .... EXTRAIT DU BANGOS TIMES ....
 
-ARCHEOLOGUES BANGOSSIENS MASSACRÉS AU TIBET
+SCIENTIFIQUES BANGOSSIENS MASSACRÉS AU TIBET
 
-Nous avons récemment été informé que les membres d'une équipe archéologiques qui était au Tibet a été retrouvée morte. D'après nos premières informations, il s'agirait d'un crime. Parmi les victimes figure le professeur Ebenezer OTANAZIEF qui était le premier Bangossien a avoir reçu le prix Nobel.
+Nous avons récemment été informé que les membres d'une équipe météorologique qui était au Tibet a été retrouvée morte. D'après nos premières informations, il s'agirait d'un crime. Parmi les victimes figure le professeur Ebenezer OTANAZIEF qui était le premier Bangossien a avoir reçu le prix Nobel.
 
 
 .... FIN ....
@@ -561,9 +561,8 @@ Tout aussi discrétement, il quitte l'appartement, vous laissant avec le profess
 """
 // 18
 let finTempleMaudit6 : String = """
-durant ma fuite, je suis agressé et je meurs sous les coups. news : pere migoua hospitalisé
 
-Vous refusez de participez à l'exorcisme et vous enfuyez en courant de la maison du père MIGOUA.
+Vous refusez de participez à l'exorcisme et sortez en courant de la maison du père MIGOUA.
 
 
 Vous courrez longtemps sans prêter attention à vos alentours. Lorsque vous vous arrêtez enfin, vous réalisez que vous êtes près du cimetière de Gorgorian.
@@ -588,23 +587,216 @@ Nous avons également été informés que le père MIGOUA, le curé de la parois
 """
 
 // 19
-let optionFifion : String = "visite Fifion; option : sacrifice corporel ou argent"
-let choix1OptionFifion : String = "je donne une couille" // vers 20
-let choix2OptionFifion : String = "je donne de l'argent" // vers 21
+let optionFifion : String = """
+
+Vous décidez de rendre visite à Fifion RIBANA. A Bangos il est en effet largement admit que ses pouvoirs magiques sont réels. Ses capacités magiques et le fait que les puissants locaux ont souvent recours à ses services l'ont toujours protégé de représailles suite à certains de ses sorts.
+
+Vous vous dirigez vers le cimetière de Brimborian. Une vieille case branlante et brimbalante trone au milieu des herbes, derriere le cimetière.
+
+Un vieillard décharné à l'expression malveillante vous ouvre la porte :
+
+- 'Tu es qui ? Tu veux quoi ', il vous demande sans vous inviter à entrer.
+
+- 'Sorcier, j'ai besoin de ton aide !', vous l'implorez.
+
+
+Il vous laisse entrer à contre coeur. Pendant les minutes qui suivent, vous lui expliquez ce qui vous est arrivé au Tibet, ainsi que vos suspicions.
+
+
+- 'Tu as eu raison de venir ici. Un démon c'est dangereux. Par contre, moi je travaille pas cadeau, ma magie a besoin de sacrifice. Soit tu donnes beaucoup l'argent, soit tu donnes de toi, ta douleur'.
+
+- 'que veux-tu dire par douleur sorcier', vous osez lui demandez. Il vous interromp :
+
+- 'Choisis ! Cest beaucoup argent ou c'est douleur'.
+
+"""
+let choix1OptionFifion : String = "Je choisis le sacrifice" // vers 20
+let choix2OptionFifion : String = "Je donne de l'argent" // vers 21
 
 // 20
-let finTempleMaudit7 : String = "rite, demon trop fort, je meurs. news : Fifion a disparu"
+let finTempleMaudit7 : String = """
+
+Sans attendre, le sorcier vous demande vous déshabiller, intégralement. D'un air impersonnel qui laisse cependant transparaitre des lueurs de malices, il continue :
+
+- 'Pour que le sacrifice réussisse, il faut que tu donnes de ta douleur. C'est ce que je vais utiliser pour convoquer et banir le démon.' Il continue :
+
+- 'Tu vas t'agenouiller au sol, prendre tes testicules dans ta main et les poser bien en évidence devant moi.'
+
+
+Il s'interromp quelques temps pour fouiller autour de lui. L'air triomphant, il brandit un vieux clou rouillé devant vous.
+
+
+- 'Je vais planter ce clou dans tes testicules et élargir la blessure, jusqu'à ce que le sang coule'.
+
+
+Vous l'interrompez l'air horrifié :
+
+
+- 'Mais sorcier ça va faire mal !'. Il vous regarde d'un air éberlué, comme surpris par votre stupidité :
+
+
+- 'Bien sûr que ça va faire mal, c'est le but espèce d'idiot !'
+
+
+D'un air tremblant, vous vous agenouillez et vous préparez à souffrir. Sans attendre, le sorcier enfonce le clou dans votre chair. La douleur est encore plus atroce que ce que vous aviez imaginé, et vous vous tordez de douleur en poussant des cris d'horreur. Pendant ce temps, le sorcier vous regarde d'un air impassible.
+
+
+Après une éternité, la douleur diminue assez pour que vous puissiez vous relever. Fifion vous interpelle :
+
+
+- 'Habilles-toi, nous allons commencer le rite'.
+
+
+Le sorcier trace rapidement un cercle avec quelque chose de visqueux - il vous informe que c'est du sang de chien - et ensuite une étoile à 5 branches à l'intérieur du cercle.
+
+
+- 'C'est ici que nous allons invoquer le démon pour le banir.
+
+
+Il vous demande de vous tenir à l'extérieur du cercle et de ne pas bouger. Il commence ensuite son invocation.
+
+
+Vous ne vous rappelez pas exactement ce qu'il fait, mais c'était long, malodorant et d'une certaine faço, impie. Bientôt, quelque chose de sombre apparait bientôt dans le cercle. Avec effroi, vous reconnaissez la créture malfaisante que vous aviez rencontré au Tibet.
+
+
+- 'Démon Bazouzeus, moi Fifion RIBANA, je te conjure et je te banis ! Quitte ce plan d'existence et repars d'où tu viens ! Allez, va t-en !
+
+
+La créature émet un rire glaçant:
+
+
+- 'Sorcier stupide ! Tu crois pouvoir commander quelqu'un comme moi ?! Juste pour cette insolence, je pense que je vais finir par toi.'
+
+Soudain, vous ressentez une forte douleur à la poitrine. Avec effroi, vous réalisez que le démon vous a transpercé avec ses griffes. Vous le sentez fouiller dans votre poitrine, ravager vos organes.
+
+
+Alors que votre vision disparait, vous le voyez se tourner vers le sorcier.
+
+
+
+.... EXTRAIT DU BANGOS TIME ....
+
+OU EST PASSÉ FIFION RIBANA ?
+
+
+FIfion RIBANA est recherché par la police après la décourverte d'un cadavre à son domicile. Bien qu'aucune ne vient étayer sa responsabilité, la police voudrait connaitre les circonstances qui ont conduit un chercheur de l'université de Bangos à trouver la mort au domicile de celui qui est considéré par beaucoup comme un sorcier.
+
+
+.... FIN ....
+
+
+
+
+
+"""
 
 // 21
-let riteCimetiere : String = "cimetiere, ceremonie Papa Legba, combat de titans"
-let choix1RiteCimetiere : String = "je reste regarder" // vers 22
-let choix2RiteCimetiere : String = "je pars sans regarder" // vers 23
+let riteCimetiere : String = """
+
+Le sorcier et vous vous dirigez vers le cimetiere qui jouxte la case du premier.
+
+Plus tôt vous avez donné tout le cash que vous aviez sur vous au sorcier. Ce dernier indique qu'en retour, il va invoquer un puissant esprit pour combattre ce démon.
+
+- 'Nous allons invoquer Papa Legba, un puissant esprit vaudou. Il va se debarasser du démon pour nous.
+
+
+Le sorcier s'arrête devant une tombe particulièrement délabrée, aucune information sur la personne qui y a été entérée ne demeure.
+
+- 'Sorcier Fifion, vous avez besoin que je reste ou pas ?', vous lui demandez timidement ?
+
+
+Il vous répond d'un air brusque :
+
+- 'Reste ou pars ! Tu as payé, c'est tout ce qui compte.'
+
+
+"""
+let choix1RiteCimetiere : String = "Je reste regarder" // vers 22
+let choix2RiteCimetiere : String = "je ne souhaite pas rester" // vers 23
 
 // 22
-let finTempleMaudit8 : String = "demon tué, vous devenez fou. news : vallee entiere detruite"
+let finTempleMaudit8 : String = """
+
+.... 3 mois plus tard ....
+
+Vous avancez lentement en direction de la station ou l'infirmière de garde distribue les anti-déprésseurs. Cela fait plus de 2 mois que vous avez rejoint l'asile psychiatre de Saint Zonzon.
+
+Vous avez perdu une bonne partie de votre mémoire, et vous êtes incapable de dormir sans d'importantes doses de médicaments. Vos proches - que vous ne reconnaisez pas - vous disent que vous étiez un scientifique, que vous aviez une carrière prommeteuse.
+
+Mais tout ceci est bien lointain : à présent,tout ce qui compte est la paix que les médicaments vous apportent; la certitude de pouvoir dormir sans rêver. Plus qu'une personne devant vous...
+
+
+.... EXTRAIT DU BANGOS TIME ....
+
+TRAGIQUE EBOULEMENT AU NEPAL
+
+Au Népal, un temple vieux de plus de 1000 ans a été entièrement détruit par un éboulement. Les secours locaux ont été dépêchés sur place, mais pour le moment aucun survivant n'a été retrouvé.
+
+Les sapeurs-pompiers de Bangos vont envoyer une équipe sur place en signe de solidarité.
+
+
+.... FIN ....
+
+"""
 
 // 23
-let finTempleMaudit9 : String = "news : cimetiere entier detruit, grand trou sans fonds apparu"
+let finTempleMaudit9 : String = """
+
+.... 2 semaines plus tard ....
+
+Vous attendez impatiemment sur la lige 5 de la grande gare ferroviaire de Bangos. Votre train aurait dû arriver il y a 15 minutes déjà!
+
+Vous essayez de ne pas penser à ce qui s'est passé au cimetière : certaines choses sont trop terribles pour l'équilibre mental. Votre carrière aux cotés du grand professeur OTANAZIEF (qui est en convalescence dans une clinique privée à Bangos, et qui a refusé de vous voir les deux fois où vous avez tenté de visiter) semble terminée.
+
+Mais le plus grave sont vos rêves : vous ne dormez plus, même en consommant des quantités de plus en plus importantes de somnifères. Votre récent séjour aux urgences pour cause d'overdose vous a convaicu de changer de vie : vous rentez chez vos parents, à Zomoville.
+
+Vous regardez nerveusement l'affichage des trains : le votre ne devrait plus tarder.
+
+
+.... EXTRAIT DU BANGOS TIME ....
+
+EROSION OU TROU VERS L'ENFER ? LA MAISON DU CELEBRE SORCIER EMPORTEE
+
+Notre reporter daisy WONDERBRA était présente au cimetière de Brimborian connu comme étant aussi la demeure du célèbre sorcier Fifion RIBANA. La case de ce dernier a disparu, apparemment emporté par un trou qui s'est formé directement en-dessous de celle-ci. Nous n'avons pas des nouvelles du sorcier.
+
+Le centre de géologie de Bangos indique qu'il y a probablement une explication naturelle à ce phénomène. Cela n'empêche pas les rumeurs les plus folles de circuler.
+
+
+.... FIN ....
+"""
 
 // 24
-let finTempleMaudit10 : String = "je deserte, rentre Bangos, viré these. news : professeur disparu, reste expedition morte"
+let finTempleMaudit10 : String = """
+je deserte, rentre Bangos, viré these. news : professeur disparu, reste expedition morte
+
+- 'Peut-être que nous devrions écouter le Lama, professeur OTANAZIEF.', vous dites.
+
+Vous êtes vous-même surpris par vos propos, mais ce n'est rien devant l'attitude du professeur OTANAZIEF. Ce dernier vous regarde comme si vous venez d'avouer avoir commis un crime de guerre. Il vous harangue avec véhémence :
+
+- Ce sont des fantaisies, de la part d'un groupe trempé de superstitions, dont les croyances sont aussi moyenâgeuses que leur temple. Il n' y a pas de 'démon', ou de 'dieu' ou encore des esprits. Ce sont des fadaises, et je croyais vraiment que vous étiez au dessus de ce genre d'idioties!'
+
+
+Il reprend d'un air presque navré :
+
+- 'A l'évidence, je me suis trompé. Je n'ai ni le temps, ni l'envie de trainer un boulet avec moi. Vous repartez vers Bangos dès demain. Le reste du groupe, les vrais scientifiques vont continuer la mission avec moi.
+
+
+Votre monde s'écroule sous vos yeux. Cette mission aurait été l'opportunité d'être invité à étudier dans les universités les plus prestigieuses. Pendant une seconde, vous tentez de croiser le regard de vos collègues, celui du professeur, mais tout le monde vous fuit à présent. Personne ne veut être associé à vous.
+
+Le coeur lourd, vous partez préparer vos bagages. Votre aventure se termine ici.
+
+.... EXTRAIT DU BANGOS TIME ....
+
+SANS REPONSE DE L'EXPEDITION SCIENTIFIQUE
+
+Nous sommes toujours sans réponses de l'expédition vers le Tibet menée par l'estimé professeur Ebenezer OTANAZIEF. Ce dernier avait créé la controverse en décidant d'organiser l'expédition en pleine saison orageuse.
+
+Des hélicoptères de la marine Bangossienne ont été dépêchés sur place pour participer aux recherches.
+
+
+.... FIN ....
+
+
+
+
+"""

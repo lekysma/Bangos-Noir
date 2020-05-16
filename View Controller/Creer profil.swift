@@ -22,6 +22,11 @@ class Creer_profil: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var champEmail: UITextField!
     @IBOutlet weak var champMotDePasse: UITextField!
     
+    //MARK: - Une variable qui nous permettra de gerer l'authentification
+    private var authUser: User? {
+        return Auth.auth().currentUser
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -61,7 +66,20 @@ class Creer_profil: UIViewController, UITextFieldDelegate {
         
     }
     
-    //MARK: On ajoute une alerte en cas de probleme de connexion
+    //MARK: - Fonction qui donne une alerte pour informer d'aller vers sa boite verifier son adresse email
+//    func verificationAdresseEmail() {
+//        // si nous avons un utilisateur
+//        if self.authUser != nil && self.authUser!.isEmailVerified {
+//            self.authUser?.sendEmailVerification(completion: { (error) in
+//                // on envoie une notification a l'utilisateur d'aller verifier son adresse email
+//                self.alerteVerificationAdresseEmail()
+//            })
+//        } else {
+//            // ou alors l'utilisateur a deja verifié son adresse email, ou est indisponible
+//        }
+//    }
+    
+    //MARK: -  On ajoute une alerte en cas de probleme de connexion
     func ErreurAlerteCreationProfil() {
         let alert = UIAlertController(title: "Erreur!", message: "", preferredStyle: .alert)
         let action = UIAlertAction(title: "Veuillez recommencer", style: .default) { (alertAction) in
@@ -72,7 +90,15 @@ class Creer_profil: UIViewController, UITextFieldDelegate {
         present(alert, animated: true, completion: nil)
     }
     
-    //MARK: on configure la creation d'un nouveau profil via firebase
+//    //MARK: - Alerte pour aller verifier son adresse email
+//    func alerteVerificationAdresseEmail() {
+//        let alert = UIAlertController(title: "Félicitations", message: "Pour terminer votre identification, veuillez confirmer votre adresse mail", preferredStyle: .alert)
+//        let action = UIAlertAction(title: "Compris", style: .default)
+//        alert.addAction(action)
+//        present(alert, animated: true, completion: nil)
+//    }
+    
+    //MARK: - on configure la creation d'un nouveau profil via firebase
     @IBAction func boutonAllerVersChapitres(_ sender: UIButton) {
         
         // dès qu'on presse le bouton on fait apparaitre progressHud
@@ -94,8 +120,10 @@ class Creer_profil: UIViewController, UITextFieldDelegate {
                 SVProgressHUD.dismiss()
                 // on affiche un message de verification
                 print("création de profil réussie !")
+                // on recoit une alerte pour aller verifier son compte
+                //self.verificationAdresseEmail()
                 // et on est dirigé vers la vue "chapitres" via segue
-                self.performSegue(withIdentifier: "creationProfilSegue", sender: self)
+                //self.performSegue(withIdentifier: "creationProfilSegue", sender: self)
                 
             }
         }

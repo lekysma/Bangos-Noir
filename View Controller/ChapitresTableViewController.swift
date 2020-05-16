@@ -30,7 +30,6 @@ class ChapitresTableViewController: UITableViewController {
 
         // Uncomment the following line to preserve selection between presentations
         contenuDeChaqueCellule()
-        print("table view cell displayed")
         // on affiche uniquement les cellules pleines
         tableView.tableFooterView = UIView()
     }
@@ -55,8 +54,6 @@ class ChapitresTableViewController: UITableViewController {
     
     //MARK:- Tableview Delegate; ce qui se passe quand on selectionne une cellule
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        print("segue successfull !")
         //petite animation pour que la selection d'une histoire soit plus belle
         tableView.deselectRow(at: indexPath, animated: true)
         //segue vers histoire
@@ -78,8 +75,6 @@ class ChapitresTableViewController: UITableViewController {
             SVProgressHUD.dismiss()
             // puis on repart a l'ecran de connexion
             performSegue(withIdentifier: "VersAccueil", sender: self)
-            //test
-            print("je suis deconnecté avec succcès")
         } // en cas d'erreur
         catch {
             
